@@ -1,0 +1,12 @@
+       Formula: present ~ x + (1|author)
+        Family: bernoulli
+          Link: p = logit
+  Observations: 1307
+        Priors: 
+    target = p
+        Common-level effects
+            Intercept ~ Normal(mu: 0.0, sigma: 1.5)
+            x ~ Normal(mu: 0.0, sigma: 2.059)
+        
+        Group-level effects
+            1|author ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 2.5))

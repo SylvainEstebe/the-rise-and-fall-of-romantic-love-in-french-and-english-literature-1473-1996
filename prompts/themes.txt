@@ -1,0 +1,10 @@
+# Format : ID | Nom | Description
+# Lignes commençant par # = commentaires (ignorées)
+# Lignes vides ignorées
+# Le séparateur est le pipe "|" — tu peux mettre des | dans la description, ils seront recollés.
+
+ING_38 | Romantic affiliation | A story where a character is drawn to another person romantically and actively pursues a new love connection through courtship or flirtation.
+ING_40 | Long-term love | A story where a character demonstrates deep, enduring commitment and devotion to a romantic partner beyond initial attraction.
+TH_01 | Parental care | A story where a character protects a child.
+TH_02 | Parental investment | A story where a character nurtures or raises a child.
+TH_03 | Romantic Signaling | A story where a character makes overt, idealizing displays of romantic devotion — grand declarations, conspicuous sacrifices, or portrayals of the partner as exceptional and irreplaceable — meant to prove the depth of their commitment.

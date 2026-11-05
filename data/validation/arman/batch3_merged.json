@@ -1,0 +1,322 @@
+[
+  {
+    "id": "-zweAKY_JSIC",
+    "content": "CONTEXTE:\nCe passage présente un discours (harangue) prononcé par le chevalier Angriote d'Estravaus.\nIl s'adresse à ses compagnons pour dénoncer l'ingratitude du Roi (Lisuarte). Le conflit porte sur le refus du Roi d'autoriser le mariage entre Galuanes (frère du Roi d'Écosse) et Madasime, ainsi que l'octroi des terres de celle-ci, malgré les promesses faites et la bravoure de Galuanes dans la guerre contre le roi Cildadan.\nLe Roi les a éconduits avec mépris, leur disant de chercher fortune ailleurs s'ils n'étaient pas contents.\nEn conséquence, Angriote annonce qu'il quitte le service du Roi et incite les autres chevaliers qui ne sont pas vassaux directs (les étrangers/volontaires) à considérer leur position, suivant ainsi l'exemple d'Amadis.\n\nTEXTE:\nSans consumer le temps à rememorer les services que nous luy avons faicts, pour lesquels nous avions grand'esperance de rapporter (avec gré) bonne & grossere compense, je vous declareray sommairement de quelle ingratitude il usa hier envers nous, tellement qu'ainsi que la fortune muable & inconstante renverse souvent toutes choses, il a changé de condition ou par mauvais conseil qu'il a receu, ou par quelque legiere occasion que nous ignorons.\n\nTant y a, que le seigneur Galuanes nous requist de moyenner envers luy (il n'y a encores que huit ou dix jours) la provision du mariage de luy & de Madasime : & en ce faisant le faire jouyr des terres d'elle à la charge de les tenir en foy & hommage de luy, & de la couronne : ce que nous luy promismes faire.\n\nAu moyen dequoy, aussi tost qu'il m'a esté possible cheminer moy & autres de cette compagnie, luy en avons esté faire la requeste : mais sans avoir esgard, ny à nous qui portions la parole, ny à celuy pour lequel nous nous employons qui est (comme chacun cognoist) frere du Roy d'Escosse, proux & hardy Chevalier autant qu'il est possible, & lequel dernierement contre le Roy Cildadan n'a espargné la vie, ains a fait son devoir autant que nul qui s'y soit trouvé : il nous a refusez, & tenu propos d'injure, assez peu convenable & digne d'un tel Roy.\n\nEt toutesfois pour le commencement n'en fismes cas jusques à ce qu'il nous dist à tous, ainsi que nous luy faisions aucunes remonstrances, que nous cherchissions ailleurs qui nous cogneust ou fist mieux que luy, & que le monde estoit assez grand pour ce faire sans tant l'importuner.\n\nAinsi mes compagnons, puis qu'estans en son service nous luy avons tousjours obey : quant à moy, je suis encores tres-content en ce cas de n'y faillir, & m'en aller hors de ce païs. Mais pource qu'il me semble que ce congé ne touche seulement à moy, & à ceux à qui il parloit, ains à tous autres qui ne sont ses vassaux : j'ay esté d'avis vous le faire entendre, afin que vous y pensiez à l'avenir.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "1",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "52JPAAAAcAAJ",
+    "content": "CONTEXTE:\nCe passage correspond au début de l'Acte V de la tragédie. L'empereur romain Tibère révèle à Livilla que le traître Séjan (\"le superbe\") a été attiré au Sénat, arrêté, et que la ville est bouclée par les soldats. \nLivilla l'exhorte à éliminer également Agrippine, de peur qu'il n'ait été trompé par le récit d'un de ses songes. Tibère révèle alors toute sa perfidie : il n'a pas été dupe et a secrètement corrompu la garde d'Agrippine. Celle-ci est désormais prisonnière chez elle sans le savoir, et Tibère la flatte uniquement pour rendre sa chute imminente plus cruelle. \nNerva entre en scène pour annoncer que le Sénat vient de condamner Séjan sans que personne n'ait osé prendre sa défense.\n\nTEXTE:\nTIBERE. \nIl est pris, le superbe, on instruit son procez,\nEt je le voy trembler de son dernier accez :\nAussi-tost que ta bouche à l'Estat secourable\nM'eut découvert l'autheur de ce crime execrable,\nPour l'éloigner des siens avec moins d'éclat,\nJ'ay fait dans mon Palais assembler le Senat ;\nMais c'est avec dessein d'attirer ce perfide,\nEt pouvoir en ses yeux lire son parricide.\nLes convoquez sont gens à ma devotion,\nLe Consul est instruit de mon intention ;\nOn fait garde par tout, & par tout sous les armes\nLe Soldat tient la Ville & le Peuple en alarmes :\nCependant au Palais le coupable arresté,\nEt du rang de Tribun par ma bouche flaté,\nVient d'entrer au Senat pour sortir au supplice ;\nIl n'a plus d'autres lieux à voir qu'un precipice.\n\nLIVILLA. \nSeigneur, & d'Agrippine en a-t-on resolu ?\nTu dois l'exterminer de pouvoir absolu :\nCét esprit insolent, d'un trop heureux mensonge\nCroit t'avoir sur son crime endormy par un songe.\n\nTIBERE. \nCe songe fabuleux ne m'a point endormy,\nAu dessein de la perdre il m'a plus affermy :\nDe l'attentat qui trouble une ame embarassée,\nLa parole est toûjours auprés de la pensée ;\nEt le cœur agité par quelque grand dessein,\nEbranle malgré soy la bouche avec le sein.\nNon, ma Fille, elle court à son heure derniere,\nEt sans qu'elle le sçache, on la tient prisonniere :\nJ'ay corrompu ses gens dont l'escorte sans foy\nLa garde jour & nuit non de moy, mais pour moy ;\nEt ses plus confidens que mon épargne arreste,\nA mes pieds, si je veux, apporteront sa tête :\nMais je la flate afin que son Arrest fatal\nQuand il la surprendra, luy fasse plus de mal.\n\nSCENE II.\nNERVA, TIBERE, LIVILLA.\n\nNERVA. \nSeigneur, il est jugé ; quand on a leu ta lettre,\nSans que pour luy personne ait osé s'entremettre,\nComme si son malheur estoit contagieux,\nChacun de son visage a détourné les yeux.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "7fkUAAAAQAAJ",
+    "content": "CONTEXTE:\nCe passage décrit en détail deux estampes majeures du célèbre graveur Sébastien Le Clerc. \nLa première célèbre le banquet offert par la Ville de Paris à Louis XIV en janvier 1687 après sa guérison. Elle comporte des médailles des échevins, le buste du Roi, une dédicace latine et une vue de Paris depuis la Porte de la Conférence. \nLa seconde est la célèbre gravure \"L'Académie des Sciences & des Arts\" parue en 1698. L'auteur fait l'éloge de sa composition, de son clair-obscur et de son architecture. Il note que Le Clerc a utilisé sa propre collection personnelle (son Cabinet) pour dessiner avec exactitude les nombreux instruments et machines scientifiques qui y figurent.\n\nTEXTE:\nEschevins, Maximilien Titon, Procureur du Roi, & de la Ville, Martin Mitantier, Greffier, & Nicolas Boucot, Receveur. \n\nTout cela est représenté dans quatre Médailles ; au dessus desquelles est le Buste du Roi aussi en Médaille, accompagné de palmes, & de lauriers ; le tout surmonté par une Couronne Royale. Au dessous, sont les Armes de la Ville, & au bas une sixième Médaille, avec cette Inscription Latine : LUDOVICO MAGNO, QUOD SOLUTIS IN ÆDE DEIPARÆ PRO RESTITUTA SALUTE VOTIS, IN BASILICA PARISIENSI PRÆFECTO, ET ÆDILIBUS MINISTRANTIBUS, PUBLICÈ EPULARI VOLUERIT XXX JANVAR. M. DC. LXXXVII. PRÆFECT. ET ÆDIL. ÆTERNUM HOC SUÆ, ET PUBLICÆ FELICITATIS MONUMENTUM C. C. \n\nLa vûe de Paris, du côté de la Porte de la Conférence, termine le bas de cette Estampe, où il y a de grandes beautés.\n\nL'Académie des Sciences, & des Arts, qui est dédiée au Roi, & que M. le Clerc donna au Public en 1698, passera toûjours pour un chef-d'œuvre. La composition en est grande, & magnifique. Les Groupes des figures en sont si agréablement distribués & l'entente du Clair-obscur ménagée avec tant d'économie, que les Professeurs, & leurs Eléves se distinguent à merveilles, sans nullement s'embarrasser, & sans aucune confusion.\n\nLe fond de cet ouvrage est une Architecture suivie, élégante, & qui offre à l'esprit l'image d'un Lycée riche, & somptueux. En examinant chaque figure, on admire une justesse dans les expressions, une belle proportion dans le Dessein, du choix dans les Draperies, qui sont toujours bien jettées : & ce qui est singulier, c'est que M. le Clerc, pour représenter ce nombreux assemblage de machines, qui sont propres à chaque Science, ou Art, n'a presque point été obligé de sortir de son Cabinet, où elles se voyent encore dans un arrangement qui fait un coup d'œil ravissant.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "0",
+        "Justification": "Il est bizarre cet extrait non ? ",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bd6t5370315f",
+    "content": "CONTEXTE:\nCe passage met en scène une discussion familiale teintée d'amertume entre Gustave, sa femme Mathilde, et \"tante Claire\".\nGustave annonce fièrement, télégramme (\"petit bleu\") à l'appui, la visite imminente de son cousin Marcel Langrevin, fils d'un éditeur bourgeois. \nMathilde, cynique et caustique, dresse un portrait peu flatteur de son mari. Elle le rabaisse en le qualifiant de \"panier percé\" et suggère que si le jeune Marcel (qui a des dettes de jeu et le cache à son père) vient le voir, c'est uniquement parce qu'il suppose que Gustave fréquente des milieux douteux et des usuriers. Le dialogue souligne la précarité financière du couple et le mépris de Mathilde pour la naïveté de Gustave.\n\nTEXTE:\nIl avait promis à Gustave de beaux appointements pour quand l’affaire serait en exploitation... Jusque-là, disait-il, il va falloir se serrer le ventre... Je ne suis pas sûre que le sien, il se le soit serré tant que ça.\n\n— Eh bien ! est-ce que j’ai été longtemps ? dit Gustave en rentrant dans la salle à manger. \n\nIl agitait comme un drapeau un petit bleu. \n\n— Devinez qui vient me voir tout à l’heure ? Le petit Langrevin... Le petit Langrevin, mon cousin, tante Claire. C’est aussi le vôtre, d’ailleurs. \n— Ah ! oui ! le fils de l’éditeur. Vous vous voyez un peu avec les Langrevin ?\n— On n’est pas mal ensemble, dit Gustave. \n— On n’est pas mal ensemble, dit Mathilde. Mais on ne se voit pas. J’ai été une fois chez M. Langrevin.\n— Moi, dit Gustave, j’y vais très régulièrement. \n— Oui, dit Mathilde, on se doute un peu de ce que tu vas y faire.\n— Il m’a rendu des services : je ne m’en cache pas. Je me rattraperai avec lui un de ces matins, d’un seul coup. Jusqu’à présent, je ne suis pas tombé sur l’affaire qui lui plairait... En attendant, son fils vient me voir ce matin.\n— Je t’engage à faire mousser ça, dit Mathilde. C’est un honneur extraordinaire. Marcel est un garçon qui s’amuse. Il joue aux cartes. Il a des ennuis en cachette de son père. Alors, il a recours à Gustave parce qu’il sait que Gustave est un panier percé. \n— Un panier percé ?\n— Oui, j’ai tort de dire ça. Dans un panier percé, il passe au moins quelque chose... Enfin, ce jeune homme s’est dit que Gustave devait se trouver en relation avec des gens douteux, des usuriers... \n— Ce petit a toujours eu beaucoup d’affection pour moi.\n— Oui, tu as été sa bonne d'enfants. Dans ta famille, tu n’es considéré que par les enfants.\n— Je les aime... \n— Tu l’assortis bien avec eux. \n— Marcel va venir d’un instant à l’autre. Il m’annonce sa visite pour trois heures.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "2",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "2",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "1",
+        "Justification": "Oui, tu as été sa bonne d'enfants. Dans ta famille, tu n’es considéré que par les enfants.\n— Je les aime... "
+      },
+      "TH_02 Parental investment": {
+        "Role": "3",
+        "Justification": "Oui, tu as été sa bonne d'enfants. Dans ta famille, tu n’es considéré que par les enfants.\n— Je les aime... \n\nRelation paternelle Gustave Marcel"
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bd6t53721530",
+    "content": "CONTEXTE:\nCe passage décrit une fête galante, théâtrale et mythologique extrêmement fastueuse sur les bords de la Seine[cite: 144, 145]. \n* La \"Comtesse\" (Madame de St. Ange) y est mise en scène et célébrée comme la déesse Vénus[cite: 146, 152, 154]. \n* Après avoir traversé la rivière en barque au son des trompettes et des flûtes, elle est portée par des \"Naiades\" jusqu'à un temple d'architecture dorique et corinthienne[cite: 144, 146, 147, 150]. \n* À l'intérieur du temple, la scénographie culmine avec l'apparition d'un acteur jouant \"l'Amour\" (Cupidon) descendant de la voûte sur un char pour chanter ses louanges[cite: 155, 156, 157]. \n* La célébration s'achève par un grand feu d'artifice et un ballet dansé par des \"Salamandres\" au milieu des flammes[cite: 158, 159].\n\nTEXTE:\nDeux voix de femmes chantèrent Venus sortant des eaux. A peine leur hymne fut-il achevé, qu’un chœur de voix éclatantes & de bruyantes trompettes s’éleva dans les airs : il annonçoit la puissance & les triomphes de Venus, tandis que l’harmonie des tendres flûtes sembloit régler le mouvement des barques qui traversoient lentement la riviere. C'est ainsi que l’on gagna l’autre bord de la Seine.\n\nLa Venus de St. Ange est enlevée de nouveau par les Nayades : un char aussi brillant que léger la transporte à son Temple. Ce superbe édifice étoit de forme ovale ; un ordre dorique régnoit au dehors. Elle arrive, les portes s’ouvrent : on n'apperçoit d’abord que la plus foible clarté ; elle eut à peine touché le seuil, que tout le Temple fut illuminé. Un ordre Corinthien soutenoit la voûte, sur laquelle on avoit peint l’entrée de Venus dans les cieux ; l’étonnement que la vue de ses charmes cause à tous les Dieux, l'expression même d’un sentiment plus vif encore y étoit rendue avec toute la finesse de l’art.\n\nDes Nymphes conduisirent la Comtesse à un trône galant & magnifique, préparé au milieu du Temple. Aux deux côtés étoient des sieges ; les dames se placèrent & les hommes se mirent à leurs pieds. A peine Madame de St. Ange fut assise, qu’on entendit une musique gracieuse, dont les accords séduisans sembloient annoncer l’approche d’un Dieu.\n\nLa voûte du Temple s’entrouvre en ce moment ; l’Amour paroit dans les airs. Son char descendoit lentement, tandis qu’un chœur d'Amours & de Plaisirs célebroient sa présence par des chants voluptueux. Le chœur cessant, l’Amour chante un air à voix seule, invitant toute la nature à rendre hommage à Venus : l'air fini, l'Amour s’envole aux cieux.\n\nAussi-tôt un bruit d’artifice éclate de toutes parts : des gerbes de feux s’élèvent dans les airs, des pluies de feux retombent sur la terre. Au milieu des tourbillons de flammes, des Salamandres dansent un ballet très-vif, dont une musique brillante règle les pas.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bd6t54050989",
+    "content": "CONTEXTE:\nCe passage marque la transition vers le chapitre VI. \nIl s'ouvre sur la fin d'un dialogue où une jeune fille rejette avec désinvolture une leçon de morale sur l'importance de l'instruction, interrompue par l'arrivée de son frère[cite: 160, 161, 162].\nLe texte dresse ensuite le portrait moral de cette jeune fille, nommée Angélique. Élevée par sa marraine et bienfaitrice, Madame Olympe, Angélique est devenue une enfant gâtée[cite: 164, 166]. Loin d'avoir le caractère céleste et soumis que son nom suggère, elle est paresseuse, orgueilleuse, et prompte à la colère dès qu'on la contredit[cite: 164, 165, 168, 169]. Élevée dans l'aisance, elle renie presque sa véritable famille d'origine modeste (vivant à Saint-Cyr) par snobisme, préférant passer pour la fille naturelle de Madame Olympe[cite: 170, 171, 172].\n\nTEXTE:\n— Est-ce là tout ? demanda la jeune impatiente d’un ton railleur.\n— Que faut-il de plus pour vous convaincre de la nécessité d’employer utilement les occasions qui s’offrent de s’instruire, afin de se trouver préparé aux événements ?\n— Moi, j’en conclus que, n’étant pas plus sotte que votre Lucinde, il me suffira comme elle de le vouloir, pour... Oh ! pour cette fois, voici mon frère.\n\nCHAPITRE VI\n\nIl ne lui arrive jamais de se heurter à une pierre qu’il rencontre en son chemin, sans lui donner de grandes malédictions.\n(Caract. de Théophraste.)\n\nComme on vient de s’en apercevoir, les prévisions de madame Olympe ne s’étaient pas tout à fait réalisées, et la petite fille, dont son imagination faisait d’avance une créature céleste, pleine de soumission et de douceur, n’avait guère d’angélique que son nom, qu’elle se mettait peu en peine de justifier. L’extrême condescendance de son Mentor ne servait qu’à encourager sa paresse naturelle, sa présomption, son humeur volontaire. En un mot, Angélique avait tous les travers d’un enfant gâté.\n\nLes choses allaient-elles à son gré, rien n’était plus aimable qu’elle : elle se livrait sans réserve à son babil spirituel et gai, elle se montrait même bonne et obligeante pour chacun, caressait sa marraine et la faisait rire de ses saillies ; mais à la moindre contradiction, la colère s’emparait de son cœur, l’impertinence, de ses lèvres ; elle montrait à ses inférieurs un orgueil insupportable et boudait jusqu’à sa bienfaitrice.\n\nÉlevée comme si elle eût été la fille de madame Olympe, Angélique était souvent prise pour telle par les étrangers, ce qui paraissait la flatter infiniment ; car je dois avouer qu’elle sympathisait assez peu avec les membres éloignés de sa véritable famille. Son petit amour-propre n’avait point tardé à lui faire sentir la différence qui allait chaque jour croissant entre ses habitudes et les leurs : aussi mettait-elle peu d’empressement à les aller voir à Saint-Cyr, indifférence que madame Olympe excusait volontiers, parce qu’elle l’attribuait à la tendresse exclusive qu’Angélique lui avait vouée. A cet égard, la jeune fille ne méritait pas d’être sévèrement jugée, puisque, séparée si jeune des auteurs de ses jours, il était naturel que ses affections prissent une direction étrangère ; mais on verra que l’orgueil y entrait aussi pour quelque chose.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bpt6k109093w",
+    "content": "CONTEXTE:\nCe passage décrit le sacrifice tragique d'une jeune femme pour sauver sa sœur malade.\n* Après le départ de Philippe Ménard pour la frontière, Marie tombe gravement malade[cite: 175, 176]. \n* Sa sœur, Madeleine, s'épuise à la soigner et à travailler jour et nuit, puisant sa force dans l'amour fraternel et dans le souvenir de Philippe, qui lui a laissé un médaillon[cite: 176, 177, 178, 179].\n* Le médecin diagnostique une maladie de poitrine incurable, dont le seul remède serait un séjour coûteux en Italie[cite: 180].\n* Accablée par sa pauvreté et désespérée à l'idée de laisser mourir sa sœur faute d'argent, Madeleine prend une décision radicale[cite: 181, 182, 183]. Après avoir embrassé une lettre de Philippe, elle se rend chez un certain M. Dumont pour s'offrir à lui (ou accepter une demande en mariage précédemment repoussée) en lui demandant froidement : « Voulez-vous encore de moi monsieur ? »[cite: 184].\n* Le drame culmine à la fin de l'extrait : malgré ce sacrifice pour financer le voyage, Marie s'alite la veille du départ, condamnée à ne plus se relever[cite: 185].\n\nTEXTE:\nLe lendemain Philippe Ménard se mit en route pour la frontière.\n\nMarie tomba, peu de jours après, sérieusement malade, et Madeleine s'établit auprès d'elle, travaillant sans relâche le jour, et la veillant pendant la nuit. Ses joues se creusèrent, son visage pâlit, un cercle bleuâtre entoura ses yeux fatigués que ne fermait plus le sommeil ; mais elle se disait en regardant un médaillon dont Philippe lui avait fait présent à son départ : Quand il saura tout, il m'en aimera plus encore, j'en suis sûre.\n\nCependant la maladie de Marie s'aggravait, et en même temps redoublait l'énergie de Madeleine : travail, veilles, soins assidus, privations, rien ne l'arrêtait, femme par la faiblesse, elle était tout à la fois sœur et mère par l'amour qu'elle portait à sa sœur, et dans ces deux sentiments différents elle puisait deux courages ; la pauvre fille ! Mais un jour vint où tant de dévoûment devait être inutile, le médecin déclara que Marie était attaquée d'une maladie de poitrine, et il ajouta que rien ne pourrait la sauver, rien peut-être qu'un séjour de quelques mois en Italie.\n\nFigurez-vous Madeleine prenant sa tête à deux mains et s'accusant de laisser mourir sa sœur faute d'un peu d'or ! La voyez-vous faisant l'inventaire de son petit mobilier et pleurant de se trouver si pauvre ? Son âme, pour sauver sa douce Marie, elle l'eût donnée. Et tout à coup ses larmes s'arrêtèrent, elle se leva avec délire, courut à son tiroir, baisa avec transport une lettre ; une lettre chérie qui ne renfermait que trois mots : ne m'oubliez point, et au bas un nom : Philippe ; puis elle descendit rapidement l'escalier, sonna chez M. Dumont, demanda à lui parler, et quand elle fut seule avec lui, lui dit d'un ton calme : « Voulez-vous encore de moi monsieur ? »\n\nTout était prêt pour le départ des deux jeunes filles, lorsque la veille Marie fut obligée de reprendre le lit ; elle ne devait plus le quitter que pour être couchée dans une bière, et cependant Madeleine conservait quelque espoir...",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "3",
+        "Justification": "",
+        "Evidence": "ne m'oubliez point, et au bas un nom : Philippe ; un médaillon dont Philippe lui avait fait présent à son départ : Quand il saura tout, il m'en aimera plus encore, j'en suis sûre."
+      },
+      "ING_40 Long-term love": {
+        "Role": "2",
+        "Justification": "Est ce qu'il y a du long terme là ? C'est purement instrumental. Philippe semble amoureux de la protagoniste mais est ce que ça va durer c'est dur à dire ? Le médaillon c'est un costly signal donc un peu mais c'est pas central. ",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": "Pareil nan parce que c'est pas du signaling amoureux, c'est un signal de coopération / de l'inclusive fitness, cout enorme pour aider sa soeur. "
+      }
+    }
+  },
+  {
+    "id": "bpt6k114287j",
+    "content": "CONTEXTE:\nCe passage met en scène un conflit dramatique : le capitaine Ermonville veut contraindre Rose à un mariage arrangé. Il lui explique d'abord qu'il n'a qu'un maigre héritage à lui laisser, mais qu'il lui a trouvé un riche parti. Rose devine qu'il s'agit de M. Blamenbach et refuse catégoriquement. \nFou de rage face à cette résistance, Ermonville l'insulte, la menace d'une terrible vengeance et lui ordonne de se préparer à obéir. Terrifiée, Rose fuit dans sa chambre où, repensant aux conseils de Madame Griesbach, elle puise la force de résister pour défendre sa liberté. Dès le lendemain, son tuteur lui impose un ultimatum : le mariage aura lieu dans huit jours.\n\nTEXTE:\n« ...et que je ne peux vous léguer qu'une modique somme de mille couronnes. [...] Jugez avec quel plaisir je viens d'acquérir l'espoir de faire de vous une femme riche et heureuse. On vous offre un époux [...] qui n'attend plus en ce moment que votre consentement pour se présenter.\n\n— Et cet époux, interrompit Rose, est sans doute M. Blamenbach ?\n[...]\n— [...] mon refus absolu...\n\nLa surprise et la colère empêchèrent, pendant quelques instans, le capitaine Ermonville d'articuler un seul mot ; mais à la fin, donnant un libre cours à sa rage, il accabla la malheureuse Rose d'un torrent de reproches : \n— Fille insolente et audacieuse ! s'écria-t-il, il vous sied bien de résister à mes ordres ! Préparez-vous à devenir la femme de Blamenbach, ou tremblez à l'idée de la terrible vengeance que votre désobéissance appellera sur votre tête.\n\nAlarmée des gestes menaçans d'Ermonville et de son exaspération, elle s'enfuit dans sa chambre, où un torrent de larmes soulagea son cœur oppressé ; et, se rappelant les sages leçons de madame Griesbach, elle se promit de ne point se laisser intimider par les menaces d'Ermonville, au point de compromettre sa liberté.\n\nLe lendemain, Ermonville prévint Rose que son mariage avec Blamenbach était irrévocablement arrêté et aurait lieu dans huit jours. »",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "0",
+        "Justification": "Super dur à dire parce que c'est plus du REFUS de romantic affiliation. Mais il n'y a aucune affirmation positive d'un autre. Donc est ce qu'on code positivement ça (parce qu'elle veut choisir librement avec qui s'associer) ou négativement (parce que ultimement il y a pas de romance dans le texte)",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bpt6k65462944",
+    "content": "CONTEXTE:\nCe passage illustre une dispute familiale décisive entre le narrateur et sa sœur, Francisca (la veuve de Bartolome). \nFrancisca avoue sans détour ses sentiments pour Don Pedre (Retortillo), qu'elle préfère à tous ses autres prétendants, y compris le méritant Caravajal. Le narrateur s'oppose fermement à ce choix, décrivant Don Pedre comme un homme bourru, emporté, capricieux et foncièrement jaloux. \nVexée, Francisca lui rétorque qu'elle l'épousera coûte que coûte. Face à l'attitude de plus en plus glaciale et hostile de sa sœur, qui le voit désormais comme un \"censeur incommode\", le narrateur décide de quitter la maison pour retourner dans son ancien hôtel garni et y retrouver son ami Don Manuel.\n\nTEXTE:\n« Hé bien, continua-t-elle, puisqu'il a démêlé mes sentimens, je ne les désavouerai point. Oüi Don Pedre m'a sçû plaire. Je ne vous le cele pas. Je suis fâchée que vous n'estimiez point ce Gentilhomme ; mais sçachez que je le regarde d'un œil si favorable, que je le préfere à Caravajal, comme à tous ses autres Rivaux.\n\n— Oh pour cela, ma Sœur, interrompis-je avec quelque émotion, je ne puis m'accorder avec vous là-dessus. Je ne vois dans Don Pedre, pardonnez-moi ma franchise, qu'un tissu de mauvaises qualités. Il est bourru, emporté, plein de caprices & je le crois avec cela très jaloux de son naturel.\n\n— Qu'il soit tout ce que vous voudrez, interrompit à son tour la veuve de Bartolome d'un air brusque & chagrin, quelque mal que vous m'en puissiez dire, il sera mon Epoux ; & c'est vouloir se brouiller avec moi pour jamais, que d'entreprendre de me détacher de lui. »\n\nMa Sœur prononça ces paroles d'un ton de voix qui m'imposa silence. Je n'osai plus combattre sa sotte tendresse pour Retortillo, ni parler en faveur de Caravajal, qui fut obligé avec tout son mérite de ceder la place à son indigne Rival.\n\nJ'en fus d'autant plus mortifié, que je sentois augmenter de jour en jour mon amitié pour l'un, & mon aversion pour l'autre. Je détestai le caprice de Francisca, & je commençai à craindre, que notre union ne fut pas de longue durée.\n\nEffectivement depuis cet entretien, ma Sœur changea de conduite à mon égard. Elle rabattit beaucoup des attentions & des déférences qu'elle avoit eues pour moi jusques là. Elle affectoit même d'éviter ma conversation, & quand elle ne le pouvoit, elle me parloit d'un air glacé. Enfin ne pouvant me pardonner de n'approuver pas le dessein qu'elle avoit d'épouser un homme haïssable, elle ne me regarda plus que comme un censeur incommode & fâcheux, dont elle devoit se défaire. Aussitôt que je m'en apperçûs, je pris mon parti.\n\nJe sortis de sa maison d'où je fis porter mes Nippes à l'Hôtel garni où j'avois auparavant demeuré & je rejoignis mon ami Don Manuel.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "6",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "5",
+        "Justification": "C'est une scène de rencontre mais elle est prête à payer des couts massifs dans son tissu social pour se marier avec lui (c'est binding) donc long term love plutot haut quand même. ",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "3",
+        "Justification": "u'il soit tout ce que vous voudrez, interrompit à son tour la veuve de Bartolome d'un air brusque & chagrin, quelque mal que vous m'en puissiez dire, il sera mon Epoux ; & c'est vouloir se brouiller avec moi pour jamais, que d'entreprendre de me détacher de lui. "
+      }
+    }
+  },
+  {
+    "id": "bpt6k9462549",
+    "content": "CONTEXTE:\nCe passage adopte la forme épistolaire. La narratrice se confie à son amie Mathilde. Elle raconte une promenade matinale vers un lac gelé en compagnie de Lucy et de Charles Hazlewood. Arrivés sur place, ils assistent à un concours de patinage entre deux paroisses dans un magnifique décor hivernal. \nCependant, à la fin de l'extrait, le ton joyeux se brise : la narratrice avoue qu'elle ne s'attarde sur ces détails charmants que pour retarder le récit d'un \"terrible malheur\" survenu peu de temps après.\n\nTEXTE:\nHazlewood offrit de nous accompagner et nous y consentîmes, à condition qu’il prendrait son fusil. L’idée d’aller patiner avec un fusil le fit beaucoup rire ; mais pour calmer nos frayeurs, il dit à un valet qui nous servait de garde-chasse d'en prendre un et de nous suivre. Quant au colonel qui n’aime à voir des figures rassemblées que dans une revue, il refusa de venir avec nous. \n\n« Nous partîmes de bon matin : le temps était frais, un air vif et pur nous rendait gais et agiles. Notre promenade jusqu’au lac fut délicieuse, et les petits obstacles que nous rencontrâmes ne servirent qu’à en augmenter les agrémens. Une pente glissante, un fossé à traverser sur la glace, nécessitaient le secours d’Hazlewood : ce qui, aux yeux de Lucy, n’était pas un des moindres plaisirs de la promenade. \n\n« Le lac offrait un coup-d’œil enchanteur. D’un côté s’élevait un rocher escarpé sur lequel les rayons du soleil faisaient briller des milliers de glaçons, de l’autre un petit bois présentait le spectacle curieux de ses arbres chargés de neige. Sur la surface glacée du lac s’agitaient des figures innombrables ; les unes le traversaient avec la rapidité de la flèche, les autres y décrivaient divers cercles. Des groupes plus paisibles s’occupaient à regarder les habitants de deux paroisses qui se disputaient le prix de l’art de patiner : honneur d’une grande importance, à en juger par le vif intérêt qu’y prenaient les acteurs et les spectateurs. Nous fîmes le tour du lac, appuyées toutes les deux sur le bras d'Hazlewood. Il parlait avec aménité aux vieux comme aux jeunes et il paraissait jouir d’une grande popularité. Nous songeâmes enfin à nous retirer. \n\n« Pourquoi fais-je mention de ces circonstances minutieuses ? Dieu sait si j’y attache beaucoup d’importance ! mais comme un homme qui se noie s’accroche au moindre arbrisseau, de même je saisis la moindre circonstance qui retarde le récit du terrible malheur que j’ai à vous raconter. Mais il faut que vous l’appreniez, ô vous, Mathilde, qui êtes la seule amie en qui je puisse déposer les peines de mon cœur ! »",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "2",
+        "Justification": "",
+        "Evidence": "un fossé à traverser sur la glace, nécessitaient le secours d’Hazlewood : ce qui, aux yeux de Lucy, n’était pas un des moindres plaisirs de la promenade. "
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  }
+]

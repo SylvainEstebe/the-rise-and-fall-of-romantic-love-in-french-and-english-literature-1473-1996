@@ -1,0 +1,17 @@
+corpus,construct,parametre,resultat
+babel_fr,ING_38,divergences,0.0
+babel_fr,ING_38,max_rhat,1.00270003670047
+babel_fr,ING_38,min_ess_bulk,2671.1209775839807
+babel_fr,ING_38,min_ess_tail,6023.884116326188
+babel_uk,ING_38,divergences,0.0
+babel_uk,ING_38,max_rhat,1.0019044755540885
+babel_uk,ING_38,min_ess_bulk,3658.836216963586
+babel_uk,ING_38,min_ess_tail,7048.437182723777
+babel_fr,TH_03,divergences,0.0
+babel_fr,TH_03,max_rhat,1.0024818462236653
+babel_fr,TH_03,min_ess_bulk,3289.4976300977805
+babel_fr,TH_03,min_ess_tail,6483.594976138209
+babel_uk,TH_03,divergences,0.0
+babel_uk,TH_03,max_rhat,1.0019738063538295
+babel_uk,TH_03,min_ess_bulk,3715.5639284147937
+babel_uk,TH_03,min_ess_tail,6621.863172144605

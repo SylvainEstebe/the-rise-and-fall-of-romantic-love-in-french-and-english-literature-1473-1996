@@ -1,0 +1,13 @@
+corpus,parametre,resultat
+roland_fr,k1__k1__constant_value,0.4764816518855653
+roland_fr,k1__k2__length_scale,58.52275185252007
+roland_fr,k2__noise_level,0.027595792737753422
+novels_uk,k1__k1__constant_value,0.04103719541484232
+novels_uk,k1__k2__length_scale,61.68193921726802
+novels_uk,k2__noise_level,0.09002235145946909
+theatre_fr,k1__k1__constant_value,0.6082240631888247
+theatre_fr,k1__k2__length_scale,124.10494075278801
+theatre_fr,k2__noise_level,0.07014727747027648
+theatre_uk,k1__k1__constant_value,0.027340777723929843
+theatre_uk,k1__k2__length_scale,26.636004723776406
+theatre_uk,k2__noise_level,0.04261006836498985

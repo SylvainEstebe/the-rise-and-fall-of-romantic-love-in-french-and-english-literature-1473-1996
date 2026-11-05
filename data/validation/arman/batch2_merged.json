@@ -1,0 +1,322 @@
+[
+  {
+    "id": "6dxmAAAAcAAJ",
+    "content": "CONTEXTE:\nCe texte est une harangue diplomatique adressée à une Majesté.\nL'orateur justifie l'amour d'un roi puissant (Persée) pour une princesse (Hesiore). Il présente cet amour non comme une faiblesse, mais comme une volonté divine et politique pour sceller une paix durable entre deux peuples anciennement divisés.\nL'argument central est que le mariage (\"alliance\") est le seul moyen d'effacer totalement la mémoire des guerres passées.\nÀ la fin du discours, le messager est conduit dans la chambre de la princesse Hesiore pour lui remettre une lettre de Persée.\n\nTEXTE:\nL'on pourroit trouver estrange, qu'un Roy se laisse vaincre par les mesmes armes dont il acquiert l'Empire sur les cœurs, & que son œil qui estoit un temple, où les plus fiers courages se venoient immoler, serve maintenant de victime. Mais l'Amour curieux de se faire admirer en ceste action si celebre, affoiblist volontairement son pouvoir, pour fortifier le vostre ; estimant que le salut de vos peuples anciennement divisés, despendoit de son servage : bref qu'il falloit rejoinder par un paisible lien ce que le cousteau sanglant de la guerre avoit fatalement separé.\n\nCe n'est pas que la paix d'où l'on n'a point veu les membres brisés par de nouvelles seditions, ne semble avoir devancé ce remede, ayant si heureusement vielly dans leurs cœurs, qu'il faut inferer, que les inimitiés y sont esgalement prescriptes. Toutesfois encor qu'elle aye reiglé ses fiebureux mouvemens, la cause du mal demeurant emprainte dans la memoire, ne pouvoit s'esteindre tout à faict, que par ceste alliance.\n\nC'est donc à vostre Majesté d'en mediter le profit, & juger qu'un des plus puissans Roys de la terre ne desire rien qui ne soit justement acquis à ses vertus, & que ces vœux ne peuvent estre desdaignés, que de ceux qui sont incapables de les recevoir. Que s'il cherist une Princesse, qui semble retirer homage de la perfection mesme, & qu'en cela il tesmoigne que ce qui pourroit servir de bride aux plus relevés, ne luy sert que d'un vif aiguillon.\n\nAussi la grandeur qu'on voit briller de dehors, rend juste son audace, & le porte à la conqueste de cett' avantage : bref il n'y a rien d'inegal ny de ruyneux qu'à l'envie, car elle y recevra tout le chef pour estre ennemie d'une si glorieuse union, & se rebeller contre les ordonnances celestes.\n\nIl estoit chargé d'une lettre que Persée envoyoit à sa maistresse : si bien que l'on le conduit dans sa chambre, ou apres luy avoir faict la reverence, il la luy donne, la substance estoit telle.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "5",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "5",
+        "Justification": "",
+        "Evidence": "\"la cause du mal demeurant emprainte dans la memoire, ne pouvoit s'esteindre tout à faict, que par ceste alliance\""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": "Je pense que quand l'orateur peint la princesse comme parfaite etc c'est pas du signaling romantique parce qu'il parle pas à la princesse. C'est sans doute du signaling mais de respect de la hiérarchie / de la flatterie / une tournure stratégique pour ces visées diplomatiques. "
+      }
+    }
+  },
+  {
+    "id": "bd6t53789309",
+    "content": "CONTEXTE:\nCe passage décrit une scène typique du roman gothique (\"roman noir\").\nLe héros, Vivaldi, est prisonnier (probablement dans les geôles de l'Inquisition). Il est transféré d'un groupe de gardes à un autre dans une atmosphère terrifiante.\nIl fait la rencontre de deux nouveaux geôliers ou bourreaux à l'apparence effrayante : vêtus de noir, le visage entièrement masqué par un capuchon avec des fentes pour les yeux.\nVivaldi s'interroge sur la nature de ces hommes (bourreaux ? démons ?) et sur la fonction psychologique de leur costume (anonymat ou intimidation pour forcer la confession).\n\nTEXTE:\nQuelques minutes s’étaient écoulées lorsque les sons de plusieurs voix fixèrent l’attention de Vivaldi ; elles étaient rauques et distinctes, mais elles parlaient un langage qu’il ne put comprendre ; à peine ces paroles inintelligibles eurent frappé l’oreille des conducteurs, que celui qui tenait la torche l'éteignit sur-le-champ.\n\nLes voix se rapprochèrent davantage, et la porte s’étant ouverte de nouveau, deux personnages s’arrêtèrent devant Vivaldi, qui les apperçut avec surprise et épouvante, au moyen d’une lueur faible qui se glissa de l'intérieur du passage.\n\nIls étaient vêtus de noir comme ses deux conducteurs, mais leur habillement paraissait plus serré autour de la taille ; leur visage était entièrement caché par une espèce de capuchon très-particulier qui descendait du haut de leur tête jusqu’à leurs pieds ; deux petites ouvertures pratiquées vers les yeux leur laissaient la faculté d'appercevoir les objets dont ils étaient entourés.\n\nLe reste de leurs traits inaccessibles aux regards, les rendaient semblables à des fantômes effrayans. Vivaldi s’imagina que c’étaient des êtres chargés de tourmenter les victimes, et ils lui parurent dignes des démons dont ils retraçaient presque l'image.\n\nProbablement ils n’étaient vêtus ainsi que pour n’être pas reconnus des infortunés qu’on abandonnaient à leur discrétion, peut-être aussi n’avaient-ils choisi ce costume bizarre que pour frapper de terreur les accusés et les porter ainsi à confesser tout ce qu’on voudrait sans la moindre difficulté.\n\nQuoi qu’il en soit, Vivaldi fut livré entre leurs mains, et il entendit la porte de fer se refermer sur lui, il se trouva alors au milieu d’un passage étroit, éclairé par une lampe suspendue à la voûte et ayant les deux fantômes qui marchaient à ses côtés.\n\nIls le conduisirent en silence à travers deux autres portes de fer ; parvenus à la troisième, l’un de ces guides mystérieux s’étant arrêté frappa du pied. Les murmures douloureux que Vivaldi...",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bpt6k111548n",
+    "content": "CONTEXTE:\nCe texte est une facétie (histoire plaisante) en français ancien.\nUn Écolier abuse de la naïveté d'une villageoise en lui faisant croire qu'il retourne au Paradis et peut porter des biens à son défunt mari, Hans, qui y vivrait dans la misère.\nLa femme lui donne vêtements et ducats. Lorsque le nouveau mari rentre et apprend la nouvelle, il poursuit l'escroc à cheval.\nL'Écolier, voyant le mari arriver, cache le butin et feint d'être un paysan. Il ruse à nouveau en convainquant le mari de lui laisser son cheval pour poursuivre le \"voleur\" à pied dans les bois.\n\nTEXTE:\nLa femme entendant cela, se print à plorer disant : « O mon cher Hans, rien ne vous a jamais manqué chez moy & maintenant souffrez disette en l'autre monde ! Si j'eusse sceu cela, je vous eusse pourveu d'argent & d'habits pour despendre comme les autres. Car dieu mercy, j'ay encore vos habits ; si j'avois messager, je vous les enverrois avec quelque argent. »\n\n— « S'il ne faut qu'un messager (dit l'Escolier), je les luy porteray moy mesme, aussi bien faisois-je estat de retourner bientost en Paradis. »\n\nLa Villageoise, aise au possible d'ouir cela, presenta à manger & à boire à l'Escolier qui en avoit bon besoing, & ce pendant chercha les meilleurs habits de son deffunt mari, quelques chemises, mouchoirs, & autres hardes qu'elle mit en une mallette pour estre plus facilement portées. Comme aussi elle enveloppa en un drappeau quelques ducats & autre argent, baillant le tout à l'Escolier & outre une piece d'argent pour luy afin qu'il fist le voyage plus volontiers & avec plus grande diligence. L'Escolier ayant pris son repas, la malle sur le dos, remercia la feme, partit & s'en alla.\n\nLe mary estant un peu après retourné du bois, sa femme luy dit : « Mon amy, il est n'agueres passé par icy un homme revenant de Paradis, qui m'a dit des nouvelles du bon Hans (que dieu absolve) & comment il est pauvre & mal habillé ; parquoy je luy ay envoyé ses meilleurs habits avec quelques ducats & autre argent dont ne scaviez rien, & ay le tout baillé à cest Homme qui m'a promis de les luy porter. »\n\n— « Vous luy avez envoyé le diable, qui vous rompe le col ! » (dit le mary).\n\nEt montant vistement sur le meilleur de ses chevaux, fit diligence pour atteindre l'Escolier, lequel se doubtant de ce qui pouvoit advenir, regardoit souvent derrière luy. Et appercevant le Villageois, jetta soudain la malle en une haye, y trouvant par hazard une houë & une paire de souliers qu'il prit, feignant se reposer. Auquel le Villageois demanda s'il n'avoit point veu passer un homme portant une malle.\n\nA quoy l'Escolier respondit : « Ouy, mais aussi tost qu'il vous a veu, il a sauté outre le ruisseau & est entré au bois. »\n\n— « Je le poursuis (dit le Villageois), je vous prie tenir mon cheval, ne m'en pouvant ayder dedans le bois, affin que je l'atteigne. »\n\nEt ayant baillé son cheval à l'Escolier, sauta outre le...",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "2",
+        "Justification": "Il y a clairement du long terme avec la dame qui veut aider son mari, même si ce dernier est mort. Et ça suppose un minima de romantic affiliation j'imagine même si ce n'est pas une scène de rencontre. ",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "4",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bpt6k3331321n",
+    "content": "CONTEXTE:\nCe passage se déroule dans un cadre rural (Poitou/Deux-Sèvres).\nLe personnage principal, Sauze, est en proie à un profond désespoir après la mort de sa femme Sylvie. Il refuse de manger et s'isole dans la nuit.\nIl revit les derniers instants de Sylvie, qui lui a fait promettre de veiller sur leur fils et sa mère. Malgré sa douleur, Sauze décide de vivre pour tenir sa promesse et de quitter le pays.\nLe chapitre suivant (XV) nous transporte à la ferme du Puy à Gué, dans la commune de Gourgé. On retrouve Sauze devenu valet de ferme, travaillant la terre par un soir de novembre.\n\nTEXTE:\n— Mangez sans moi ; ça ne va pas là-dedans, dit-il, une moue aux lèvres, la main localisant sur son estomac, les manifestations douloureuses d'un malaise subit.\n\nIl sort. La fraîcheur de la nuit qui vient le caresse, le calme un peu. Il ne voit point les étoiles piquées au ciel, ni la lune qui dort dans son halo diffus, entre deux nuages légers qu'elle inonde de lumière. Il n'entend pas non plus jouer la brise dans les hauts peupliers ni rire le ruisseau en coupant le chemin ; non, Sauze est sourd ; et pourtant l'infatigable chœur des grillons monte des terres en vibrations ardentes et la vallée se peuple de gras coassements jaillis des prés humides.\n\nSauze est sourd, mais il voit ; il voit Sylvie sur son lit de mort, le long bras amaigri qui se soulève péniblement pour un appel, l'anneau brillant dans la main de cire, les grands yeux qui implorent, la voix mourante qui supplie : « Promets-moi de veiller sur lui toujours ! »\n\nNon, il ne mourra pas ; sa vie lui appartient-elle ? Il n'abandonnera pas son fils ni sa vieille. Il quittera le pays dès demain si c'est possible, mais il vivra, pour eux, avec une plaie affreuse au cœur, qu'importe ! Sauze est sauvé.\n\nXV\n\nNous sommes au Puy à Gué, ferme importante de la commune de Gourgé, à cinq kilomètres d'Aubigny.\n\nUn crépuscule de novembre survient, brutal, alourdi de brume ; au pied d'un coteau abrupt sous sa toison de fougères rousses : Le Thouet aux eaux d'étain, figées, comme prises en glace ; dans la vallée, un long rideau de peupliers aux cimes nues sur lesquelles tombent lourdement comme de grosses gouttes de nuit, les vols de corbeaux attardés ; dans un guéret immense, encore agrandi d'ombre, un valet de ferme : Sauze.\n\nLa voix de l'homme monte, claire, vibrante, dans le calme du soir : « Papillon ! Rougeaud ! »\n\nUn coup de brise passe, froid et pressé, l'haleine d'un soir d'hiver ; un son de cloche lointain arrive jusque-là, sur l'aile du vent : l'angélus qui tinte là-bas, à Aubigny.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "4",
+        "Justification": "Pareil je suis certain pour le long term mais je vois pas comment il peut y avoir du long term de cette intensité sans de la romantic affiliation. ",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "6",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "5",
+        "Justification": " Promets-moi de veiller sur lui toujours ! »\n\nNon, il ne mourra pas ; sa vie lui appartient-elle ? Il n'abandonnera pas son fils (...) il vivra, pour eux"
+      },
+      "TH_02 Parental investment": {
+        "Role": "5",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bpt6k55161013",
+    "content": "CONTEXTE:\nCe passage présente la lecture d'une lettre cruciale (intitulée \"Confession de la femme\").\nL'autrice est une épouse qui écrit à son mari depuis Gleninch. Le ton est empreint de tristesse et de distance ; elle reproche à son mari de ne pas avoir permis une intimité suffisante pour qu'elle puisse lui parler de vive voix.\nElle met son mari en garde contre un de ses invités, Miserrimus Dexter, qu'elle décrit comme \"faux et pervers\".\nLe mari avait précédemment accusé sa femme de détester Dexter à cause de sa difformité physique. Elle réfute cette accusation avec émotion, affirmant qu'étant elle-même \"sans beauté\", elle ressent de la compassion pour les gens disgraciés.\n\nTEXTE:\nMaintenant, voici la lettre. Elle ne vous demande qu'une faveur : elle demande à être lue à la clarté de ces paroles du Christ : « Ne jugez pas, si vous ne voulez pas être jugés. »\n\nXLVII. CONFESSION DE LA FEMME.\n\nGleninch, 19 Octobre 18..\n\n« Mon mari,\n\n« J'ai quelque chose de très-pénible à vous apprendre sur l'un de vos plus anciens amis.\n\n« Vous ne m'avez jamais encouragée à aller à vous pour vous faire mes confidences. Si vous m'aviez permis d'être aussi familière avec vous que quelques femmes le sont avec leurs maris, j'aurais été vous parler au lieu de vous écrire. Dans l'état des choses, je ne sais pas comment vous auriez accueilli ce que j'avais à vous dire, si je vous l'avais dit de vive voix. C'est pourquoi je prends le parti d'écrire.\n\n« L'homme contre lequel j'ai à vous mettre en garde, est encore l'hôte de votre maison... c'est Miserrimus Dexter. Je ne connais pas sur cette terre de créature plus fausse et plus perverse. Ne jetez pas ma lettre de côté ! J'ai attendu pour parler d'être en possession d'une preuve qui pût vous convaincre. Cette preuve, je l'ai aujourd'hui.\n\n« Vous pouvez vous rappeler que je me suis hasardée à exprimer quelque désapprobation, quand vous m'avez annoncé, pour la première fois, que cet homme devait venir vous faire visite. Si vous m'aviez donné le temps de m'expliquer, j'aurais pu trouver en moi assez de hardiesse pour vous donner une bonne raison justifiant l'aversion que m'inspire votre ami.\n\n« Mais vous n'avez pas voulu attendre. Vous vous êtes hâté, et très-injustement, de m'accuser d'avoir des préventions contre cette misérable créature, à cause de sa difformité. Jamais un sentiment autre que la compassion n'est entré dans mon cœur à l'égard des personnes difformes. J'éprouve même en réalité presque un sentiment de confraternité pour elles, étant moi-même... femme sans beauté... bien près d'être leur semblable.\n\n« J'ai été opposée à ce que M...",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "3",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "3",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bpt6k6548381g",
+    "content": "CONTEXTE:\nCe passage illustre une scène comique classique des aventures de Don Quichotte. Un écolier indique au groupe une auberge pour y passer la nuit, nommée le \"Chasteau des Lutins\" en raison de sa réputation d'endroit hanté. \nSancho Panza, terrifié par ses mauvaises expériences passées avec les châteaux, refuse catégoriquement d'y mettre les pieds. Don Quichotte, au contraire, s'y avance courageusement pour inspecter les lieux. Il y trouve par hasard une troupe de comédiens venus répéter une pièce. Intrigués par l'armure du chevalier, les comédiens sortent le dévisager en foule, ce qui pousse Don Quichotte à faire demi-tour au trot.\n\nTEXTE:\nUn des Ecoliers le montrant du doigt à Don Quichotte lui dit : « Seigneur Chevalier, vous voyez ce logis, nous y pourrons passer la nuit fort commodément. C'est une hôtellerie appellée le Chasteau des Lutins : parce qu'on dit que c'estoit autrefois un chasteau, & qu'il y revenoit des esprits. »\n\nL'Ecolier n'eut pas plûtost dit cela que Sancho se mit à jurer par les entrailles de sa grand-mere qu'il n'y logeroit point. \n\n« Gardons-nous bien, Monsieur, s'écria-t-il, gardons-nous bien d'aller coucher dans ce Chasteau des Lutins : car il m'a la mine d'estre encore un de ces Châteaux enchantés, où les phantômes & les enchanteurs nous ont si souvent fait pleurer nos péchés. Enfin mon cœur ne me dit rien de bon, & vous sçavez que quand la perdrix chante, c'est signe de pluye. »\n\nMais Don Quichotte méprisant la frayeur de son Ecuyer lui répondit : « Sancho, je n'ay point oublié tout ce que nous avons souffert dans de semblables châteaux ; mais que veux-tu, mon ami, les Chevaliers errans ne sont pas hors d'un peril qu'ils en cherchent un nouveau, & ils doivent estre préparés à toute sorte d'évenemens. Ainsi je vais m'approcher de ce Chasteau pour observer quelles sortes de gens l'habitent. Cependant vous pouvez vous autres venir doucement après moy. »\n\nEn achevant ces mots, il poussa son cheval vers l'hôtellerie. Il y avoit alors dedans par hazard une troupe de Comediens qui s'estoient assemblés pour répéter une piece qu'ils devoient le lendemain representer à Alcala.\n\nDés que les Comediens apperçûrent Don Quichotte armé de pied en cap avec son large bouclier, ils sortirent tous pour voir de prés une chose qui leur parut fort nouvelle. Mais le Chevalier remarquant qu'ils sortoient tous en foule & qu'ils s'attachoient à le regarder, s'arresta un moment pour les considerer, & s'en retourna ensuite brusquement sur ses pas.\n\nSancho le voyant revenir au grand trot lui dit : « Qu'y a-t-il, Seigneur Don Quichotte ? »",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bpt6k69114b",
+    "content": "CONTEXTE:\nCe passage met en scène Concha, une jeune femme qui prend la décision d'épouser Antonio Segura.\nElle décide d'être une épouse honnête, de renoncer à son amour passé pour un certain Sylvanne et de ne pas suivre les ambitions démesurées de sa famille. Elle se moque des titres de noblesse, contrairement à sa sœur Maria (épouse de Palencia).\nSa mère, Dolorès (Mme Ribeyro), est une parvenue obsédée par la haute société. Après un séjour à Nice où elle a fréquenté des princes et des ducs (russes, polonais, etc.), elle méprise Antonio Segura qu'elle considère comme un \"croquant\".\nDolorès feint pourtant l'amabilité envers Antonio uniquement par calcul, pour maintenir de bonnes relations avec un ambassadeur influent.\n\nTEXTE:\nCette déclaration l'avait charmée et elle ne doutait plus que le jeune Segura n'eût entrepris son voyage que pour brusquer le dénouement qu'il paraissait désirer de plus en plus.\n\nAlors après s'être livrée à un scrupuleux examen de conscience, Concha se jura de ne plus jamais penser à Sylvanne et d'aimer Antonio de tout son cœur, sans regret aucun, en passionnée, ainsi que le voulait sa nature ardente et primesautière, mais aussi en honnête femme soucieuse de son honneur et de celui de son mari.\n\nLoin de partager les idées ambitieuses de ses parents dont elle connaissait trop bien le passé et se rappelait admirablement la situation à Bordeaux, dix ans auparavant, à laquelle Dolorès avait fait allusion, avec tant d'orgueil, le soir du mariage de Maria, en la comparant à leur présent si brillant, elle n'attachait aucune importance au titre que pourrait lui donner son mari.\n\nPersuadée que sa sœur eût épousé Palencia s'il n'avait été ni marquis, ni grand d'Espagne, elle ne voyait aucune utilité à se nommer Mme la comtesse ou Mme la baronne et ne souhaitait dans l'avenir, qu'à appartenir à un homme bien élevé, d'une intelligence suffisante et lui plaisant assez, pour qu'elle se donne à lui, avec joie.\n\nOr, le jeune Segura remplissait toutes ces conditions et huit jours après, elle eut avec lui une conversation décisive que le jeune Antonio termina en annonçant à Concha qui venait de l'y autoriser que, dès le lendemain, il viendrait demander sa main.\n\nMais loin de calmer les idées ambitieuses de Dolorès, son voyage à Nice n'avait fait que les augmenter. Dans la société exotique et disparate qui passe l'hiver dans les stations de la Méditerranée, l'abondance des princes et des ducs, plus ou moins authentiques, est stupéfiante et Mme Ribeyro, patronnée par Mme de Pola, s'était vue entourée de tant de grands seigneurs, russes, polonais, italiens, etc., qu'elle considérait le jeune Segura comme un croquant de bas étage. Mais comme elle comprenait qu'il fallait le ménager, afin de maintenir les meilleures relations avec l'ambassadeur, dont l'intimité leur était d'une nécessité presqu'absolue afin de conserver, à l'abri de tout événement, leur situation dans le monde, elle se montrait, vis-à-vis de lui, d'une telle amabilité, que Concha et le...",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "6",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "6",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "3",
+        "Justification": "Concha renonce au statut et à un autre partenaire pour Antonio. C'est pas un signal directement adressé à lui mais c'est couteux. "
+      }
+    }
+  },
+  {
+    "id": "bpt6k80325s",
+    "content": "CONTEXTE:\nCe passage se situe à Paris, sur la terrasse d'un Cercle (club mondain), à l'heure de la promenade au Bois de Boulogne.\nUn groupe d'aristocrates et de mondains désabusés (\"blasés\") observent le défilé des voitures.\nPersonnages : On retrouve Serquigny, Lord Shelley, le marquis de Navaillès, Lestrade et Léomont. Ils forment une galerie de portraits de la décadence sociale (ruinés par le jeu, vendant des décorations, compromis dans des affaires véreuses).\nAction : Ils aperçoivent la \"mère Leprince\" (une entremetteuse notoire) dans son luxueux équipage (\"huit-ressorts\"). Lord Shelley remarque qu'elle semble chercher quelqu'un du regard.\nSouvenir : Cette observation évoque pour eux le souvenir funèbre du \"duc de Tailleroy\", un ancien camarade qui s'est détruit par l'absinthe, dont ils croient revoir le fantôme à sa place habituelle.\n\nTEXTE:\nEn aura-t-elle les élans exaltés, les extases débordantes d'amour inassouvi ? Chantera-t-elle le Cantique des Cantiques secouée de frissons, collant ses lèvres sur les plaies saignantes du divin Supplicié, qui se tord cloué aux branches de l'arbre maudit ? Et celle qui fut implacable aux hommes souffrira-t-elle à son tour le mal d'aimer, le mal tourmenteur et inguérissable ?\n\nEt Serquigny, allumant une cigarette, s'écria mélancoliquement :\n— Saperjeu ! vous allez croire que je regrette cette toquée !\n\nVI. LA DÉGRINGOLADE\n\n— Suite du déballage, continua Léomont de sa voix ironique, qui cinglait comme un coup de houssine. La mère Leprince dans son huit-ressorts... Décidément, il n'y a plus que ces pourvoyeuses pour avoir des boîtes pareilles.\n\n— Avez-vous remarqué, fit Lord Shelley, qui allumait lentement un cigare, que la vieille nous dévisage chaque fois ? On dirait vraiment qu'elle cherche quelqu'un parmi nous, une figure familière dont elle attend impatiemment la revenue.\n\n— C'est peut-être ce pauvre duc de Tailleroy !\n\nIls se regardèrent comme s'ils eussent entendu un glas de cloche funèbre. Et dans la douceur tiède du jour mourant qui allongeait les ombres des arbres sur la terrasse du cercle, dans le tumulte monotone des voitures qui s'en allaient au Bois (la chanson si parisienne de quatre à cinq), brusquement silencieux, ayant au cœur le frisson des souvenirs mauvais, tous ces blasés qui se laissaient vivre avec l'indifférence dédaigneuse de la vie — Lord Shelley qui avait mangé des millions au jeu, le marquis Ogier de Navaillès qui avait galvaudé son nom en des tripotages véreux, Lestrade qui vendait sous le manteau des décorations étrangères pour tenir son rang et payer les toilettes de sa femme, Léomont qui s'entêtait à adorer Liline Ablette, une cabotine bête et laide — tous songèrent malgré eux au camarade tragiquement resté en route.\n\nIls le revoyaient auprès d'eux, renversé sur une chaise à sa place accoutumée. Ils revoyaient son éternelle bouteille d'absinthe où le soleil accrochait des reflets d'émeraude et le verre sans cesse plein, sans cesse vidé. Y avait-il seulement un an de cela ? Il arrivait à la même heure comme un officier pour la manœuvre.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "2",
+        "Justification": "",
+        "Evidence": "Léomont qui s'entêtait à adorer Liline Ablette, une cabotine bête et laide "
+      },
+      "ING_40 Long-term love": {
+        "Role": "2",
+        "Justification": "",
+        "Evidence": "souffrira-t-elle à son tour le mal d'aimer, le mal tourmenteur et inguérissable ?  Et Serquigny, allumant une cigarette, s'écria mélancoliquement : — Saperjeu ! vous allez croire que je regrette cette toquée !"
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  },
+  {
+    "id": "bpt6k80366c",
+    "content": "CONTEXTE:\nCe passage décrit la fin cruelle et comique d'une illusion romantique.\nLe mari cherche sa femme dans la campagne, s'imaginant qu'elle l'a fui par \"pudeur divine\" ou \"honte délicieuse\" après un moment d'abandon amoureux.\nLorsqu'il la retrouve à l'hôtel, la comtesse Berthe est parfaitement calme. Alors qu'il se jette à ses pieds en lui jurant son adoration, elle révèle la vraie et prosaïque raison de sa fuite : il l'avait fait asseoir sur une fourmilière.\nLe narrateur compare le mari à un \"nouveau Pygmalion\" désespéré de voir que sa femme (sa \"Galatée\") est restée de marbre, annonçant le chapitre suivant sur ses \"illusions\" de mari bafoué.\n\nTEXTE:\nEt, ne la trouvant plus près de lui :\n— Ô pudeur divine qui la dérobe à mes regards vainqueurs ! s'écria-t-il encore.\n\nCependant, ayant, durant un instant, appelé en vain, il prit quelque inquiétude et se mit à explorer lui-même le fourré voisin, puis la route la plus proche, puis les chemins croisant celle-ci. Mais il ne rencontra que le soir qui descendait de derrière la colline, secouant au vent ses cheveux vermeils.\n\n— Ô honte délicieuse qui l'a ramenée sous mon toit la première ! pensa-t-il délicieusement ; et, rejoignant la gare à toutes jambes, il se dirigea impatiemment vers l'hôtel, monta le grand escalier de pierre avec la rapidité d'un ouragan, et s'en fut droit à la chambre de la comtesse.\n\nEn soulevant la portière, une très légère odeur de chloroforme, mais très fugitive et très douce lui chatouilla l'odorat.\n\nJuste ciel ! pensa-t-il de nouveau et, plein de remords, une crise de nerfs peut-être... Mais la comtesse était tranquillement assise sur sa causeuse.\n\n— Vous me pardonnez ? lui dit-elle, de sa voix accoutumée, plus polie et résignée que réellement affectueuse.\n\nIl ne la laissa pas finir sa phrase.\n— J'ai tout compris, ma Berthe bien-aimée. Te pardonner ! moi ? Je t'adore...\n\nEt, se traînant à ses pieds comme pour baiser le bas de sa robe :\n— Nous retournerons demain à la campagne, n'est-ce pas, ma chérie ? fit-il d'une voix suppliante.\n\n— Je ne demande pas mieux, mon ami, répondit Berthe sur le même ton absolument dénué d'enthousiasme ; seulement je vous serais obligée de ne plus choisir pour me faire asseoir une fourmilière.\n\nLe nouveau Pygmalion se frappa le front, désespéré. Il avait été le jouet d'une illusion et d'un accident ridicule. Galatée dormait encore. Le marbre ne s'était jamais animé.\n\nXXVII\nILLUSIONS\n\nAvoir trente ans d'âge, trois ans de ménage seulement, être agréable d'ailleurs de sa personne et recherché, aimer sa femme par-dessus le marché, et s'apercevoir qu'on est traité dans sa maison comme le dernier des Sganarelles, n'est pas pour satisfaire un gentilhomme jaloux de son honneur.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "5",
+        "Justification": "",
+        "Evidence": "J'ai tout compris, ma Berthe bien-aimée. Te pardonner ! moi ? Je t'adore"
+      },
+      "ING_40 Long-term love": {
+        "Role": "5",
+        "Justification": "J'ai du mal à savoir si y'a du long term ou juste de l'affiliation. C'est moins fort que \"je t'aimerai même dans l'au delà\" mais quand même on sent qu'il a peur de la perdre. ",
+        "Evidence": "ma chérie ? fit-il d'une voix suppliante."
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "5",
+        "Justification": "— J'ai tout compris, ma Berthe bien-aimée. Te pardonner ! moi ? Je t'adore...\n(...)\n ma chérie ? fit-il d'une voix suppliante.\n"
+      }
+    }
+  },
+  {
+    "id": "bpt6k944824k",
+    "content": "CONTEXTE:\nCe passage se situe à Marseille, durant la période agitée de la Deuxième République (1848), plus précisément vers la mi-juin, juste avant les journées insurrectionnelles.\nIl met en scène deux frères aux tempéraments opposés face à la montée de la réaction politique :\nPhilippe Cayol, républicain ardent, est désespéré par les défaites de son camp et la montée des conservateurs (la \"réaction\"). Il fréquente les clubs révolutionnaires et appelle de ses vœux un affrontement armé.\nMarius Cayol, son frère, aidé de Fine, tente de le protéger et de le surveiller pour lui éviter des ennuis.\nLe passage mentionne également Sauvaire, un ancien porte-faix devenu capitaine de la Garde nationale, symbolisant ici la bourgeoisie conservatrice triomphante que Philippe déteste.\n\nTEXTE:\nDès lors, Philippe vécut dans une irritation continuelle. Il voyait clairement l’inutilité de ses efforts, et il s’acharnait à une tâche maudite qui ne pouvait le conduire qu’au malheur. Chaque jour, le parti qu’il soutenait essuyait une nouvelle défaite. La réaction grandissait, levait la tête ; un journal alla jusqu’à prêcher ouvertement la décentralisation politique, pour échapper à ce qu’il nommait la dictature révolutionnaire de Paris.\n\nL’autorité supérieure, faible et impuissante, faisait de continuelles concessions. Si un roi eût débarqué sur la Cannebière, la ville entière l’eût acclamé. Les républicains avaient vainement protesté contre l’organisation de la garde nationale, dont les compagnies étaient uniquement composées de bourgeois riches et par conséquent conservateurs. Il y avait dans cette organisation un danger permanent de guerre civile. Le jour où le peuple et les gardes nationaux se rencontreraient, il y aurait un choc, forcément.\n\nPhilippe, dans ses heures de colère et de désespoir, prévoyait cette rencontre fatale, il goûtait une joie sombre à rêver une lutte à main armée. En attendant, il fraternisait avec le peuple, il était de tous les banquets, il se grisait de déclamations. Après les élections, il avait donné sa démission à M. Martelly, afin de vivre librement dans les rues, au milieu des évènements de chaque jour. Il ne savait comment tout cela finirait, il nourrissait seulement le vague espoir d’un combat d’où le peuple sortirait vainqueur ; alors la République triompherait, les ouvriers commanderaient à leur tour.\n\nDeux mois se passèrent. On arriva ainsi vers le milieu de juin. Fine et Marius vivaient dans d’éternelles alarmes. Ce dernier n’osait plus faire la leçon à son frère qui le recevait chaque fois avec plus de brusquerie. Il se contentait de le surveiller secrètement, d’être toujours prêt à le sauver des folies qu’il pourrait commettre.\n\nUn jour, comme il débouchait sur la Cannebière, il se trouva face à face avec un capitaine de la garde nationale, qui faisait luire au soleil les galons neufs de son uniforme. Il reconnut Sauvaire. L’ancien maître-portefaix était rayonnant. Il frappait du talon sur les pavés d’une façon victorieuse.",
+    "date_batch": "2026-03-25",
+    "date_bis": "2026-05-03",
+    "status_batch": "pending",
+    "status_bis": "annotated",
+    "humanAnnotations": {
+      "ING_38 Romantic affiliation": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "ING_40 Long-term love": {
+        "Role": "0",
+        "Justification": "",
+        "Evidence": ""
+      },
+      "TH_01 Parental care": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_02 Parental investment": {
+        "Role": "0",
+        "Justification": ""
+      },
+      "TH_03 Romantic signaling": {
+        "Role": "0",
+        "Justification": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,11 @@
+figure,png,pdf
+1,results/primary/figures/figure_ordinal.png,results/primary/figures/figure_ordinal.pdf
+S1,results/primary/figures/figure_s1_histograms.png,results/primary/figures/figure_s1_histograms.pdf
+S2,results/signaling/figures/figure_ordinal.png,results/signaling/figures/figure_ordinal.pdf
+S3,results/latent/figures/figure_ordinal.png,results/latent/figures/figure_ordinal.pdf
+S4a,results/courtship/doc_assets/figure_s4a.png,results/courtship/doc_assets/figure_s4a.pdf
+S4b,results/courtship/doc_assets/figure_s4b.png,results/courtship/doc_assets/figure_s4b.pdf
+S5a,results/courtship/doc_assets/figure_s5a.png,results/courtship/doc_assets/figure_s5a.pdf
+S5b,results/courtship/doc_assets/figure_s5b.png,results/courtship/doc_assets/figure_s5b.pdf
+S6a,results/courtship/doc_assets/figure_s6a.png,results/courtship/doc_assets/figure_s6a.pdf
+S6b,results/courtship/doc_assets/figure_s6b.png,results/courtship/doc_assets/figure_s6b.pdf

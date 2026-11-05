@@ -1,0 +1,21 @@
+ID du document : bpt6k65533883
+
+Titre de l’œuvre : Affaire du courrier de Lyon (Procès de Lesurques)
+
+Contexte du passage :
+Ce passage retranscrit un interrogatoire capital concernant l'alibi de Joseph Lesurques. Un procès-verbal a établi que sur un registre (celui de Legrand), le chiffre 9 a été gratté et remplacé par un 8 avec une encre différente pour fabriquer un alibi à Lesurques. 
+Le témoin Legrand se défend d'avoir commis un faux intentionnel, affirmant s'être trompé de bonne foi en se fiant à la date inscrite sur son livre. Un autre témoin, Aldenhoff, confirme qu'il n'a situé sa rencontre avec Lesurques au 8 floréal que sur la foi de ce même registre falsifié. Finalement, le juge de paix ordonne la remise en liberté de Legrand, estimant qu'il n'y a pas de preuve que ce soit lui qui ait altéré le document et notant qu'il a rétracté sa déposition.
+
+Texte :
+Ce procès-verbal établit : Que le chiffre 8 avait été substitué au chiffre 9, et tracé avec une autre plume et une autre encre, ce qui prouve que cette transformation était postérieure de plusieurs jours à la rédaction de l'article du registre.
+
+Legrand interrogé a dit : « J'ai déposé d'après la date qui était sur mon registre, je n'ai pas commis de faux. »
+Dans une autre réponse, il dit : « J'ai reconnu que je m'étais trompé, je n'ai pas eu l'intention de faire un faux ; je croyais la date certaine ; ce n'est qu'après avoir bien examiné mon livre que j'ai reconnu mon erreur. »
+
+A lui demandé si sa déposition en faveur de Lesurques avait été sollicitée, il répond : « Non. J'ai vu, avant l'assignation, le défenseur de Lesurques, qui, ayant vu mon livre, m'a dit que je pouvais déposer, d'après le renseignement du 8, que j'avais vu Lesurques ce jour-là. »
+
+Interrogé s'il n'y a pas des témoins qui, sur la foi de son livre, aient déposé pour Lesurques, il répond : « Je sais qu'Aldenhoff et Hilaire ont fait la même déposition que moi pour Lesurques, et d'après mon livre ; mais je ne puis l'affirmer. »
+
+Aldenhoff, mandé devant le juge de paix, a dit : « Avant que j'aie reçu l'assignation pour Lesurques, j'ai été chez Legrand. Celui-ci me demanda si je me souvenais du jour que j'avais vu Lesurques chez lui ; je lui dis que c'était le jour qu'il m'avait donné la cuiller. Il me dit que c'était le 8 floréal d'après son livre. Je n'ai déposé aujourd'hui, pour Lesurques, que D'APRÈS CE LIVRE. — Je ne puis dire si c'est le 8 floréal, que D'APRÈS LE LIVRE DE LEGRAND. »
+
+Le juge de paix a prononcé ainsi : « Attendu qu'il n'est pas prouvé que c'est Legrand qui a fait la surcharge qui existe sur son livre ; que, d'ailleurs, il a rétracté sa déposition, qui ne paraît être que le fruit de l'erreur résultant de la fausse date, disons que ledit Legrand demeurera en liberté. »

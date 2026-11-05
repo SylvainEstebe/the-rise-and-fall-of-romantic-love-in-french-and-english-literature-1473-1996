@@ -1,0 +1,16 @@
+.env
+.venv/
+.Rlib/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.cache/
+.env.*
+!.env.example
+results/new_annotations/
+results/examples/
+dist/
+model-downloads/
+results/**/*.nc

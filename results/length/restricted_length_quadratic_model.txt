@@ -1,0 +1,15 @@
+       Formula: score_categories ~ centered_year + I(centered_year**2) + (1|author)
+        Family: cumulative
+          Link: p = logit
+  Observations: 977
+        Priors: 
+    target = p
+        Common-level effects
+            centered_year ~ Normal(mu: 0.0, sigma: 2.1689)
+            I(centered_year ** 2) ~ Normal(mu: 0.0, sigma: 1.6201)
+        
+        Group-level effects
+            1|author ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 3.299))
+        
+        Auxiliary parameters
+            threshold ~ Normal(mu: [-2.  -1.2 -0.4  0.4  1.2  2. ], sigma: 1.0, transform: ordered)

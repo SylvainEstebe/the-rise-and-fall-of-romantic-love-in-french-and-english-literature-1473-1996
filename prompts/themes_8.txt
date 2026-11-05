@@ -1,0 +1,13 @@
+# Format : ID | Nom | Description
+# CANONICAL annotation set: 5 core constructs + 3 new (kiss / obsessive thinking).
+# Old GPT runs used themes.txt (5 core only); all NEW (Claude) annotation uses this file.
+# Lignes commençant par # = commentaires (ignorées). Séparateur = pipe "|".
+
+ING_38 | Romantic affiliation | A story where a character is drawn to another person romantically and actively pursues a new love connection through courtship or flirtation.
+ING_40 | Long-term love | A story where a character demonstrates deep, enduring commitment and devotion to a romantic partner beyond initial attraction.
+TH_01 | Parental care | A story where a character protects a child.
+TH_02 | Parental investment | A story where a character nurtures or raises a child.
+TH_03 | Romantic Signaling | A story where a character makes overt, idealizing displays of romantic devotion — grand declarations, conspicuous sacrifices, or portrayals of the partner as exceptional and irreplaceable — meant to prove the depth of their commitment.
+ING_41 | Obsessive thinking | A story where a character is consumed by constant, involuntary, intrusive thoughts about a loved one — mentally dwelling on, longing for, idealizing, or being unable to stop thinking about the beloved, to the point of distraction from other concerns.
+ING_42 | Romantic kiss | A story where characters express romantic or erotic attraction through kissing, the kiss carrying romantic significance for the relationship or the unfolding of the plot.
+ING_43 | Kiss (depicted) | A story that depicts a kiss, defined as deliberate lip contact between characters — lip-to-lip, or lips to face/hand/body — performed as an expression of affection, desire, or romantic/erotic intent.

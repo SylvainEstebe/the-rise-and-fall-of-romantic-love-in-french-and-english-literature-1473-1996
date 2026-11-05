@@ -1,0 +1,109 @@
+corpus,parametre,resultat
+roland_fr,centered_year.mean,-0.503
+roland_fr,centered_year.sd,0.056
+roland_fr,centered_year.hdi_3%,-0.607
+roland_fr,centered_year.hdi_97%,-0.397
+roland_fr,centered_year.mcse_mean,0.001
+roland_fr,centered_year.mcse_sd,0.0
+roland_fr,centered_year.ess_bulk,6559.0
+roland_fr,centered_year.ess_tail,9056.0
+roland_fr,centered_year.r_hat,1.0
+roland_fr,I(centered_year ** 2).mean,-0.24
+roland_fr,I(centered_year ** 2).sd,0.041
+roland_fr,I(centered_year ** 2).hdi_3%,-0.317
+roland_fr,I(centered_year ** 2).hdi_97%,-0.164
+roland_fr,I(centered_year ** 2).mcse_mean,0.001
+roland_fr,I(centered_year ** 2).mcse_sd,0.0
+roland_fr,I(centered_year ** 2).ess_bulk,6543.0
+roland_fr,I(centered_year ** 2).ess_tail,9627.0
+roland_fr,I(centered_year ** 2).r_hat,1.0
+roland_fr,1|author_sigma.mean,1.352
+roland_fr,1|author_sigma.sd,0.133
+roland_fr,1|author_sigma.hdi_3%,1.104
+roland_fr,1|author_sigma.hdi_97%,1.603
+roland_fr,1|author_sigma.mcse_mean,0.003
+roland_fr,1|author_sigma.mcse_sd,0.002
+roland_fr,1|author_sigma.ess_bulk,1667.0
+roland_fr,1|author_sigma.ess_tail,3880.0
+roland_fr,1|author_sigma.r_hat,1.0
+novels_uk,centered_year.mean,-0.04
+novels_uk,centered_year.sd,0.05
+novels_uk,centered_year.hdi_3%,-0.136
+novels_uk,centered_year.hdi_97%,0.051
+novels_uk,centered_year.mcse_mean,0.001
+novels_uk,centered_year.mcse_sd,0.0
+novels_uk,centered_year.ess_bulk,9283.0
+novels_uk,centered_year.ess_tail,10721.0
+novels_uk,centered_year.r_hat,1.0
+novels_uk,I(centered_year ** 2).mean,-0.15
+novels_uk,I(centered_year ** 2).sd,0.052
+novels_uk,I(centered_year ** 2).hdi_3%,-0.25
+novels_uk,I(centered_year ** 2).hdi_97%,-0.055
+novels_uk,I(centered_year ** 2).mcse_mean,0.001
+novels_uk,I(centered_year ** 2).mcse_sd,0.0
+novels_uk,I(centered_year ** 2).ess_bulk,7136.0
+novels_uk,I(centered_year ** 2).ess_tail,9134.0
+novels_uk,I(centered_year ** 2).r_hat,1.0
+novels_uk,1|author_sigma.mean,1.43
+novels_uk,1|author_sigma.sd,0.132
+novels_uk,1|author_sigma.hdi_3%,1.184
+novels_uk,1|author_sigma.hdi_97%,1.681
+novels_uk,1|author_sigma.mcse_mean,0.003
+novels_uk,1|author_sigma.mcse_sd,0.001
+novels_uk,1|author_sigma.ess_bulk,1940.0
+novels_uk,1|author_sigma.ess_tail,4117.0
+novels_uk,1|author_sigma.r_hat,1.0
+theatre_fr,centered_year.mean,-0.747
+theatre_fr,centered_year.sd,0.149
+theatre_fr,centered_year.hdi_3%,-1.021
+theatre_fr,centered_year.hdi_97%,-0.463
+theatre_fr,centered_year.mcse_mean,0.001
+theatre_fr,centered_year.mcse_sd,0.001
+theatre_fr,centered_year.ess_bulk,12222.0
+theatre_fr,centered_year.ess_tail,12341.0
+theatre_fr,centered_year.r_hat,1.0
+theatre_fr,I(centered_year ** 2).mean,-0.039
+theatre_fr,I(centered_year ** 2).sd,0.155
+theatre_fr,I(centered_year ** 2).hdi_3%,-0.33
+theatre_fr,I(centered_year ** 2).hdi_97%,0.255
+theatre_fr,I(centered_year ** 2).mcse_mean,0.001
+theatre_fr,I(centered_year ** 2).mcse_sd,0.001
+theatre_fr,I(centered_year ** 2).ess_bulk,14463.0
+theatre_fr,I(centered_year ** 2).ess_tail,11855.0
+theatre_fr,I(centered_year ** 2).r_hat,1.0
+theatre_fr,1|author_sigma.mean,0.983
+theatre_fr,1|author_sigma.sd,0.109
+theatre_fr,1|author_sigma.hdi_3%,0.777
+theatre_fr,1|author_sigma.hdi_97%,1.183
+theatre_fr,1|author_sigma.mcse_mean,0.001
+theatre_fr,1|author_sigma.mcse_sd,0.001
+theatre_fr,1|author_sigma.ess_bulk,5433.0
+theatre_fr,1|author_sigma.ess_tail,8861.0
+theatre_fr,1|author_sigma.r_hat,1.0
+theatre_uk,centered_year.mean,0.036
+theatre_uk,centered_year.sd,0.117
+theatre_uk,centered_year.hdi_3%,-0.182
+theatre_uk,centered_year.hdi_97%,0.255
+theatre_uk,centered_year.mcse_mean,0.001
+theatre_uk,centered_year.mcse_sd,0.001
+theatre_uk,centered_year.ess_bulk,11655.0
+theatre_uk,centered_year.ess_tail,9857.0
+theatre_uk,centered_year.r_hat,1.0
+theatre_uk,I(centered_year ** 2).mean,-0.541
+theatre_uk,I(centered_year ** 2).sd,0.187
+theatre_uk,I(centered_year ** 2).hdi_3%,-0.884
+theatre_uk,I(centered_year ** 2).hdi_97%,-0.178
+theatre_uk,I(centered_year ** 2).mcse_mean,0.002
+theatre_uk,I(centered_year ** 2).mcse_sd,0.002
+theatre_uk,I(centered_year ** 2).ess_bulk,11099.0
+theatre_uk,I(centered_year ** 2).ess_tail,8974.0
+theatre_uk,I(centered_year ** 2).r_hat,1.0
+theatre_uk,1|author_sigma.mean,0.336
+theatre_uk,1|author_sigma.sd,0.16
+theatre_uk,1|author_sigma.hdi_3%,0.0
+theatre_uk,1|author_sigma.hdi_97%,0.581
+theatre_uk,1|author_sigma.mcse_mean,0.004
+theatre_uk,1|author_sigma.mcse_sd,0.002
+theatre_uk,1|author_sigma.ess_bulk,1625.0
+theatre_uk,1|author_sigma.ess_tail,2269.0
+theatre_uk,1|author_sigma.r_hat,1.0

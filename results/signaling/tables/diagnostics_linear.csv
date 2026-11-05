@@ -1,0 +1,17 @@
+corpus,construct,parametre,resultat
+roland_fr,TH_03,divergences,0.0
+roland_fr,TH_03,max_rhat,1.0020533689822255
+roland_fr,TH_03,min_ess_bulk,1582.7628666126855
+roland_fr,TH_03,min_ess_tail,3849.3729867373454
+novels_uk,TH_03,divergences,0.0
+novels_uk,TH_03,max_rhat,1.002392845859496
+novels_uk,TH_03,min_ess_bulk,2123.8708865373465
+novels_uk,TH_03,min_ess_tail,4009.6149489440854
+theatre_fr,TH_03,divergences,0.0
+theatre_fr,TH_03,max_rhat,1.0015672439933114
+theatre_fr,TH_03,min_ess_bulk,4651.487822509551
+theatre_fr,TH_03,min_ess_tail,7834.292864222716
+theatre_uk,TH_03,divergences,0.0
+theatre_uk,TH_03,max_rhat,1.0018019161148044
+theatre_uk,TH_03,min_ess_bulk,5239.295365192393
+theatre_uk,TH_03,min_ess_tail,8862.564913173266

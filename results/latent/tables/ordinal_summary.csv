@@ -1,0 +1,109 @@
+corpus,construct,parametre,resultat
+babel_fr,ING_38,centered_year.mean,-0.381
+babel_fr,ING_38,centered_year.sd,0.097
+babel_fr,ING_38,centered_year.hdi_3%,-0.567
+babel_fr,ING_38,centered_year.hdi_97%,-0.204
+babel_fr,ING_38,centered_year.mcse_mean,0.001
+babel_fr,ING_38,centered_year.mcse_sd,0.001
+babel_fr,ING_38,centered_year.ess_bulk,6988.0
+babel_fr,ING_38,centered_year.ess_tail,8729.0
+babel_fr,ING_38,centered_year.r_hat,1.0
+babel_fr,ING_38,I(centered_year ** 2).mean,-0.129
+babel_fr,ING_38,I(centered_year ** 2).sd,0.071
+babel_fr,ING_38,I(centered_year ** 2).hdi_3%,-0.267
+babel_fr,ING_38,I(centered_year ** 2).hdi_97%,-0.0
+babel_fr,ING_38,I(centered_year ** 2).mcse_mean,0.001
+babel_fr,ING_38,I(centered_year ** 2).mcse_sd,0.001
+babel_fr,ING_38,I(centered_year ** 2).ess_bulk,7564.0
+babel_fr,ING_38,I(centered_year ** 2).ess_tail,10722.0
+babel_fr,ING_38,I(centered_year ** 2).r_hat,1.0
+babel_fr,ING_38,1|author_sigma.mean,1.561
+babel_fr,ING_38,1|author_sigma.sd,0.13
+babel_fr,ING_38,1|author_sigma.hdi_3%,1.318
+babel_fr,ING_38,1|author_sigma.hdi_97%,1.807
+babel_fr,ING_38,1|author_sigma.mcse_mean,0.003
+babel_fr,ING_38,1|author_sigma.mcse_sd,0.001
+babel_fr,ING_38,1|author_sigma.ess_bulk,2671.0
+babel_fr,ING_38,1|author_sigma.ess_tail,6024.0
+babel_fr,ING_38,1|author_sigma.r_hat,1.0
+babel_uk,ING_38,centered_year.mean,-0.449
+babel_uk,ING_38,centered_year.sd,0.208
+babel_uk,ING_38,centered_year.hdi_3%,-0.841
+babel_uk,ING_38,centered_year.hdi_97%,-0.061
+babel_uk,ING_38,centered_year.mcse_mean,0.002
+babel_uk,ING_38,centered_year.mcse_sd,0.002
+babel_uk,ING_38,centered_year.ess_bulk,7231.0
+babel_uk,ING_38,centered_year.ess_tail,10170.0
+babel_uk,ING_38,centered_year.r_hat,1.0
+babel_uk,ING_38,I(centered_year ** 2).mean,-0.042
+babel_uk,ING_38,I(centered_year ** 2).sd,0.088
+babel_uk,ING_38,I(centered_year ** 2).hdi_3%,-0.204
+babel_uk,ING_38,I(centered_year ** 2).hdi_97%,0.127
+babel_uk,ING_38,I(centered_year ** 2).mcse_mean,0.001
+babel_uk,ING_38,I(centered_year ** 2).mcse_sd,0.001
+babel_uk,ING_38,I(centered_year ** 2).ess_bulk,7528.0
+babel_uk,ING_38,I(centered_year ** 2).ess_tail,10331.0
+babel_uk,ING_38,I(centered_year ** 2).r_hat,1.0
+babel_uk,ING_38,1|author_sigma.mean,1.649
+babel_uk,ING_38,1|author_sigma.sd,0.171
+babel_uk,ING_38,1|author_sigma.hdi_3%,1.335
+babel_uk,ING_38,1|author_sigma.hdi_97%,1.972
+babel_uk,ING_38,1|author_sigma.mcse_mean,0.003
+babel_uk,ING_38,1|author_sigma.mcse_sd,0.001
+babel_uk,ING_38,1|author_sigma.ess_bulk,3659.0
+babel_uk,ING_38,1|author_sigma.ess_tail,7048.0
+babel_uk,ING_38,1|author_sigma.r_hat,1.0
+babel_fr,TH_03,centered_year.mean,-0.703
+babel_fr,TH_03,centered_year.sd,0.106
+babel_fr,TH_03,centered_year.hdi_3%,-0.899
+babel_fr,TH_03,centered_year.hdi_97%,-0.501
+babel_fr,TH_03,centered_year.mcse_mean,0.001
+babel_fr,TH_03,centered_year.mcse_sd,0.001
+babel_fr,TH_03,centered_year.ess_bulk,6877.0
+babel_fr,TH_03,centered_year.ess_tail,9790.0
+babel_fr,TH_03,centered_year.r_hat,1.0
+babel_fr,TH_03,I(centered_year ** 2).mean,-0.326
+babel_fr,TH_03,I(centered_year ** 2).sd,0.076
+babel_fr,TH_03,I(centered_year ** 2).hdi_3%,-0.471
+babel_fr,TH_03,I(centered_year ** 2).hdi_97%,-0.186
+babel_fr,TH_03,I(centered_year ** 2).mcse_mean,0.001
+babel_fr,TH_03,I(centered_year ** 2).mcse_sd,0.001
+babel_fr,TH_03,I(centered_year ** 2).ess_bulk,6204.0
+babel_fr,TH_03,I(centered_year ** 2).ess_tail,8527.0
+babel_fr,TH_03,I(centered_year ** 2).r_hat,1.0
+babel_fr,TH_03,1|author_sigma.mean,1.607
+babel_fr,TH_03,1|author_sigma.sd,0.136
+babel_fr,TH_03,1|author_sigma.hdi_3%,1.354
+babel_fr,TH_03,1|author_sigma.hdi_97%,1.864
+babel_fr,TH_03,1|author_sigma.mcse_mean,0.002
+babel_fr,TH_03,1|author_sigma.mcse_sd,0.001
+babel_fr,TH_03,1|author_sigma.ess_bulk,3289.0
+babel_fr,TH_03,1|author_sigma.ess_tail,6484.0
+babel_fr,TH_03,1|author_sigma.r_hat,1.0
+babel_uk,TH_03,centered_year.mean,-0.549
+babel_uk,TH_03,centered_year.sd,0.18
+babel_uk,TH_03,centered_year.hdi_3%,-0.883
+babel_uk,TH_03,centered_year.hdi_97%,-0.207
+babel_uk,TH_03,centered_year.mcse_mean,0.002
+babel_uk,TH_03,centered_year.mcse_sd,0.001
+babel_uk,TH_03,centered_year.ess_bulk,9561.0
+babel_uk,TH_03,centered_year.ess_tail,11396.0
+babel_uk,TH_03,centered_year.r_hat,1.0
+babel_uk,TH_03,I(centered_year ** 2).mean,-0.068
+babel_uk,TH_03,I(centered_year ** 2).sd,0.079
+babel_uk,TH_03,I(centered_year ** 2).hdi_3%,-0.212
+babel_uk,TH_03,I(centered_year ** 2).hdi_97%,0.084
+babel_uk,TH_03,I(centered_year ** 2).mcse_mean,0.001
+babel_uk,TH_03,I(centered_year ** 2).mcse_sd,0.001
+babel_uk,TH_03,I(centered_year ** 2).ess_bulk,9930.0
+babel_uk,TH_03,I(centered_year ** 2).ess_tail,9999.0
+babel_uk,TH_03,I(centered_year ** 2).r_hat,1.0
+babel_uk,TH_03,1|author_sigma.mean,1.198
+babel_uk,TH_03,1|author_sigma.sd,0.163
+babel_uk,TH_03,1|author_sigma.hdi_3%,0.899
+babel_uk,TH_03,1|author_sigma.hdi_97%,1.507
+babel_uk,TH_03,1|author_sigma.mcse_mean,0.003
+babel_uk,TH_03,1|author_sigma.mcse_sd,0.001
+babel_uk,TH_03,1|author_sigma.ess_bulk,3716.0
+babel_uk,TH_03,1|author_sigma.ess_tail,6622.0
+babel_uk,TH_03,1|author_sigma.r_hat,1.0

@@ -1,0 +1,76 @@
+{
+  "python": "3.11.13 (main, Jun  4 2025, 17:41:03) [Clang 20.1.4 ]",
+  "refit": false,
+  "steps": [
+    {
+      "script": "check.py",
+      "returncode": 0,
+      "seconds": 4.49
+    },
+    {
+      "script": "analysis/prepare.py",
+      "returncode": 0,
+      "seconds": 0.29
+    },
+    {
+      "script": "analysis/validation.py",
+      "returncode": 0,
+      "seconds": 9.53
+    },
+    {
+      "script": "analysis/four_corpora.py",
+      "returncode": 0,
+      "seconds": 51.35
+    },
+    {
+      "script": "analysis/text_signaling.py",
+      "returncode": 0,
+      "seconds": 82.43
+    },
+    {
+      "script": "analysis/latent_corpora.py",
+      "returncode": 0,
+      "seconds": 62.47
+    },
+    {
+      "script": "analysis/twolines.py",
+      "returncode": 0,
+      "seconds": 4.64
+    },
+    {
+      "script": "analysis/length.py",
+      "returncode": 0,
+      "seconds": 41.46
+    },
+    {
+      "script": "analysis/babel_contrasts.py",
+      "returncode": 0,
+      "seconds": 2.17
+    },
+    {
+      "script": "analysis/descriptive.py",
+      "returncode": 0,
+      "seconds": 2.66
+    },
+    {
+      "script": "analysis/two_part.py",
+      "returncode": 0,
+      "seconds": 33.31
+    },
+    {
+      "script": "analysis/histograms.py",
+      "returncode": 0,
+      "seconds": 2.57
+    },
+    {
+      "script": "analysis/submission_statistics.py",
+      "returncode": 0,
+      "seconds": 2.18
+    },
+    {
+      "script": "analysis/article_tables.py",
+      "returncode": 0,
+      "seconds": 2.53
+    }
+  ]
+}

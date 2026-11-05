@@ -1,0 +1,24 @@
+ID du document : bd6t53789309
+
+Titre de l’œuvre : Eléonore de Rosalba (Adaptation de "L'Italien" d'Ann Radcliffe)
+
+Contexte du passage :
+Ce passage décrit une scène typique du roman gothique ("roman noir").
+Le héros, Vivaldi, est prisonnier (probablement dans les geôles de l'Inquisition). Il est transféré d'un groupe de gardes à un autre dans une atmosphère terrifiante.
+Il fait la rencontre de deux nouveaux geôliers ou bourreaux à l'apparence effrayante : vêtus de noir, le visage entièrement masqué par un capuchon avec des fentes pour les yeux.
+Vivaldi s'interroge sur la nature de ces hommes (bourreaux ? démons ?) et sur la fonction psychologique de leur costume (anonymat ou intimidation pour forcer la confession).
+
+Texte :
+Quelques minutes s’étaient écoulées lorsque les sons de plusieurs voix fixèrent l’attention de Vivaldi ; elles étaient rauques et distinctes, mais elles parlaient un langage qu’il ne put comprendre ; à peine ces paroles inintelligibles eurent frappé l’oreille des conducteurs, que celui qui tenait la torche l'éteignit sur-le-champ.
+
+Les voix se rapprochèrent davantage, et la porte s’étant ouverte de nouveau, deux personnages s’arrêtèrent devant Vivaldi, qui les apperçut avec surprise et épouvante, au moyen d’une lueur faible qui se glissa de l'intérieur du passage.
+
+Ils étaient vêtus de noir comme ses deux conducteurs, mais leur habillement paraissait plus serré autour de la taille ; leur visage était entièrement caché par une espèce de capuchon très-particulier qui descendait du haut de leur tête jusqu’à leurs pieds ; deux petites ouvertures pratiquées vers les yeux leur laissaient la faculté d'appercevoir les objets dont ils étaient entourés.
+
+Le reste de leurs traits inaccessibles aux regards, les rendaient semblables à des fantômes effrayans. Vivaldi s’imagina que c’étaient des êtres chargés de tourmenter les victimes, et ils lui parurent dignes des démons dont ils retraçaient presque l'image.
+
+Probablement ils n’étaient vêtus ainsi que pour n’être pas reconnus des infortunés qu’on abandonnaient à leur discrétion, peut-être aussi n’avaient-ils choisi ce costume bizarre que pour frapper de terreur les accusés et les porter ainsi à confesser tout ce qu’on voudrait sans la moindre difficulté.
+
+Quoi qu’il en soit, Vivaldi fut livré entre leurs mains, et il entendit la porte de fer se refermer sur lui, il se trouva alors au milieu d’un passage étroit, éclairé par une lampe suspendue à la voûte et ayant les deux fantômes qui marchaient à ses côtés.
+
+Ils le conduisirent en silence à travers deux autres portes de fer ; parvenus à la troisième, l’un de ces guides mystérieux s’étant arrêté frappa du pied. Les murmures douloureux que Vivaldi...

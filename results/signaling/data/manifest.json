@@ -1,0 +1,102 @@
+{
+  "construct": "TH_03",
+  "measurement": "text-based",
+  "groups": {
+    "roland_fr_TH_03": {
+      "corpus": "roland_fr",
+      "construct": "TH_03",
+      "source_rows": 1879,
+      "included_rows": 1879,
+      "excluded_ids": [],
+      "unknown_authors": 294,
+      "year_min": 1500,
+      "year_max": 1996,
+      "sources": [
+        {
+          "path": "data/annotations/main/roland_fr/annotations_gpt.json",
+          "sha256": "77c29885c639431b723389e533499b4a26d9e7f7b2d5db56d398b9ddba4454dd"
+        },
+        {
+          "path": "data/annotations/main/roland_fr/metadata_roland_annotations.csv",
+          "sha256": "fe3319e168a4b7258b76da808df1e2b95f6bb4c8201779ddb42dac5e4b06e17d"
+        }
+      ]
+    },
+    "novels_uk_TH_03": {
+      "corpus": "novels_uk",
+      "construct": "TH_03",
+      "source_rows": 1887,
+      "included_rows": 1887,
+      "excluded_ids": [],
+      "unknown_authors": 202,
+      "year_min": 1473,
+      "year_max": 1949,
+      "sources": [
+        {
+          "path": "data/annotations/main/novels_uk/annotations_gpt.json",
+          "sha256": "d441dbfa86347b8eb74fbea397b1a041a503d2328ca599c8dfc397950dc793e5"
+        },
+        {
+          "path": "data/annotations/main/novels_uk/metadata_english_works.csv",
+          "sha256": "c7ed531c32eb2a514379feb33671d3b434acb7e9771b6a57a09e47932a199373"
+        }
+      ]
+    },
+    "theatre_fr_TH_03": {
+      "corpus": "theatre_fr",
+      "construct": "TH_03",
+      "source_rows": 1060,
+      "included_rows": 1060,
+      "excluded_ids": [],
+      "unknown_authors": 0,
+      "year_min": 1574,
+      "year_max": 1899,
+      "sources": [
+        {
+          "path": "data/annotations/main/theatre_fr/annotations_gpt.json",
+          "sha256": "df785ea7ab4705c9646472fdc827db4fddd01e0cc0b62fcb486b8e8794b1b533"
+        },
+        {
+          "path": "data/annotations/main/theatre_fr/metadata_theatre_fr.csv",
+          "sha256": "6036ce4899b51a7130fc891860392300323d9b0ec3a1dac56facb7f12755f013"
+        }
+      ]
+    },
+    "theatre_uk_TH_03": {
+      "corpus": "theatre_uk",
+      "construct": "TH_03",
+      "source_rows": 932,
+      "included_rows": 932,
+      "excluded_ids": [],
+      "unknown_authors": 0,
+      "year_min": 1576,
+      "year_max": 1800,
+      "sources": [
+        {
+          "path": "data/annotations/main/theatre_uk/annotations_gpt.json",
+          "sha256": "8f874a57543df2c16a5d1224236a84945bb6f3f1663d3f8bdb71e93829930208"
+        },
+        {
+          "path": "data/annotations/main/theatre_uk/metadata_theatre_uk.csv",
+          "sha256": "799803a642d77eccb784aceaf1c7a0053c10a09e92524495c311da070474ecba"
+        }
+      ]
+    }
+  },
+  "draws": 4000,
+  "tune": 2000,
+  "chains": 4,
+  "cores": 4,
+  "date_rule": "Metadata dates, exactly as in four_corpora.py; no common-period truncation",
+  "ordinal_curve": "Quadratic at author effect zero, not selected by LOO",
+  "unit": "Original annotation rows; repeated Roland source books are retained as in four_corpora.py",
+  "reference_script_sha256": "e74d7aa05a45d515e72fe82dd87a9e2bb072e5255439fdbc85146fd5b2363b5b",
+  "shared_analysis_sha256": "0617f3c44b8e4274e0a710a83beea907a3d4b682984a54924f50f200d023b505",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "bambi": "0.17.2",
+    "arviz": "0.22.0"
+  },
+  "twolines_sha256": "7ce1152833c4487665b2771a07f92aec2fa2e219f2a9acf71d312d567bee64c2"
+}

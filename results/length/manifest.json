@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "data/annotations/main/roland_fr/annotations_gpt.json": "77c29885c639431b723389e533499b4a26d9e7f7b2d5db56d398b9ddba4454dd",
+    "data/annotations/main/roland_fr/metadata_roland_annotations.csv": "fe3319e168a4b7258b76da808df1e2b95f6bb4c8201779ddb42dac5e4b06e17d",
+    "analysis/four_corpora.py": "e74d7aa05a45d515e72fe82dd87a9e2bb072e5255439fdbc85146fd5b2363b5b",
+    "data/metadata/roland_length.csv": "cb11759a40486d397843e34598a48c8bfbd3901d898862e5c075a7eac44dc5dc"
+  },
+  "n": 1879,
+  "authors": 1264,
+  "draws_per_chain": 4000,
+  "tune_per_chain": 2000,
+  "chains": 4,
+  "seed": 0,
+  "versions": {
+    "bambi": "0.17.2",
+    "pymc": "5.28.5",
+    "arviz": "0.22.0"
+  },
+  "restricted_length": [
+    12,
+    32
+  ]
+}

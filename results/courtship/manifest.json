@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "data/annotations/main/roland_fr/annotations_gpt.json": "77c29885c639431b723389e533499b4a26d9e7f7b2d5db56d398b9ddba4454dd",
+    "data/annotations/main/roland_fr/metadata_roland_annotations.csv": "fe3319e168a4b7258b76da808df1e2b95f6bb4c8201779ddb42dac5e4b06e17d",
+    "data/annotations/main/novels_uk/annotations_gpt.json": "d441dbfa86347b8eb74fbea397b1a041a503d2328ca599c8dfc397950dc793e5",
+    "data/annotations/main/novels_uk/metadata_english_works.csv": "c7ed531c32eb2a514379feb33671d3b434acb7e9771b6a57a09e47932a199373",
+    "data/annotations/main/theatre_fr/annotations_gpt.json": "df785ea7ab4705c9646472fdc827db4fddd01e0cc0b62fcb486b8e8794b1b533",
+    "data/annotations/main/theatre_fr/metadata_theatre_fr.csv": "6036ce4899b51a7130fc891860392300323d9b0ec3a1dac56facb7f12755f013",
+    "data/annotations/main/theatre_uk/annotations_gpt.json": "8f874a57543df2c16a5d1224236a84945bb6f3f1663d3f8bdb71e93829930208",
+    "data/annotations/main/theatre_uk/metadata_theatre_uk.csv": "799803a642d77eccb784aceaf1c7a0053c10a09e92524495c311da070474ecba",
+    "results/latent/data/babel_fr_ING_38.csv": "a0887f0e13d2481e5484d9e203ce662c5c6be0b1660350e6075e9e94150da11a",
+    "results/latent/data/babel_uk_ING_38.csv": "6aa3cbd5507b07383de247d79b2159cdb408165e9eb709cab69a22ea34899ad3"
+  },
+  "bootstrap_repetitions": 3000,
+  "bootstrap_seed": 42,
+  "bootstrap_unit": "author groups, record weighted within each draw",
+  "outcome": "ING_38"
+}

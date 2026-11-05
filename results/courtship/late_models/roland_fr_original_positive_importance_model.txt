@@ -1,0 +1,14 @@
+       Formula: positive_score ~ x + (1|author)
+        Family: cumulative
+          Link: p = logit
+  Observations: 507
+        Priors: 
+    target = p
+        Common-level effects
+            x ~ Normal(mu: 0.0, sigma: 4.9253)
+        
+        Group-level effects
+            1|author ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 2.5066))
+        
+        Auxiliary parameters
+            threshold ~ Normal(mu: [-2. -1.  0.  1.  2.], sigma: 1.0, transform: ordered)

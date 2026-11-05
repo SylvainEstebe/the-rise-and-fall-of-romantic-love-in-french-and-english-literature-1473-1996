@@ -1,0 +1,13 @@
+corpus,construct,parametre,resultat
+roland_fr,TH_03,k1__k1__constant_value,0.6972485467652948
+roland_fr,TH_03,k1__k2__length_scale,165.41356779406192
+roland_fr,TH_03,k2__noise_level,0.07744827844957945
+novels_uk,TH_03,k1__k1__constant_value,0.12432328842666536
+novels_uk,TH_03,k1__k2__length_scale,100.02537906054764
+novels_uk,TH_03,k2__noise_level,0.02537740263842046
+theatre_fr,TH_03,k1__k1__constant_value,0.9663228487996267
+theatre_fr,TH_03,k1__k2__length_scale,72.16187414256345
+theatre_fr,TH_03,k2__noise_level,0.0010000000000000002
+theatre_uk,TH_03,k1__k1__constant_value,0.10722027149460117
+theatre_uk,TH_03,k1__k2__length_scale,33.27225059126338
+theatre_uk,TH_03,k2__noise_level,0.0010000000000000002

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this research software and record the commit used. See README.md for manuscript information."
+type: software
+title: "The Rise and Fall of Romantic Love in French and English Literature, 1473–1996"
+authors:
+  - family-names: Estebe
+    given-names: Sylvain
+repository-code: "https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996"
+license: MIT
+abstract: "Code, frozen annotations, validation materials, and analysis outputs for studying romantic courtship in French and English literary corpora. The software license does not assign rights to source texts."

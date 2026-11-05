@@ -1,0 +1,46 @@
+{
+  "models_included": true,
+  "model_files": 44,
+  "archives": [
+    {
+      "file": "romantic-love-models-01.zip",
+      "bytes": 858310426,
+      "sha256": "e13b2c0ea516848e262df7016f81d3a36bf0c9f270f0a03aebdcdd6eb24bdb2d"
+    },
+    {
+      "file": "romantic-love-models-02.zip",
+      "bytes": 1072873807,
+      "sha256": "b9aaa745ea8219a84097850435e402611fea35b8f43e66596a8fd491e826fa14"
+    },
+    {
+      "file": "romantic-love-models-03.zip",
+      "bytes": 988890323,
+      "sha256": "84668029a5198ca2a9293d2b754401142518d40fcd549814f5f37b0a68acfa2f"
+    },
+    {
+      "file": "romantic-love-models-04.zip",
+      "bytes": 862029472,
+      "sha256": "e05934cd39a93548181e1993aa508a3ca6e4430edd66b576f8167e78a92847fe"
+    },
+    {
+      "file": "romantic-love-models-05.zip",
+      "bytes": 1060569824,
+      "sha256": "2ecf2d4436ec6cd59df16bb181f1fbfe38b53adf8e43afe005d998650c210aa1"
+    },
+    {
+      "file": "romantic-love-models-06.zip",
+      "bytes": 1054760748,
+      "sha256": "5d3c5d455895fcba11eae3782f46901c6f5e5669397478762b3cf2fec5f7b21f"
+    },
+    {
+      "file": "romantic-love-models-07.zip",
+      "bytes": 1062439411,
+      "sha256": "5b42f730d4e7ab5d9cbc1c5ab20f3b7d6795fca50a3d799e74317d06e2376380"
+    },
+    {
+      "file": "romantic-love-models-08.zip",
+      "bytes": 290519866,
+      "sha256": "91f08f64cd8c4b617aa5ae0adafb21d9a011814ac96f94cd6e3a38e8ecbe53b4"
+    }
+  ]
+}

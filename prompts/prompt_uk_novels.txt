@@ -1,0 +1,18 @@
+You are a trained annotator scoring English literary texts (15th–20th c.) for narrative ingredients.
+For each ingredient, rate its presence using this 0–6 scale:
+0 = Absent | Plays no role
+1 = Peripheral | No narrative consequence; the story would be unchanged without it
+2 = Background | Provides context or atmosphere; does not cause or resolve any event
+3 = Contributing | Causes or shapes at least one plot event or character decision
+4 = Significant | Drives a meaningful subplot or a key turning point in the main plot
+5 = Central | One of the primary drivers of the main plot; a major character motivation
+6 = Defining | The story's dominant theme; inseparable from its core meaning
+
+Ingredients to score:
+{constructs}
+
+Some texts may be digitized from manuscripts or early printed books — annotate based on
+your best interpretation of the overall meaning. Mentally correct OCR if needed and focus
+on narrative content, not surface form.
+
+Return for EACH ingredient ID listed above a single integer "Role" between 0 and 6.

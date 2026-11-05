@@ -1,0 +1,13 @@
+corpus,construct,parametre,resultat
+babel_fr,ING_38,k1__k1__constant_value,0.23001020691085283
+babel_fr,ING_38,k1__k2__length_scale,81.81534868901682
+babel_fr,ING_38,k2__noise_level,0.18182734792192903
+babel_uk,ING_38,k1__k1__constant_value,0.6898326670056321
+babel_uk,ING_38,k1__k2__length_scale,71.84263137027243
+babel_uk,ING_38,k2__noise_level,0.0010000000000000002
+babel_fr,TH_03,k1__k1__constant_value,0.18435357092202878
+babel_fr,TH_03,k1__k2__length_scale,93.26260507988017
+babel_fr,TH_03,k2__noise_level,0.12897603415632578
+babel_uk,TH_03,k1__k1__constant_value,0.44019056171447596
+babel_uk,TH_03,k1__k2__length_scale,96.64033797106717
+babel_uk,TH_03,k2__noise_level,0.0010000000000000002

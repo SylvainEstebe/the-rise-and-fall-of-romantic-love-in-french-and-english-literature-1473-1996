@@ -1,0 +1,5 @@
+corpus,author_groups,unknown_author_groups,median_records,min_records,max_records
+roland_fr,1264,294,1.0,1,43
+novels_uk,1246,202,1.0,1,24
+theatre_fr,297,0,1.0,1,52
+theatre_uk,288,0,2.0,1,38
