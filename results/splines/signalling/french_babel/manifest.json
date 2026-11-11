@@ -1,0 +1,32 @@
+{
+  "construct": "TH_03",
+  "source": "results/latent/data/babel_fr_TH_03.csv",
+  "source_sha256": "57c260d1e02d794c3ff6d6ffc2d1a61f47acbfb6b48a12e39986f8cf0f14fd9f",
+  "n": 1946,
+  "n_authors": 574,
+  "mean_year": 1848.197327852004,
+  "range": [
+    1500,
+    2000
+  ],
+  "dropped_missing_scores": 0,
+  "models": [
+    "spline_4",
+    "spline_5",
+    "spline_6"
+  ],
+  "draws": 4000,
+  "chains": 4,
+  "tune": 2000,
+  "seed": 0,
+  "initial_target_accept": 0.8,
+  "retry_tune": 4000,
+  "retry_target_accept": 0.95,
+  "bambi": "0.17.2",
+  "pymc": "5.28.5",
+  "arviz": "0.22.0",
+  "family": "cumulative",
+  "link": "logit",
+  "priors": "Bambi defaults",
+  "prediction": "author deviation zero; training formulae state reused"
+}

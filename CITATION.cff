@@ -8,3 +8,5 @@ authors:
 repository-code: "https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996"
 license: MIT
 abstract: "Code, frozen annotations, validation materials, and analysis outputs for studying romantic courtship in French and English literary corpora. The software license does not assign rights to source texts."
+version: "0.2.0"
+date-released: 2026-11-11

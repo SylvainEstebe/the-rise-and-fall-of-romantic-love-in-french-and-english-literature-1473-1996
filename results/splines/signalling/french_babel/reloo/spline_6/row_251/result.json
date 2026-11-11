@@ -1,0 +1,18 @@
+{
+  "row": 251,
+  "unseen_author": true,
+  "quadrature_log_elpd_error": 1.7115198147621413e-12,
+  "loo_i": -2.1895671632977693,
+  "model": "spline_6",
+  "attempt": 1,
+  "tune": 2000,
+  "target_accept": 0.8,
+  "draws_per_chain": 4000,
+  "seconds": 77.9440223749998,
+  "divergences": 0,
+  "max_rhat": 1.0019196572429832,
+  "min_ess_bulk": 3487.1174887747543,
+  "min_ess_tail": 6889.823024802173,
+  "nonfinite_diagnostic_cells": 0,
+  "fails_requested_checks": false
+}

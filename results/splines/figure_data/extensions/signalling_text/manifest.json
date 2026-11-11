@@ -1,0 +1,44 @@
+{
+  "construct": "TH_03",
+  "title": "Romantic signalling in French and English literature",
+  "mode": "text",
+  "selection": "French books, df = 4; English books, df = 4; French plays, df = 5; English plays, df = 5",
+  "candidate_df": [
+    4,
+    5,
+    6
+  ],
+  "sources": {
+    "french_books": "results/splines/signalling/french_books",
+    "english_books": "results/splines/signalling/english_books",
+    "french_theatre": "results/splines/signalling/french_theatre",
+    "english_theatre": "results/splines/signalling/english_theatre"
+  },
+  "source_sha256": {
+    "results/splines/signalling/french_books/analysis_data.csv": "93825625a15e1fdd46a741a8ceaa8d8625c3e651ed62172d533b56661b0358e3",
+    "results/splines/signalling/french_books/loo_full.csv": "2d41c0ec861172e460fe99de7f495c8a51a29244d65dc12e41dfe55de2f4c57d",
+    "results/splines/signalling/french_books/all_curves.csv": "d22f9be4c11794de2c547ebf365343779d4a0a0de5e32bb853b6bb4884103d8d",
+    "results/splines/signalling/french_books/spline_4_attempts.json": "eec47a75878e51ec56b7a9359f1200e2737767e62f511f7028246b62b5d7dd46",
+    "results/splines/signalling/english_books/analysis_data.csv": "f0ac40d9c35668937ca2dfc1513324395207c8a1725218205d58d67b8340aa4d",
+    "results/splines/signalling/english_books/loo_full.csv": "40e6da912b565e77c4aeea660eb7c5284c2014cd4847db267b41ccb4d6b0a9c0",
+    "results/splines/signalling/english_books/all_curves.csv": "b63253535ce1e836cdcedb7dc2192d5f1df7888a33018891780451c624deb1bf",
+    "results/splines/signalling/english_books/spline_4_attempts.json": "7eebb897640ea9c6c9d199281cf27a67b08949ede98851dae0ccfbb6068f0866",
+    "results/splines/signalling/french_theatre/analysis_data.csv": "7d8e5f524add27f959e52ab7665488b95f3e24cb1d5190dc8463f46fab5dc474",
+    "results/splines/signalling/french_theatre/loo_full.csv": "1492a0e831da3e5cbc7c8aa72993d8de428c2a8fa2d43692d6626fdc4534ef96",
+    "results/splines/signalling/french_theatre/all_curves.csv": "9c75ce1cee1bdc7a9c7aee41f0662d9c1ac1c651b85e309b0c11292c3e881543",
+    "results/splines/signalling/french_theatre/spline_5_attempts.json": "7d415033c37c6dc5da1a61b2789efbae2ce0ab6d26182de65874a63d64f138e7",
+    "results/splines/signalling/english_theatre/analysis_data.csv": "edf1050914981d1c028d1fc54a6be2842ec49e124b55607efa6bbeabaa1ccc8f",
+    "results/splines/signalling/english_theatre/loo_full.csv": "705671db63d251dbad65540326999fcef05f1fe6491df78a8dbe0281c6749ae9",
+    "results/splines/signalling/english_theatre/all_curves.csv": "bf6ee3a0619419ba3f6c4f4372d5de81694b1c1775ec3c3db072892773651154",
+    "results/splines/signalling/english_theatre/spline_5_attempts.json": "8f2ed90fc5d3132826430c0f5a40688e1e6f7c5e1315b0441a5fb0a7565e7a60"
+  },
+  "original_style_reference": "results/primary/figures/figure_ordinal.png",
+  "posterior_draws_verified": false,
+  "layout": "2 \u00d7 2, common axes, grey ratings, blue 25-year means, one orange curve",
+  "preserved_bin_rules": "25 years; n >= 10; interval width <= 2",
+  "posterior": "final unadjusted fits, 4 chains \u00d7 4000 retained draws",
+  "author_deviations": 0,
+  "refitted": false,
+  "verification": "redrawn from frozen curve summaries; use --verify-draws for a posterior audit",
+  "s7": "unchanged; S7 uses 20-year bins, whereas Figure 1 retains its original 25-year bins"
+}

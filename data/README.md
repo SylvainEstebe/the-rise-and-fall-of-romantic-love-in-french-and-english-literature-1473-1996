@@ -1,5 +1,7 @@
 # Data guide
 
+[Home](../README.md) · [Current spline results and analysis-ready corpus files](../results/splines/README.md) · [Spline reproduction](../docs/SPLINES.md)
+
 ## Layout
 
 | Path | Contents |

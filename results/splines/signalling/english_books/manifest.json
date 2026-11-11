@@ -1,0 +1,32 @@
+{
+  "construct": "TH_03",
+  "source": "results/signaling/data/novels_uk_TH_03.csv",
+  "source_sha256": "b33d4d8f27a648a3028efd24d3a99dd293c95ec2ddcea0ec63cab275eaab8f23",
+  "n": 1887,
+  "n_authors": 1246,
+  "mean_year": 1759.6290408055113,
+  "range": [
+    1473,
+    1949
+  ],
+  "dropped_missing_scores": 0,
+  "models": [
+    "spline_4",
+    "spline_5",
+    "spline_6"
+  ],
+  "draws": 4000,
+  "chains": 4,
+  "tune": 2000,
+  "seed": 0,
+  "initial_target_accept": 0.8,
+  "retry_tune": 4000,
+  "retry_target_accept": 0.95,
+  "bambi": "0.17.2",
+  "pymc": "5.28.5",
+  "arviz": "0.22.0",
+  "family": "cumulative",
+  "link": "logit",
+  "priors": "Bambi defaults",
+  "prediction": "author deviation zero; training formulae state reused"
+}

@@ -1,0 +1,37 @@
+{
+  "construct": "ING_38 (Romantic affiliation / narrative importance of courtship)",
+  "posterior": "saved final fits; four chains \u00d7 4000 retained draws; no new fits",
+  "prediction": "expected scores; author deviations zero; observed range only",
+  "credible_intervals": "equal-tailed 2.5th and 97.5th posterior percentiles",
+  "steepest_decline": "minimum annual finite difference, on full 1500\u20131996 grid; 10-year sensitivity also supplied",
+  "bootstrap": {
+    "unit": "author groups, resampled over the full corpus; record-weighted means",
+    "draws": 3000,
+    "seed": 42,
+    "interval": "percentile 2.5\u201397.5%",
+    "validation": "original RNG stream replayed; existing century-change intervals reproduced to 1e-12"
+  },
+  "source_sha256": {
+    "results/splines/affiliation/french_books/quadratic_expected.npz": "ddbf4bb762fc25b23e0e7f6d5db6e68cb4f16b0f814939b948413c8185f3ff90",
+    "results/splines/affiliation/french_books/spline_3_expected.npz": "78c51360e330b7981d527cf6fc2223e4d723f0405b71c6fc9104bc4b2fc61b12",
+    "results/splines/affiliation/french_books/spline_4_expected.npz": "fe47294b6489b8be0775bd79b333cd5f472343dc5d07fd0be881757191ff6da9",
+    "results/splines/affiliation/french_books/spline_5_expected.npz": "0645a9ef58c2c1a7fe4d6aea01dfa322a72c1a974e9586a559417b4bcdb0a78b",
+    "results/splines/affiliation/french_books/spline_6_expected.npz": "656aadad4ac2381b12d6a7eea0df7ea100486058c67e0b5b54b6b9ff3996ee7e",
+    "results/splines/affiliation/french_babel/quadratic_expected.npz": "02405adece31ad1a88a6e9827645634021db8f674d3adbf587e0bef5d677726e",
+    "results/splines/affiliation/french_babel/spline_3_expected.npz": "6aaaaa0d1a7b0b54bd2b2d6e651aedf0b6e49225d70eed8b18c35f69ea1e6f2b",
+    "results/splines/affiliation/french_babel/spline_4_expected.npz": "5e0f968a55e736636095a7c5e97038a1ad1568b86ae5c11bf8a87402b91f17fd",
+    "results/splines/affiliation/french_babel/spline_5_expected.npz": "dfe1250774b051db8764349b87b95f93fa64dddad273136cbb99ce782a0444ce",
+    "results/splines/affiliation/french_babel/spline_6_expected.npz": "d9bcb635d9b844c6cf5656d44ffd2922940775a390a5c8e1ec34db55895b681e",
+    "results/splines/affiliation_babel/english_babel/quadratic_expected.npz": "85309669eb69b5fd5aabf4550718134334bc60becec299c18c479f886fdef753",
+    "results/splines/affiliation_babel/english_babel/spline_3_expected.npz": "3d5c1d8f60469fd8a98d3a5017d94ea13cd2e4528dcd86949991470373e39608",
+    "results/splines/affiliation_babel/english_babel/spline_4_expected.npz": "759b746122555d0cd0d085fdaad8f2fddd07501418746e35bcaab2f69a70c1e0",
+    "results/splines/affiliation_babel/english_babel/spline_5_expected.npz": "5563f4108cecc2449ac5604ac65d5afd8eabc8562cab354a431485608c9a7127",
+    "results/splines/affiliation_babel/english_babel/spline_6_expected.npz": "6336cd9c9edccb91ecdccd9a6066c71dac3e2f8a96f15e514aeeb81ab7b1291e",
+    "results/courtship/roland_fr_data.csv": "3f2c0cc2239b250e9d319370ef540fd1bf92d06bacf3ce2166a7d982fb6a32a8",
+    "results/courtship/novels_uk_data.csv": "e228811431b3d6f7a3f398c48faab21170122a96540765496400270d9a1835a0",
+    "results/courtship/theatre_fr_data.csv": "6a914e6f80f0b45f42ea5aa9f4873d1e5822dff14d121ca19221781a5511cd08",
+    "results/courtship/theatre_uk_data.csv": "4b930a4c567786856625ff18b665e739f28581881ae65ac1ea46ec0803537a0f",
+    "results/courtship/babel_fr_data.csv": "710cfbd44d4bbbc5d07552d3e93901d1ec19ac4872b5a13f93a6f19cdbacb1b1",
+    "results/courtship/babel_uk_data.csv": "d695fadbcaffe9365acb0dac9910ef20ab82715ec384f998a18ce439c052eab6"
+  }
+}

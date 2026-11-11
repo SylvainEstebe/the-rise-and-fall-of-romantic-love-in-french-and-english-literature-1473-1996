@@ -1,1 +1,4 @@
 * -text
+
+# Preserve the original formatting of generated scientific outputs.
+results/** -whitespace

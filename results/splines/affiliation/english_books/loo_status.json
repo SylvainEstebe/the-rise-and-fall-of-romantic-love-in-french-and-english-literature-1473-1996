@@ -1,0 +1,8 @@
+{
+  "primary_method": "PSIS",
+  "raw_flagged_model_observation_pairs": 0,
+  "exact_corrections": 0,
+  "unresolved_flagged_pairs": 0,
+  "common_sensitivity_rows_excluded": 0,
+  "raw_pareto_values_preserved": true
+}

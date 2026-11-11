@@ -1,0 +1,5 @@
+dataset,displayed_model,selection_scope
+french_books,spline_6,"highest ELPD among spline df 4, 5, 6"
+english_books,spline_4,"highest ELPD among spline df 4, 5, 6"
+french_theatre,spline_6,"highest ELPD among spline df 4, 5, 6"
+english_theatre,spline_6,"highest ELPD among spline df 4, 5, 6"

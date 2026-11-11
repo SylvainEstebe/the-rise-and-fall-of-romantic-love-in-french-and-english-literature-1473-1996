@@ -1,0 +1,22 @@
+{
+  "versions": {
+    "bambi": "0.17.2",
+    "pymc": "5.28.5",
+    "arviz": "0.22.0",
+    "formulae": "0.6.2",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.0",
+    "scipy": "1.16.3",
+    "xarray": "2026.9.0",
+    "h5netcdf": "1.8.1",
+    "pytensor": "2.38.3"
+  },
+  "script_sha256": "9c2d40ca129d4a0aaeeae2dc8c6ce1e2070bb0d103f9eddb98b11be4adbb448f",
+  "full_models": 30,
+  "chains": 4,
+  "retained_draws_per_chain": 4000,
+  "derived_rows": 150,
+  "validation": "six unit tests; all 30 posterior dimensions and stored likelihoods checked; fixed-basis checks; held-out log probabilities matched PyMC; singleton-author quadrature checked",
+  "note": "An ArviZ method-check probe initially refitted an unflagged row. The checker was overridden. That extra fit is retained in reloo_validation and excluded from the two requested LOO corrections."
+}

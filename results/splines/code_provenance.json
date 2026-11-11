@@ -1,0 +1,59 @@
+{
+  "changes": [
+    "Portable paths and imports; macOS compiler compatibility from the existing repository",
+    "Separate figure-only entry point; optional posterior-draw verification",
+    "Correct supplementary-panel paths for the repository numbering",
+    "Portable fonts and locked PDF packaging dependencies",
+    "Removed duplicate publication bundles and formatting-only clean-up; model specifications and numerical algorithms retained"
+  ],
+  "scripts": [
+    {
+      "original": "script/ordinal_shape_robustness.py",
+      "original_sha256": "f0c09e8415fa03bcab5870fe8998fd991ad391e8e0f7e8f9271d1277091649df",
+      "portable": "analysis/splines/ordinal_shape_robustness.py",
+      "portable_sha256": "b79f20876a65f504691249ec740e50642ddf3436e7adcee0f33c8eebf5037125"
+    },
+    {
+      "original": "script/fit_signalling_splines.py",
+      "original_sha256": "94b519a39f5cb8349c5cd9fd7d28d6bbaab9e85034b6772663478cf88e47f2d7",
+      "portable": "analysis/splines/fit_signalling_splines.py",
+      "portable_sha256": "09c80b0316552147a779f438d68e6e51cd32e372ffafff611638d9a59c851554"
+    },
+    {
+      "original": "script/publication_shape_supplement.py",
+      "original_sha256": "01a670f8de00c48a69b5b4a4a4cccbe015aeb5d4f641807612298ddc212b6df0",
+      "portable": "analysis/splines/publication_shape_supplement.py",
+      "portable_sha256": "3fc9351f82289cbfb48bfe72382312b7d48a42746299343a4727473df86bee0f"
+    },
+    {
+      "original": "script/century_contrasts.py",
+      "original_sha256": "3ba5ff9a7a532b722e14d9996f1817f893ddd1ebab1c004154b356ae54bd5bd8",
+      "portable": "analysis/splines/century_contrasts.py",
+      "portable_sha256": "6ffc1e00566f90443a721e1e721a01d1325892e5d14d1f3df0167e673b70f540"
+    },
+    {
+      "original": "script/figures/figure_1_spline.py",
+      "original_sha256": "490b1ab81b78c980fc1fb3bf683dac5a8bde7938182e21ab3d426b4959c61742",
+      "portable": "analysis/splines/figures/figure_1_spline.py",
+      "portable_sha256": "958649854bb9a096eef1a6117bb3d015609477add5ea9554f772da2c5dc9d166"
+    },
+    {
+      "original": "script/figures/figure_spline_extensions.py",
+      "original_sha256": "ae8f9189caf1168dcca6d04804bdca765d9ab9d55a725d3d258eb6e91a73673c",
+      "portable": "analysis/splines/figures/figure_spline_extensions.py",
+      "portable_sha256": "55c12f235076aebd698a2cf0c3ca216c6221dcfc1261226c0bd4a147c4c5ca72"
+    },
+    {
+      "original": "script/figures/figure_babel_combined.py",
+      "original_sha256": "635b9273912d751bdda9a1bada405c648c608a9444a9b112d52e4fc9e460b121",
+      "portable": "analysis/splines/figures/figure_babel_combined.py",
+      "portable_sha256": "8274c76f2a7df3b2d0070a24869e1c2030cd7441ab8ab0a7bde4bb762037412a"
+    },
+    {
+      "original": "script/figures/package_submission_figures.py",
+      "original_sha256": "cce7cb2bd0f89bef545088db6fc5453f4b83ae17f773a980c99bcdec70f443a7",
+      "portable": "analysis/splines/figures/package_submission_figures.py",
+      "portable_sha256": "563a16a865f1ab00218093e808d50582935ba33815e7788efcb69ad7a2881c4d"
+    }
+  ]
+}

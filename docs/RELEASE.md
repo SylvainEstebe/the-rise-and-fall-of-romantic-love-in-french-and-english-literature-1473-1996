@@ -1,46 +1,16 @@
-# Public release checklist
+# Release files
 
-## Verify the release contents
+[Home](../README.md) · [Spline reproduction](SPLINES.md)
 
-- Include `README.md`, `CITATION.cff`, `LICENSE`, the guides, and the example.
-- Include frozen annotation files, metadata, prompts, validation materials, and the primary text index.
-- Include `analysis/submission_statistics.py` and its outputs in addition to the original analysis scripts.
-- Run `make test`, `make check`, and `make reproduce`; inspect `results/reproduction.json`.
-- Confirm every path in `results/article/tables.csv` and `figures.csv` exists.
-- Verify the source-text redistribution inventory and preserve third-party attribution. The code license is not a blanket text license.
-- Record the release commit and archive version. Add a publication DOI to the citation metadata only once assigned.
+The repository is private. Access to its releases follows the repository permissions.
 
-## Selected storage layout
+| Release | Contents | Verification and restoration |
+| :--- | :--- | :--- |
+| v0.2.0 | Current spline code, numerical results, figures, 58 fitted-model files and 48 predictive-draw arrays | `results/splines/binary_manifest.csv`, `binary_archives.json`; `script/restore_splines.py` |
+| v0.1.0 | Earlier quadratic and decomposition analyses, 44 posterior files | `results/model_manifest.csv`, `model_archives.json`; `script/restore_models.py` |
 
-The release uses ordinary Git storage for code, annotation inputs, metadata, tables, and figures. The 44 saved posterior files are distributed in eight separately downloadable ZIP assets. Their inventories are `results/model_manifest.csv` and `results/model_archives.json`. Restore downloaded ZIPs with `python3 script/restore_models.py --archives /path/to/downloads`.
+Large binary files are separate ZIP assets; each stores repository-relative paths. Code, frozen inputs, numerical tables and figures are in ordinary Git storage. GitHub's source ZIP contains the committed files; restoring the relevant binary archives supplies the saved samples. SHA-256 hashes are checked before extraction and for every restored file.
 
-The initial GitHub publication uses a new source-only history. The maintainer's original local history is preserved separately; no force push or destructive rewrite is required for the previously empty remote repository.
+`script/package_release.py` builds a source tarball locally. Its optional `--include-models` flag applies to the historical v0.1.0 posterior set and requires those files to be restored first. It does not merge the old and spline model manifests. Use an empty output directory for each build.
 
-## Background: large model files
-
-The original local project has approximately 7.3 GB of tracked results, including 28 files larger than 100 MiB. That original Git history contains these binaries. Adding an ignore rule alone would not remove them from history or make it suitable for an ordinary GitHub push.
-
-For future migrations, two packaging options can retain the full research record:
-
-1. Store posterior files in a versioned research archive or downloadable release assets, with a path/size/SHA-256 manifest. Keep code, frozen scores, metadata, tables, and figures in the regular repository. Restore each posterior to its original relative path before reusing saved draws.
-2. Store posterior files through Git LFS, including the corresponding pointers and `.gitattributes`. Existing binary history needs a deliberate migration, and a fresh clone must retrieve the LFS objects.
-
-Do not silently omit the posterior files while describing a release as including saved draws. If they are distributed separately, put the verified archive URL, version, checksums, and restoration command in the README. If they are intentionally unavailable, state that reproduction will fit missing models.
-
-A storage migration is separate from reorganizing the working files. Preserve the existing history before any rewrite and verify a new clone after publication. Check the public links while signed out; an authenticated clone alone does not establish public accessibility.
-
-## Prepare downloadable archives
-
-After the complete reproduction run finishes:
-
-```sh
-python3 script/package_release.py --include-models
-```
-
-This writes `dist/release/romantic-love-source.tar.gz` and independently extractable model ZIPs, grouping at most 1 GiB of model input per ZIP. It also writes `model_manifest.csv` (original paths, sizes, SHA-256 hashes) and `archives.json` (archive sizes and hashes). The source archive excludes posterior binaries, credentials, caches, new annotation runs, and Git history. The model ZIPs preserve the original `results/...` paths. Extract all archives into the same directory to reconstruct the release.
-
-Without `--include-models`, only the source archive and model manifest are built. Use an empty output directory for each build. Building is local: it does not publish files, create a release, or rewrite the current repository. Keep `dist/` out of Git.
-
-## Known provenance gaps
-
-The [data guide](../data/README.md) and [reproduction guide](REPRODUCIBILITY.md) document what is retained and what is not. A release should not imply that unretained acquisition scripts, original sampling logs, API responses, or human annotation interface logs are present.
+Before publishing, run the offline tests, redraw spline figures, verify the numerical tables against the saved results, and inspect the eight submission figures. Full posterior verification and model fitting are distinct operations; record which was performed. Do not describe a figure-only check as a fresh estimation of the models.

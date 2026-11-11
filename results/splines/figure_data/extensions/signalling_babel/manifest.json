@@ -1,0 +1,34 @@
+{
+  "construct": "TH_03",
+  "title": "Romantic signalling in Babel: knowledge-based ratings",
+  "mode": "babel",
+  "selection": "French Babel works, df = 6; English Babel works, df = 5",
+  "candidate_df": [
+    4,
+    5,
+    6
+  ],
+  "sources": {
+    "french_babel": "results/splines/signalling/french_babel",
+    "english_babel": "results/splines/signalling/english_babel"
+  },
+  "source_sha256": {
+    "results/splines/signalling/french_babel/analysis_data.csv": "dc8f7a9cdc226d8059884eeb62d2f0648811c869c5660831437de9e98517aed2",
+    "results/splines/signalling/french_babel/loo_full.csv": "030312586213a176711abc5df57cddef576d76eaec30fc729fbc0eb8ff029b25",
+    "results/splines/signalling/french_babel/all_curves.csv": "0fe188500c9e54a26c695b6d805db3b665e753894d925395bbf1419aed5c7357",
+    "results/splines/signalling/french_babel/spline_6_attempts.json": "853ecd8ea12be57d3e965d137c27afc6ad3b000857370465d5cb5b482e5cb47c",
+    "results/splines/signalling/english_babel/analysis_data.csv": "21abcf3140f817d3368b28ea31d4e3d0e66e465e3ab0e6c47a2487c54b6da9e0",
+    "results/splines/signalling/english_babel/loo_full.csv": "d335a056353bfecc558f1cef7c7ce6217ce1ac480c6ec3a5592bb82a34c19d0a",
+    "results/splines/signalling/english_babel/all_curves.csv": "692cd8f8e0c46796e2bbd20626902143983da78fa7750713c25211e693e7e5ad",
+    "results/splines/signalling/english_babel/spline_5_attempts.json": "2706c963540d4783b3dc5605092e3c985a9c09e7462a8b68799b27beff4bdad3"
+  },
+  "original_style_reference": "results/primary/figures/figure_ordinal.png",
+  "posterior_draws_verified": false,
+  "layout": "1 \u00d7 2, common axes, grey ratings, blue 25-year means, one orange curve",
+  "preserved_bin_rules": "25 years; n >= 10; interval width <= 2",
+  "posterior": "final unadjusted fits, 4 chains \u00d7 4000 retained draws",
+  "author_deviations": 0,
+  "refitted": false,
+  "verification": "redrawn from frozen curve summaries; use --verify-draws for a posterior audit",
+  "s7": "unchanged; S7 uses 20-year bins, whereas Figure 1 retains its original 25-year bins"
+}

@@ -1,0 +1,5 @@
+reference_best,n_scored,n_excluded,elpd_loo,elpd_se,delta_elpd_loss_vs_best,delta_elpd_se,equivalent_2se,p_loo,n_pareto_k_gt_0_7,n_exact_loo_refits,max_pareto_k,dataset,displayed_model,selection_scope
+spline_6,1879,0,-3067.1618642285803,31.752742495728235,0.0,0.0,True,468.5780780166395,0,0,0.6719000268439006,french_books,spline_6,"highest ELPD among spline df 4, 5, 6"
+quadratic,1887,0,-2870.921077714378,37.938505761116936,2.964393695394919,2.710362226707398,True,494.8652015399132,0,0,0.6727632447264893,english_books,spline_4,"highest ELPD among spline df 4, 5, 6"
+linear,1060,0,-1458.0915381050445,29.14713285731171,1.1803095956737986,1.6501058569164933,True,113.55223654984772,0,0,0.4962697280255461,french_theatre,spline_6,"highest ELPD among spline df 4, 5, 6"
+spline_3,932,0,-1230.176752472467,29.62905256017869,0.3306924774145523,1.688750694903847,True,38.75263130086591,0,0,0.3362799975541834,english_theatre,spline_6,"highest ELPD among spline df 4, 5, 6"

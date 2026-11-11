@@ -1,0 +1,7 @@
+model,requested_start,requested_end,actual_start,actual_end,endpoints_adjusted,status,median,lower_95,upper_95,quantity,proportion_at_first_year,proportion_at_last_year,tie_rule,drop_points,proportion_never_within_range,n_crossing_draws,n_draws,interval_condition,spline_df,interior_knots
+spline_5,1500.0,1650.0,1500.0,1650.0,False,estimable,0.934699802737905,0.2310353032432635,1.6243291449834947,contrast_1500_1650,,,,,,,,,5,2
+spline_5,1650.0,1800.0,1650.0,1800.0,False,estimable,-0.8481857351753437,-1.1797006620216628,-0.5097843769236494,contrast_1650_1800,,,,,,,,,5,2
+spline_5,1800.0,1950.0,1800.0,1950.0,False,estimable,-0.9804099145874383,-1.3978951302438982,-0.5438515071956638,contrast_1800_1950,,,,,,,,,5,2
+spline_5,,,,,,,1665.0,1612.0,1703.0,global_maximum_year,0.0015,0.018875,earliest grid year at the global maximum,,,,,,5,2
+spline_5,,,,,,,1736.0,1690.0,1761.0,decline_0.25_year,,,,0.25,0.018875,15698.0,16000.0,conditional on crossing within observed range,5,2
+spline_5,,,,,,,1765.0,1730.0,1793.0,decline_0.5_year,,,,0.5,0.018875,15698.0,16000.0,conditional on crossing within observed range,5,2

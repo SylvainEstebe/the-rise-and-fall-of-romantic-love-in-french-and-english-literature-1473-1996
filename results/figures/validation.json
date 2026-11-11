@@ -1,0 +1,176 @@
+[
+  {
+    "figure": "Figure_1",
+    "pdf_pages": 1,
+    "png_pixels": [
+      3020,
+      2091
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "pdf_bytes": 320675,
+    "source_files": [
+      "results/splines/figures/figure_1_spline.pdf"
+    ],
+    "source_sha256": {
+      "results/splines/figures/figure_1_spline.pdf": "325601c9763277d59e460cc89e781f794e71672741cadc8481c026bd397abe48"
+    },
+    "pdf_sha256": "325601c9763277d59e460cc89e781f794e71672741cadc8481c026bd397abe48",
+    "single_page_vector_sources": true
+  },
+  {
+    "figure": "Figure_S1",
+    "pdf_pages": 1,
+    "png_pixels": [
+      3073,
+      1917
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "pdf_bytes": 68698,
+    "source_files": [
+      "results/primary/figures/figure_s1_histograms.pdf"
+    ],
+    "source_sha256": {
+      "results/primary/figures/figure_s1_histograms.pdf": "5b9b594661c6d2d771b4ce2ae2e66aa6c59d1d569c0fc03e773e8637162bd02e"
+    },
+    "pdf_sha256": "5b9b594661c6d2d771b4ce2ae2e66aa6c59d1d569c0fc03e773e8637162bd02e",
+    "single_page_vector_sources": true
+  },
+  {
+    "figure": "Figure_S2",
+    "pdf_pages": 1,
+    "png_pixels": [
+      3020,
+      2091
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "pdf_bytes": 295194,
+    "source_files": [
+      "results/splines/figures/figure_romantic_signalling_spline.pdf"
+    ],
+    "source_sha256": {
+      "results/splines/figures/figure_romantic_signalling_spline.pdf": "8963df995f9c5f3522aed53c4feae04a0e7ea14071c2bac2866b68a1008af48d"
+    },
+    "pdf_sha256": "8963df995f9c5f3522aed53c4feae04a0e7ea14071c2bac2866b68a1008af48d",
+    "single_page_vector_sources": true
+  },
+  {
+    "figure": "Figure_S3",
+    "pdf_pages": 1,
+    "png_pixels": [
+      2967,
+      2382
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "pdf_bytes": 329797,
+    "source_files": [
+      "results/splines/figures/figure_babel_affiliation_signalling_spline.pdf"
+    ],
+    "source_sha256": {
+      "results/splines/figures/figure_babel_affiliation_signalling_spline.pdf": "34ffaf16e12cc1970dad79d1c98b69de24d028bc827d0e131318023b8413a431"
+    },
+    "pdf_sha256": "34ffaf16e12cc1970dad79d1c98b69de24d028bc827d0e131318023b8413a431",
+    "single_page_vector_sources": true
+  },
+  {
+    "figure": "Figure_S4",
+    "pdf_pages": 1,
+    "png_pixels": [
+      6075,
+      2909
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "pdf_bytes": 106580,
+    "source_files": [
+      "results/courtship/doc_assets/figure_s4a.pdf",
+      "results/courtship/doc_assets/figure_s4b.pdf"
+    ],
+    "source_sha256": {
+      "results/courtship/doc_assets/figure_s4a.pdf": "1f919b80c365373c007a8a2f8244302c83caf769543e2cb8a8083eac547be758",
+      "results/courtship/doc_assets/figure_s4b.pdf": "e5879690894ed49fd58e8f6ee79f77978973d39d7560e596f44d1fec3cca4ba9"
+    },
+    "pdf_sha256": "947366abffbf4f95dc0ee1024cf15041ad21f2c429a0a215c1fea5c3c67a11f3",
+    "single_page_vector_sources": true
+  },
+  {
+    "figure": "Figure_S5",
+    "pdf_pages": 1,
+    "png_pixels": [
+      6075,
+      2909
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "pdf_bytes": 110544,
+    "source_files": [
+      "results/courtship/doc_assets/figure_s5a.pdf",
+      "results/courtship/doc_assets/figure_s5b.pdf"
+    ],
+    "source_sha256": {
+      "results/courtship/doc_assets/figure_s5a.pdf": "cbc0898c60c385f53fe48345c2979d2930e4fa9deac3e69d071f5982c33b4922",
+      "results/courtship/doc_assets/figure_s5b.pdf": "285d0d6945228d166aebe8411b45a29493f76e3a2b590cd75e7cb61de72d81ee"
+    },
+    "pdf_sha256": "9299153bdf448968dabcce15a7f2676c301350fefd15abd27e836f75d684397e",
+    "single_page_vector_sources": true
+  },
+  {
+    "figure": "Figure_S6",
+    "pdf_pages": 1,
+    "png_pixels": [
+      6075,
+      2909
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "pdf_bytes": 186552,
+    "source_files": [
+      "results/courtship/doc_assets/figure_s6a.pdf",
+      "results/courtship/doc_assets/figure_s6b.pdf"
+    ],
+    "source_sha256": {
+      "results/courtship/doc_assets/figure_s6a.pdf": "3006b8377fbe93276866eeea24a5cd9a3a1c8fabf86a3e9626342bb112e7dd1a",
+      "results/courtship/doc_assets/figure_s6b.pdf": "ba8fdc5318945c8f908a8b03aaf794fa9ef008edf773b0ceb7db6efe69e7fb29"
+    },
+    "pdf_sha256": "adf4659a089eb9ab98f71306973dfef78d2be85ea8cc3e0c3cc963ce27cef030",
+    "single_page_vector_sources": true
+  },
+  {
+    "figure": "Figure_S7",
+    "pdf_pages": 1,
+    "png_pixels": [
+      2787,
+      2903
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "pdf_bytes": 98748,
+    "source_files": [
+      "results/splines/robustness/Figure_S7.pdf"
+    ],
+    "source_sha256": {
+      "results/splines/robustness/Figure_S7.pdf": "021b0138acaf889be490d6c516eeb1067295bce0af380514c4bd884cf55e93a0"
+    },
+    "pdf_sha256": "021b0138acaf889be490d6c516eeb1067295bce0af380514c4bd884cf55e93a0",
+    "single_page_vector_sources": true
+  }
+]

@@ -1,0 +1,15 @@
+       Formula: score ~ year_c + I(year_c**2) + (1|author)
+        Family: cumulative
+          Link: p = logit
+  Observations: 826
+        Priors: 
+    target = p
+        Common-level effects
+            year_c ~ Normal(mu: 0.0, sigma: 2.8095)
+            I(year_c ** 2) ~ Normal(mu: 0.0, sigma: 1.2012)
+        
+        Group-level effects
+            1|author ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 2.6748))
+        
+        Auxiliary parameters
+            threshold ~ Normal(mu: [-2.  -1.2 -0.4  0.4  1.2  2. ], sigma: 1.0, transform: ordered)

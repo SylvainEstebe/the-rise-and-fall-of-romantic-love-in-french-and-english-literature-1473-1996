@@ -1,0 +1,32 @@
+{
+  "construct": "TH_03",
+  "source": "results/signaling/data/roland_fr_TH_03.csv",
+  "source_sha256": "76a862d91d677792e8e083fb4a8740dd183030ccfdc3fd1c2ca155afac7cd4f7",
+  "n": 1879,
+  "n_authors": 1264,
+  "mean_year": 1771.2772751463544,
+  "range": [
+    1500,
+    1996
+  ],
+  "dropped_missing_scores": 0,
+  "models": [
+    "spline_4",
+    "spline_5",
+    "spline_6"
+  ],
+  "draws": 4000,
+  "chains": 4,
+  "tune": 2000,
+  "seed": 0,
+  "initial_target_accept": 0.8,
+  "retry_tune": 4000,
+  "retry_target_accept": 0.95,
+  "bambi": "0.17.2",
+  "pymc": "5.28.5",
+  "arviz": "0.22.0",
+  "family": "cumulative",
+  "link": "logit",
+  "priors": "Bambi defaults",
+  "prediction": "author deviation zero; training formulae state reused"
+}

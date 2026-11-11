@@ -1,0 +1,9 @@
+model,adjustment,p_decline_1700_1799_all_draws,p_decline_1700_1799_given_crossing,p_never_crossing
+quadratic,Unadjusted,0.9985,0.9985,0.0
+quadratic,Length adjusted,0.9915,0.9915,0.0
+spline_4,Unadjusted,0.9885625,0.9989263609953265,0.010375
+spline_4,Length adjusted,0.977,0.9843208865940432,0.0074375
+spline_5,Unadjusted,0.9714375,0.9914524462588505,0.0201875
+spline_5,Length adjusted,0.9310625,0.9489743916422474,0.018875
+spline_6,Unadjusted,0.9876875,0.9894809341932252,0.0018125
+spline_6,Length adjusted,0.952125,0.9545112781954888,0.0025

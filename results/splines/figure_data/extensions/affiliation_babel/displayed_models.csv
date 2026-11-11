@@ -1,0 +1,3 @@
+reference_best,n_scored,n_excluded,elpd_loo,elpd_se,delta_elpd_loss_vs_best,delta_elpd_se,equivalent_2se,p_loo,n_pareto_k_gt_0_7,n_exact_loo_refits,max_pareto_k,dataset,displayed_model,selection_scope
+spline_6,1870,0,-3074.7570789526967,32.841173254419054,0.0,0.0,True,304.0346372897488,0,0,0.6444092210291767,french_babel,spline_6,"highest ELPD among spline df 4, 5, 6"
+spline_3,826,0,-1455.6031756837947,17.31513273328899,0.7547392860110935,1.7259116329633637,True,172.8481301449096,0,0,0.6761604439400297,english_babel,spline_4,"highest ELPD among spline df 4, 5, 6"

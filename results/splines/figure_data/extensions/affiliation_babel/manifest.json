@@ -1,0 +1,34 @@
+{
+  "construct": "ING_38",
+  "title": "Romantic affiliation in Babel: knowledge-based ratings",
+  "mode": "babel",
+  "selection": "French Babel works, df = 6; English Babel works, df = 4",
+  "candidate_df": [
+    4,
+    5,
+    6
+  ],
+  "sources": {
+    "french_babel": "results/splines/affiliation/french_babel",
+    "english_babel": "results/splines/affiliation_babel/english_babel"
+  },
+  "source_sha256": {
+    "results/splines/affiliation/french_babel/analysis_data.csv": "fe2d6ff86beeba6965d662ec3a4705ce0db0e03691dec0150c0ab172d6697f79",
+    "results/splines/affiliation/french_babel/loo_full.csv": "78a346221211b47c11dda4ad58afa694cf426d54c5cb60c0e335e8f3299d7b9f",
+    "results/splines/affiliation/french_babel/all_curves.csv": "b10041ec2a733702d13004e87ee31f019aa5b30aa956091f79a754e4ff1e4c89",
+    "results/splines/affiliation/french_babel/spline_6_attempts.json": "beda8f2e78235c8f5da637262945a42086f6d0983ee4e2c6657b4d495bb52cc5",
+    "results/splines/affiliation_babel/english_babel/analysis_data.csv": "a3e001c92721287c353fe502df73b058e55ae0c845fc5112af0d192d48177e13",
+    "results/splines/affiliation_babel/english_babel/loo_full.csv": "7f479f738172dadca86440590c0117ca868fb6fb33bb7d67b8c329e1fe8fc339",
+    "results/splines/affiliation_babel/english_babel/all_curves.csv": "c15c1bf874c892f8d08a0df6646dea8288e6f108560875a98688390fc7caa4ba",
+    "results/splines/affiliation_babel/english_babel/spline_4_attempts.json": "c5473d0dd4967b6638a359acf0ddab3859d7ffdb82a0374df4cf7bd13c49bca5"
+  },
+  "original_style_reference": "results/primary/figures/figure_ordinal.png",
+  "posterior_draws_verified": false,
+  "layout": "1 \u00d7 2, common axes, grey ratings, blue 25-year means, one orange curve",
+  "preserved_bin_rules": "25 years; n >= 10; interval width <= 2",
+  "posterior": "final unadjusted fits, 4 chains \u00d7 4000 retained draws",
+  "author_deviations": 0,
+  "refitted": false,
+  "verification": "redrawn from frozen curve summaries; use --verify-draws for a posterior audit",
+  "s7": "unchanged; S7 uses 20-year bins, whereas Figure 1 retains its original 25-year bins"
+}

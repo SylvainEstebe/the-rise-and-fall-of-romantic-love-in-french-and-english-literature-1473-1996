@@ -1,0 +1,9 @@
+{
+  "contrast_rows": 35,
+  "decline_rate_rows": 10,
+  "bootstrap_level_rows": 12,
+  "all_models_within_two_paired_SE": true,
+  "bootstrap_previous_change_intervals_reproduced": true,
+  "posterior_draws_per_model": 16000,
+  "no_new_model_fits": true
+}

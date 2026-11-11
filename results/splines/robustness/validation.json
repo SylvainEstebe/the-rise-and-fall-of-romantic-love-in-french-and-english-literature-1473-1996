@@ -1,0 +1,10 @@
+{
+  "source_fit_dimensions": "all 30 verified: 4 chains \u00d7 4000 draws",
+  "adjusted_fits": "all four: 4 \u00d7 4000, finite posterior and log likelihood",
+  "MCMC": "all four pass; no retries needed",
+  "prediction_basis": "all four invariant to single-year vs batched prediction",
+  "S10": "30 formatted rows, 180 full-precision quantities; uncovered English theatre contrast is missing",
+  "figure": "5 panels; bin statistics checked against original output; PNG 300 dpi; PDF vector",
+  "tests": "6 shared analysis tests passed; both scripts pass Ruff",
+  "archive": "CRC validation passed"
+}

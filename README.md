@@ -1,107 +1,78 @@
-# Romantic love in French and English literature
+# The rise and fall of romantic love in French and English literature, 1473–1996
 
-**A reproducible study of romantic courtship across five centuries of books and plays (1473–1996).**
+Research code, frozen annotations and results for the article by Sylvain Estebe, Edgar Dubourg, Ze Fu and Nicolas Baumard.
 
-This repository contains the annotation inputs, frozen model ratings, human-validation materials, analysis code, and results supporting *The Rise and Fall of Romantic Love in French and English Literature, 1473–1996* by Sylvain Estebe, Edgar Dubourg, Ze Fu, and Nicolas Baumard.
+**Current analysis: ordinal cubic splines, November 2026.** Each corpus has an author random-intercept model. The displayed spline is selected by highest leave-one-out ELPD among df = 4, 5 and 6; the robustness analysis also compares linear, quadratic and df = 3 specifications. Earlier quadratic results remain available and are labelled below.
 
-The primary outcome is the **narrative importance of romantic affiliation**: attraction to and pursuit of a new romantic partner. Scores range from 0 (absent) to 6 (defining). Romantic signalling is a complementary outcome. These measurements concern literary representations, not the prevalence of love in historical populations.
+[Figures](results/figures/README.md) · [Numerical results](results/README.md) · [Spline reproduction](docs/SPLINES.md) · [Data](data/README.md) · [Annotation and prompts](docs/ANNOTATION.md)
 
-[Get started](#get-started) · [Data guide](data/README.md) · [Reproduction guide](docs/REPRODUCIBILITY.md) · [Reuse the annotation tools](docs/ANNOTATION.md) · [Find a result](results/README.md)
+![Romantic affiliation: current spline analysis](results/figures/PNG_300dpi/Figure_1.png)
 
-## What is included?
-
-| Corpus | Input scored | Records | Years |
-| :--- | :--- | ---: | :--- |
-| French books — Roland | Sampled passages | 1,879 | 1500–1996 |
-| English books — EarlyPrint–Gutenberg | Sampled passages | 1,887 | 1473–1949 |
-| French theatre | Complete available texts | 1,060 | 1574–1899 |
-| English theatre | Complete available texts | 932 | 1576–1800 |
-| **Primary total** | | **5,758** | **1473–1996** |
-
-Supplementary Babel ratings use bibliographic information and model knowledge, without supplying the literary text. Valid romantic-affiliation samples contain 1,870 French and 826 English records; coverage differs for other constructs. They are a separate measurement source.
-
-![Temporal trajectories of romantic affiliation in French and English books and plays](results/primary/figures/figure_ordinal.png)
-
-*Main study figure. Books are represented by sampled passages; plays by complete available texts. See the [results guide](results/README.md) for numerical outputs and downloadable figures.*
-
-## Get started
-
-### 1. Explore a small example
-
-With Python 3.11 installed, run from the repository root:
+## Start here
 
 ```sh
-python3 examples/summarize_scores.py
+uv sync --locked
+make spline-figures
 ```
 
-This uses only the Python standard library. It reads the frozen French annotations and writes `results/examples/summary.csv`; no API key, R, or model fitting is needed. Expected output: **1,879 observed scores**, a mean of approximately **2.6525**, and a positive-score proportion of approximately **0.6977**.
-
-### 2. Install the analysis environment
-
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/), Python 3.11, and [R](https://cran.r-project.org/). Then:
+This redraws the main affiliation figure, text signalling, Babel affiliation/signalling and shape-robustness figure from the committed numerical summaries. It does not fit models, call an API, require R or download posterior files. `make reproduce` runs the same safe figure workflow.
 
 ```sh
-make setup
-make check
-make test
+make test                 # Offline regression tests
+make submission-figures   # Rebuild all eight submission PDFs/PNGs; also requires pdftoppm (Poppler)
 ```
 
-`make setup` installs the exact Python versions in `uv.lock` and the R packages listed in `requirements.R`. Initial setup needs an internet connection. The integrity check verifies the primary text hashes, analytical sample sizes, and selected validation values. The small test suite checks the reusable example and custom annotation constructs.
+The finished [PDFs](results/figures/PDF) and [300-dpi PNGs](results/figures/PNG_300dpi) are already included. See [reproduction commands](docs/SPLINES.md) for posterior verification, table regeneration and explicit model fitting.
 
-### 3. Reproduce the study
+## Find what you need
 
-Saved posterior draws are distributed separately in the [v0.1.0 release](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996/releases/tag/v0.1.0). Download all eight `romantic-love-models-*.zip` files into one directory, then restore and verify them:
+| Content | Location |
+| :--- | :--- |
+| Main figure and supplementary Figures S1–S7 | [Figure gallery and index](results/figures/README.md) |
+| Spline model comparison, curves, diagnostics and timing estimates | [Spline results](results/splines/README.md) |
+| Table S10: robustness to time-trend specification | [Readable table](results/splines/robustness/Table_S10.md) · [CSV](results/splines/robustness/Table_S10.csv) |
+| Century contrasts and steepest decline | [Contrasts](results/splines/contrasts) |
+| Length-adjusted spline sensitivity | [Numerical results](results/splines/robustness/Length_sensitivity.csv) |
+| Analysis-ready data | `analysis_data.csv` in each [affiliation](results/splines/affiliation), [English Babel affiliation](results/splines/affiliation_babel) and [signalling](results/splines/signalling) corpus directory |
+| Raw texts, annotations, manual validation and metadata | [Data guide](data/README.md) |
+| Annotation scripts and prompts | [Annotation guide](docs/ANNOTATION.md) · [Prompts](prompts) |
+| Current analysis and figure code | [analysis/splines](analysis/splines) |
+| Earlier quadratic, two-lines, validation and decomposition analyses | [Results guide](results/README.md) · [Historical reproduction](docs/REPRODUCIBILITY.md) |
+
+## Saved posterior draws
+
+Large binaries are in [release v0.2.0](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996/releases/tag/v0.2.0), outside ordinary Git storage. The repository contains the numerical tables, diagnostics, figures and checksums.
 
 ```sh
-python3 script/restore_models.py --archives /path/to/downloads
+# Predictive draws (~2.45 GB): check curves and recompute contrasts
+uv run --locked python script/restore_splines.py --kind draws
+make spline-verify
+make spline-contrasts
+
+# Full posterior checkpoints (~14.7 GB): regenerate Table S10 from fitted models
+uv run --locked python script/restore_splines.py --kind models
+make spline-publication
 ```
 
-This restores 44 model files to their original `results/` paths and checks their SHA-256 hashes. The repository includes the code, text inputs, annotations, metadata, tables, and figures; it does not require Git LFS. If you prefer to estimate the models yourself, skip the downloads and run `make refit`.
+The downloader verifies SHA-256 hashes and preserves matching files. Archive downloads and extracted files both use disk space. The earlier 44-model archive set remains in [release v0.1.0](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996/releases/tag/v0.1.0).
 
-```sh
-make reproduce
-```
+## Corpora
 
-This runs the analysis from frozen annotations, reusing saved posterior draws when present and fitting missing models. It generates numerical tables, PNG/PDF figures, and a step-by-step report. It does **not** make annotation API calls.
+| Corpus | Romantic affiliation observations |
+| :--- | ---: |
+| French books (Roland) | 1,879 |
+| English books (EarlyPrint–Gutenberg) | 1,887 |
+| French theatre | 1,060 |
+| English theatre | 932 |
+| French Babel | 1,870 |
+| English Babel | 826 |
 
-Use `make refit` to estimate every model again. **Always refit after changing analysis inputs or model specifications:** existing model files are not automatically checked against changed inputs. Full fitting is substantially more demanding than reading the saved results. See [requirements, commands, and limitations](docs/REPRODUCIBILITY.md).
+Babel uses knowledge-based ratings elicited from bibliographic metadata; the four primary corpora use text annotations. See the data guide for input units and construct-specific coverage.
 
-## Repository map
+## Reuse and citation
 
-```text
-analysis/       Statistical analyses, figures, and manuscript exports
-data/           Frozen scores, metadata, exact input texts, human validation
-docs/           Reproduction, annotation, and release documentation
-examples/       Small offline example using frozen scores
-prompts/        Construct definitions and annotation prompt references
-results/        Saved tables, figures, posterior draws, and run reports
-script/         Command-line annotation drivers
-src/annotation/ Shared annotation code
-tests/          Small offline regression checks
-huggingface/    Companion dataset-card source
-```
+[MIT](LICENSE) covers the code. Source-text rights and data provenance are described in [data/README.md](data/README.md). Annotation requests require your own provider credentials; copying `.env.example` is optional and is only needed for new annotation runs.
 
-Start with [the results guide](results/README.md) to find the main figure and manuscript tables. The [output index](results/article/tables.csv) maps current manuscript table labels to files; historical `table_s*.csv` filenames use an older numbering scheme.
+Use [CITATION.cff](CITATION.cff) to cite this repository. A small, standard-library example is available at [examples/summarize_scores.py](examples/summarize_scores.py).
 
-## Use this project for a new study
-
-- Reuse the frozen scores directly with the [example](examples/README.md).
-- Define your own constructs and annotate text files using the [annotation guide](docs/ANNOTATION.md).
-- Keep new annotations in a separate output directory. Preserve the original study inputs when adapting an analysis.
-- Record the input files, prompts, provider/model identifier, settings, and repository commit for each new run.
-
-The statistical scripts are study-specific: corpus identifiers, paths, and some expected counts are fixed. The annotation utilities and file formats are reusable, but this repository is not a general-purpose installed Python package.
-
-## Provenance and limits
-
-Human validation covers 40 French excerpts. Passage ratings, full-play ratings, and knowledge-based work ratings should not be treated as interchangeable. Corpus coverage is uneven, and a zero passage score does not establish that courtship is absent from the whole book. See the [data guide](data/README.md) for missingness, the historical human-rating correction, source attribution, and materials that were not retained.
-
-The companion text dataset is listed at [Hugging Face](https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus). The [dataset card source](huggingface/README.md) documents its scope; the analysis uses the paths and hashes recorded in this repository.
-
-## Citation and license
-
-Use [CITATION.cff](CITATION.cff) to cite the research software, and include the commit used. The manuscript authors are Sylvain Estebe, Edgar Dubourg, Ze Fu, and Nicolas Baumard. A publication DOI is not recorded here.
-
-The code is distributed under the [MIT license](LICENSE). Source-text permissions and attribution are separate; no dataset-wide license is assigned to the literary texts by this repository. See [data provenance](data/README.md#sources-and-rights).
-
-For corrections or reproducibility problems, open an issue with the command, error, environment, and commit. See [CONTRIBUTING.md](CONTRIBUTING.md).
+The repository is currently private. Automatic archive downloads require a `GH_TOKEN` or `GITHUB_TOKEN` environment variable with read access. Alternatively, download the ZIPs from the release while signed in and pass their folder with `--archives`; no token is then needed by the restoration script.

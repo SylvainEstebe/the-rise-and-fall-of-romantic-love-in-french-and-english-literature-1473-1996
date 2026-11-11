@@ -1,0 +1,28 @@
+[
+  {
+    "attempt": 1,
+    "tune": 2000,
+    "target_accept": 0.8,
+    "draws_per_chain": 4000,
+    "seconds": 46.42974299984053,
+    "divergences": 7,
+    "max_rhat": 1.0023460840756964,
+    "min_ess_bulk": 1625.1002742544413,
+    "min_ess_tail": 2268.7653035089106,
+    "nonfinite_diagnostic_cells": 0,
+    "fails_requested_checks": true
+  },
+  {
+    "attempt": 2,
+    "tune": 4000,
+    "target_accept": 0.95,
+    "draws_per_chain": 4000,
+    "seconds": 102.33985366602428,
+    "divergences": 0,
+    "max_rhat": 1.0016969514161893,
+    "min_ess_bulk": 2233.1369153779183,
+    "min_ess_tail": 3446.6860069036293,
+    "nonfinite_diagnostic_cells": 0,
+    "fails_requested_checks": false
+  }
+]

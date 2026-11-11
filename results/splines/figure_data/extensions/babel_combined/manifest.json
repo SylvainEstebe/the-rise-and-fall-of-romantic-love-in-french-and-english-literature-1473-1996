@@ -1,0 +1,43 @@
+{
+  "style": "original white/blue/orange",
+  "panels": [
+    {
+      "construct": "ING_38",
+      "dataset": "french_babel",
+      "model": "spline_6",
+      "n": 1870,
+      "source": "results/splines/figure_data/extensions/affiliation_babel",
+      "curve_sha256": "00e96a1feb2dc861a060de029e127654be1be2482a33a90625b874820297de1c",
+      "means_sha256": "c61f75152f6769e415bcf5ef1f2ad067bb26d9e4fdb9fb1eccf9dbf318907486"
+    },
+    {
+      "construct": "ING_38",
+      "dataset": "english_babel",
+      "model": "spline_4",
+      "n": 826,
+      "source": "results/splines/figure_data/extensions/affiliation_babel",
+      "curve_sha256": "00e96a1feb2dc861a060de029e127654be1be2482a33a90625b874820297de1c",
+      "means_sha256": "c61f75152f6769e415bcf5ef1f2ad067bb26d9e4fdb9fb1eccf9dbf318907486"
+    },
+    {
+      "construct": "TH_03",
+      "dataset": "french_babel",
+      "model": "spline_6",
+      "n": 1946,
+      "source": "results/splines/figure_data/extensions/signalling_babel",
+      "curve_sha256": "e9cdc1cde5090bdaa431cce1dd9285e8b07c0003ffbb87e42d0bbe448525b9ae",
+      "means_sha256": "b2c9713641f552e30ed558460514e7c3d6322a207d27e91b77223f33cb56d8e7"
+    },
+    {
+      "construct": "TH_03",
+      "dataset": "english_babel",
+      "model": "spline_5",
+      "n": 799,
+      "source": "results/splines/figure_data/extensions/signalling_babel",
+      "curve_sha256": "e9cdc1cde5090bdaa431cce1dd9285e8b07c0003ffbb87e42d0bbe448525b9ae",
+      "means_sha256": "b2c9713641f552e30ed558460514e7c3d6322a207d27e91b77223f33cb56d8e7"
+    }
+  ],
+  "refitted": false,
+  "png_dpi": 300
+}

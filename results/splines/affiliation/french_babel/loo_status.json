@@ -1,0 +1,8 @@
+{
+  "primary_method": "PSIS with exact reloo corrections",
+  "raw_flagged_model_observation_pairs": 2,
+  "exact_corrections": 2,
+  "unresolved_flagged_pairs": 0,
+  "common_sensitivity_rows_excluded": 2,
+  "raw_pareto_values_preserved": true
+}

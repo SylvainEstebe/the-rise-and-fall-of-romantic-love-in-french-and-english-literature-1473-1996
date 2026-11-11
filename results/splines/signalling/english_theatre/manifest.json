@@ -1,0 +1,32 @@
+{
+  "construct": "TH_03",
+  "source": "results/signaling/data/theatre_uk_TH_03.csv",
+  "source_sha256": "39920bc8808204fea1fb5ddfa1d3493c9ed8d2b05cd8a35a4dc134f6c40b3492",
+  "n": 932,
+  "n_authors": 288,
+  "mean_year": 1682.3690987124464,
+  "range": [
+    1576,
+    1800
+  ],
+  "dropped_missing_scores": 0,
+  "models": [
+    "spline_4",
+    "spline_5",
+    "spline_6"
+  ],
+  "draws": 4000,
+  "chains": 4,
+  "tune": 2000,
+  "seed": 0,
+  "initial_target_accept": 0.8,
+  "retry_tune": 4000,
+  "retry_target_accept": 0.95,
+  "bambi": "0.17.2",
+  "pymc": "5.28.5",
+  "arviz": "0.22.0",
+  "family": "cumulative",
+  "link": "logit",
+  "priors": "Bambi defaults",
+  "prediction": "author deviation zero; training formulae state reused"
+}

@@ -14,3 +14,10 @@ results/examples/
 dist/
 model-downloads/
 results/**/*.nc
+
+# Large spline checkpoints and predictive draws live in release archives.
+results/splines/**/*.npz
+!results/splines/**/heldout_log_probability.npz
+!results/splines/contrasts/*_century_bootstrap_draws.npz
+results/figures/*.zip
+results/figures/previews/

@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-11",
+  "mcmc_refitted": false,
+  "environment": "uv sync --locked; uv run --locked",
+  "regression_tests_passed": 14,
+  "posterior_verified_displayed_curves": 12,
+  "tables_matching_original_outputs_at_1e_10_tolerance": 27,
+  "submission_single_page_figures": 8,
+  "figure_png_resolution_dpi": 300,
+  "standalone_redraw_without_model_or_predictive_files": "passed",
+  "cohorts": [
+    {
+      "construct": "affiliation",
+      "corpus": "english_books",
+      "n": 1887,
+      "models": 6
+    },
+    {
+      "construct": "affiliation",
+      "corpus": "english_theatre",
+      "n": 932,
+      "models": 6
+    },
+    {
+      "construct": "affiliation",
+      "corpus": "french_babel",
+      "n": 1870,
+      "models": 6
+    },
+    {
+      "construct": "affiliation",
+      "corpus": "french_books",
+      "n": 1879,
+      "models": 6
+    },
+    {
+      "construct": "affiliation",
+      "corpus": "french_theatre",
+      "n": 1060,
+      "models": 6
+    },
+    {
+      "construct": "affiliation_babel",
+      "corpus": "english_babel",
+      "n": 826,
+      "models": 6
+    },
+    {
+      "construct": "signalling",
+      "corpus": "english_babel",
+      "n": 799,
+      "models": 3
+    },
+    {
+      "construct": "signalling",
+      "corpus": "english_books",
+      "n": 1887,
+      "models": 3
+    },
+    {
+      "construct": "signalling",
+      "corpus": "english_theatre",
+      "n": 932,
+      "models": 3
+    },
+    {
+      "construct": "signalling",
+      "corpus": "french_babel",
+      "n": 1946,
+      "models": 3
+    },
+    {
+      "construct": "signalling",
+      "corpus": "french_books",
+      "n": 1879,
+      "models": 3
+    },
+    {
+      "construct": "signalling",
+      "corpus": "french_theatre",
+      "n": 1060,
+      "models": 3
+    }
+  ],
+  "analysis_code_comparison": {
+    "ordinal_shape_robustness": {
+      "unchanged_functions_and_classes_after_path_relocation": 22,
+      "changed_entry_points": [],
+      "removed_packaging_helpers": []
+    },
+    "fit_signalling_splines": {
+      "unchanged_functions_and_classes_after_path_relocation": 1,
+      "changed_entry_points": [],
+      "removed_packaging_helpers": []
+    },
+    "publication_shape_supplement": {
+      "unchanged_functions_and_classes_after_path_relocation": 9,
+      "changed_entry_points": [
+        "main"
+      ],
+      "removed_packaging_helpers": [
+        "assemble_bundle"
+      ]
+    },
+    "century_contrasts": {
+      "unchanged_functions_and_classes_after_path_relocation": 6,
+      "changed_entry_points": [],
+      "removed_packaging_helpers": []
+    }
+  }
+}

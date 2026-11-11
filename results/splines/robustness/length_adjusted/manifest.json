@@ -1,0 +1,16 @@
+{
+  "source_data_sha256": "16aa3b57190631310a27524d700c10bd148a18cc0a6dfc34fd688ff532854c21",
+  "n": 1879,
+  "mean_year": 1771.2772751463544,
+  "geometric_mean_segment_count": 19.927580491352057,
+  "length_variable": "centered_log2_length = log2(n_chapters) - mean(log2(n_chapters))",
+  "segment_provenance": "src/build_corpus/dataset_sampler.py: n_chapters = len(split_into_chapters(text)); approximately 15,000-character segments, not literary chapters",
+  "draws": 4000,
+  "chains": 4,
+  "tune": 2000,
+  "seed": 0,
+  "retry_tune": 4000,
+  "retry_target_accept": 0.95,
+  "prediction_length": 0,
+  "author_deviations": 0
+}

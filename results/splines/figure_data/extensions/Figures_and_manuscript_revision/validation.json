@@ -1,0 +1,55 @@
+{
+  "new_full_fits": 24,
+  "chains": 4,
+  "retained_draws_per_chain": 4000,
+  "log_likelihood": "stored for every new full fit; finite values verified by fitting scripts",
+  "prediction_validation": "training formulae state reused; single-year and batched predictions checked",
+  "construct_checks": [
+    {
+      "corpus": "french_books",
+      "n": 1879,
+      "same_ids_years_authors": true,
+      "distinct_construct_scores": 968
+    },
+    {
+      "corpus": "english_books",
+      "n": 1887,
+      "same_ids_years_authors": true,
+      "distinct_construct_scores": 920
+    },
+    {
+      "corpus": "french_theatre",
+      "n": 1060,
+      "same_ids_years_authors": true,
+      "distinct_construct_scores": 749
+    },
+    {
+      "corpus": "english_theatre",
+      "n": 932,
+      "same_ids_years_authors": true,
+      "distinct_construct_scores": 661
+    }
+  ],
+  "new_fit_diagnostics": {
+    "divergences": 0,
+    "max_rhat": 1.002323474402777,
+    "min_bulk_ess": 2033.5269563044824,
+    "min_tail_ess": 4297.773680354601,
+    "n_required_mcmc_refits": 0,
+    "n_raw_pareto_k_gt_0_7": 6
+  },
+  "exact_loo": {
+    "flagged_new_model_observations": 6,
+    "completed_exact_refits": 6
+  },
+  "code_check": "All four new or modified scripts pass Ruff",
+  "publication_outputs": {
+    "figure_pairs": 4,
+    "png_dpi": 300,
+    "selected_model_rows": 12,
+    "all_spline_quantities": 216,
+    "total_diagnostic_rows": 54,
+    "all_high_k_repaired": true,
+    "visual_review": "All four PNGs inspected; titles, labels, bands, and legends readable"
+  }
+}

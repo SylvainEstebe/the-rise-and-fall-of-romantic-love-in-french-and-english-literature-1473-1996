@@ -1,0 +1,287 @@
+{
+  "release": "v0.2.0",
+  "archives": [
+    {
+      "file": "romantic-love-spline-draws-01.zip",
+      "kind": "draws",
+      "bytes": 894088661,
+      "sha256": "dc32eca1717dc8dded0842e0674f6812bdf5b51f108634bf50c4dfeb6f36b9bd",
+      "paths": [
+        "results/splines/affiliation/english_books/quadratic_expected.npz",
+        "results/splines/affiliation/english_books/spline_3_expected.npz",
+        "results/splines/affiliation/english_books/spline_4_expected.npz",
+        "results/splines/affiliation/english_books/spline_5_expected.npz",
+        "results/splines/affiliation/english_books/spline_6_expected.npz",
+        "results/splines/affiliation/english_theatre/quadratic_expected.npz",
+        "results/splines/affiliation/english_theatre/spline_3_expected.npz",
+        "results/splines/affiliation/english_theatre/spline_4_expected.npz",
+        "results/splines/affiliation/english_theatre/spline_5_expected.npz",
+        "results/splines/affiliation/english_theatre/spline_6_expected.npz",
+        "results/splines/affiliation/french_babel/quadratic_expected.npz",
+        "results/splines/affiliation/french_babel/spline_3_expected.npz",
+        "results/splines/affiliation/french_babel/spline_4_expected.npz",
+        "results/splines/affiliation/french_babel/spline_5_expected.npz",
+        "results/splines/affiliation/french_babel/spline_6_expected.npz",
+        "results/splines/affiliation/french_books/quadratic_expected.npz",
+        "results/splines/affiliation/french_books/spline_3_expected.npz",
+        "results/splines/affiliation/french_books/spline_4_expected.npz"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-draws-02.zip",
+      "kind": "draws",
+      "bytes": 937276862,
+      "sha256": "5d2eb4c31bf13d15acf56acf2c899082a4a44e745e188a53b50340a21b6d6018",
+      "paths": [
+        "results/splines/affiliation/french_books/spline_5_expected.npz",
+        "results/splines/affiliation/french_books/spline_6_expected.npz",
+        "results/splines/affiliation/french_theatre/quadratic_expected.npz",
+        "results/splines/affiliation/french_theatre/spline_3_expected.npz",
+        "results/splines/affiliation/french_theatre/spline_4_expected.npz",
+        "results/splines/affiliation/french_theatre/spline_5_expected.npz",
+        "results/splines/affiliation/french_theatre/spline_6_expected.npz",
+        "results/splines/signalling/english_babel/spline_4_expected.npz",
+        "results/splines/signalling/english_babel/spline_5_expected.npz",
+        "results/splines/signalling/english_babel/spline_6_expected.npz",
+        "results/splines/signalling/english_books/spline_4_expected.npz",
+        "results/splines/signalling/english_books/spline_5_expected.npz",
+        "results/splines/signalling/english_books/spline_6_expected.npz",
+        "results/splines/signalling/english_theatre/spline_4_expected.npz",
+        "results/splines/signalling/english_theatre/spline_5_expected.npz",
+        "results/splines/signalling/english_theatre/spline_6_expected.npz",
+        "results/splines/signalling/french_babel/spline_4_expected.npz",
+        "results/splines/signalling/french_babel/spline_5_expected.npz",
+        "results/splines/signalling/french_babel/spline_6_expected.npz"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-draws-03.zip",
+      "kind": "draws",
+      "bytes": 615576027,
+      "sha256": "882930a012aae9dc7c77b20bbbbf9631315ceddfc2633e6ad19c673b88077acf",
+      "paths": [
+        "results/splines/signalling/french_books/spline_4_expected.npz",
+        "results/splines/signalling/french_books/spline_5_expected.npz",
+        "results/splines/signalling/french_books/spline_6_expected.npz",
+        "results/splines/signalling/french_theatre/spline_4_expected.npz",
+        "results/splines/signalling/french_theatre/spline_5_expected.npz",
+        "results/splines/signalling/french_theatre/spline_6_expected.npz",
+        "results/splines/affiliation_babel/english_babel/quadratic_expected.npz",
+        "results/splines/affiliation_babel/english_babel/spline_3_expected.npz",
+        "results/splines/affiliation_babel/english_babel/spline_4_expected.npz",
+        "results/splines/affiliation_babel/english_babel/spline_5_expected.npz",
+        "results/splines/affiliation_babel/english_babel/spline_6_expected.npz"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-01.zip",
+      "kind": "models",
+      "bytes": 769451887,
+      "sha256": "904a04a620a2df273f154063e0769e674815c57204f6cda6e9bf6f50d2c2543c",
+      "paths": [
+        "results/splines/affiliation/english_books/linear.nc",
+        "results/splines/affiliation/english_books/quadratic.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-02.zip",
+      "kind": "models",
+      "bytes": 770809938,
+      "sha256": "3cd0f13eae2a5a486de1b70d96d6a84da609936da751c71dbf447e210832362f",
+      "paths": [
+        "results/splines/affiliation/english_books/spline_3.nc",
+        "results/splines/affiliation/english_books/spline_4.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-03.zip",
+      "kind": "models",
+      "bytes": 914740455,
+      "sha256": "de899b2fbb02192461a00f50ba12f548b2e363ca5602142a040bb0c443fd130f",
+      "paths": [
+        "results/splines/affiliation/english_books/spline_5.nc",
+        "results/splines/affiliation/english_books/spline_6.nc",
+        "results/splines/affiliation/english_theatre/linear.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-04.zip",
+      "kind": "models",
+      "bytes": 724866979,
+      "sha256": "386ecde27622e644a682b7d3f502d369cb845dfba4ccd95a58fb4c728577d37b",
+      "paths": [
+        "results/splines/affiliation/english_theatre/quadratic.nc",
+        "results/splines/affiliation/english_theatre/spline_3.nc",
+        "results/splines/affiliation/english_theatre/spline_4.nc",
+        "results/splines/affiliation/english_theatre/spline_5.nc",
+        "results/splines/affiliation/english_theatre/spline_6.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-05.zip",
+      "kind": "models",
+      "bytes": 795800486,
+      "sha256": "16791b0bbe9b4166158913b28fd66f3f293cee5a7919f8660039583bb0395fbe",
+      "paths": [
+        "results/splines/affiliation/french_babel/linear.nc",
+        "results/splines/affiliation/french_babel/quadratic.nc",
+        "results/splines/affiliation/french_babel/spline_3.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-06.zip",
+      "kind": "models",
+      "bytes": 797210454,
+      "sha256": "f07302c757481a8df79149f0e5c1f79c8694c05f39a48986ecd48d8ac205be8b",
+      "paths": [
+        "results/splines/affiliation/french_babel/spline_4.nc",
+        "results/splines/affiliation/french_babel/spline_5.nc",
+        "results/splines/affiliation/french_babel/spline_6.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-07.zip",
+      "kind": "models",
+      "bytes": 759447353,
+      "sha256": "38088e1888b27ecafc4d0a96e875f95122b37b98bfeff953c3439310c5224184",
+      "paths": [
+        "results/splines/affiliation/french_books/linear.nc",
+        "results/splines/affiliation/french_books/quadratic.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-08.zip",
+      "kind": "models",
+      "bytes": 760192636,
+      "sha256": "0dde1c4313d78891b5d1b732863920eb04f8ef50c7362178f812a2def0948c95",
+      "paths": [
+        "results/splines/affiliation/french_books/spline_3.nc",
+        "results/splines/affiliation/french_books/spline_4.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-09.zip",
+      "kind": "models",
+      "bytes": 911200312,
+      "sha256": "97aef843e587b7ffaeab8ff7d4cb77191b3681a8b3b9c2caa8d47c68c4a0a7af",
+      "paths": [
+        "results/splines/affiliation/french_books/spline_5.nc",
+        "results/splines/affiliation/french_books/spline_6.nc",
+        "results/splines/affiliation/french_theatre/linear.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-10.zip",
+      "kind": "models",
+      "bytes": 886817445,
+      "sha256": "2d10b8a882206eec6e2f4b9727d1f8eafb37873c8aeca95e383e0049d8cdd481",
+      "paths": [
+        "results/splines/affiliation/french_theatre/quadratic.nc",
+        "results/splines/affiliation/french_theatre/spline_3.nc",
+        "results/splines/affiliation/french_theatre/spline_4.nc",
+        "results/splines/affiliation/french_theatre/spline_5.nc",
+        "results/splines/affiliation/french_theatre/spline_6.nc",
+        "results/splines/signalling/english_babel/spline_4.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-11.zip",
+      "kind": "models",
+      "bytes": 649761873,
+      "sha256": "5fc816699a006c224e7fb1c77756b652fb44b95eab15bd9717f359d6bad0984d",
+      "paths": [
+        "results/splines/signalling/english_babel/spline_5.nc",
+        "results/splines/signalling/english_babel/spline_6.nc",
+        "results/splines/signalling/english_books/spline_4.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-12.zip",
+      "kind": "models",
+      "bytes": 916383898,
+      "sha256": "deb7ab19fc1e707ad6e9c481c7e2a0d09443a53cf1477e6653a54aa030202271",
+      "paths": [
+        "results/splines/signalling/english_books/spline_5.nc",
+        "results/splines/signalling/english_books/spline_6.nc",
+        "results/splines/signalling/english_theatre/spline_4.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-13.zip",
+      "kind": "models",
+      "bytes": 827710089,
+      "sha256": "99308de98843a7849bcd8de1ea3456d6d80e7ad1599ba0ce81aedeb105c7eff3",
+      "paths": [
+        "results/splines/signalling/english_theatre/spline_5.nc",
+        "results/splines/signalling/english_theatre/spline_6.nc",
+        "results/splines/signalling/french_babel/spline_4.nc",
+        "results/splines/signalling/french_babel/spline_5.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-14.zip",
+      "kind": "models",
+      "bytes": 648610600,
+      "sha256": "76c1f2bb9f1156bd6307cca49178322323ff10e6981a4f63244dfc271ee3ae50",
+      "paths": [
+        "results/splines/signalling/french_babel/spline_6.nc",
+        "results/splines/signalling/french_books/spline_4.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-15.zip",
+      "kind": "models",
+      "bytes": 913239906,
+      "sha256": "735280be32a08681c8eca5225a8798008cccf723f56a7110b839f42c69d5428b",
+      "paths": [
+        "results/splines/signalling/french_books/spline_5.nc",
+        "results/splines/signalling/french_books/spline_6.nc",
+        "results/splines/signalling/french_theatre/spline_4.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-16.zip",
+      "kind": "models",
+      "bytes": 851534048,
+      "sha256": "862c66c3ad304b5daff6fb3d7ab038cf1ef598717157694eac54f54df405dd05",
+      "paths": [
+        "results/splines/signalling/french_theatre/spline_5.nc",
+        "results/splines/signalling/french_theatre/spline_6.nc",
+        "results/splines/affiliation_babel/english_babel/linear.nc",
+        "results/splines/affiliation_babel/english_babel/quadratic.nc",
+        "results/splines/affiliation_babel/english_babel/spline_3.nc",
+        "results/splines/affiliation_babel/english_babel/spline_4.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-17.zip",
+      "kind": "models",
+      "bytes": 660737181,
+      "sha256": "407cbc17233b38c24dadb009753e437df13b9d0b79733a848d139e5cca69c1c8",
+      "paths": [
+        "results/splines/affiliation_babel/english_babel/spline_5.nc",
+        "results/splines/affiliation_babel/english_babel/spline_6.nc",
+        "results/splines/robustness/length_adjusted/quadratic.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-18.zip",
+      "kind": "models",
+      "bytes": 772634467,
+      "sha256": "e7ed7f2f47172e08258ad0e46af6ae7a15ca21b2b0a0f59e2d998bb7632cfe7d",
+      "paths": [
+        "results/splines/robustness/length_adjusted/spline_4.nc",
+        "results/splines/robustness/length_adjusted/spline_5.nc"
+      ]
+    },
+    {
+      "file": "romantic-love-spline-models-19.zip",
+      "kind": "models",
+      "bytes": 386546386,
+      "sha256": "a74f1933bbac9e6af037b459a6356bafb1f2168d9b46f596e3eed74407d98fe9",
+      "paths": [
+        "results/splines/robustness/length_adjusted/spline_6.nc"
+      ]
+    }
+  ]
+}

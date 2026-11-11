@@ -1,0 +1,34 @@
+{
+  "data_sha256": "fb8c33a95188f3cff89299b2994563bef7fa17364b38ffb4c7cedc43887c74c5",
+  "n": 1060,
+  "n_authors": 297,
+  "mean_year": 1726.3283018867924,
+  "range": [
+    1574,
+    1899
+  ],
+  "dropped_missing_scores": 0,
+  "draws": 4000,
+  "tune": 2000,
+  "chains": 4,
+  "seed": 0,
+  "initial_target_accept": 0.8,
+  "retry_tune": 4000,
+  "retry_target_accept": 0.95,
+  "formulas": {
+    "linear": "score ~ year_c + (1|author)",
+    "quadratic": "score ~ year_c + I(year_c**2) + (1|author)",
+    "spline_3": "score ~ bs(year_c, df=3, degree=3) + (1|author)",
+    "spline_4": "score ~ bs(year_c, df=4, degree=3) + (1|author)",
+    "spline_5": "score ~ bs(year_c, df=5, degree=3) + (1|author)",
+    "spline_6": "score ~ bs(year_c, df=6, degree=3) + (1|author)"
+  },
+  "family": "cumulative",
+  "link": "logit",
+  "priors": "Bambi defaults",
+  "bambi": "0.17.2",
+  "pymc": "5.28.5",
+  "arviz": "0.22.0",
+  "formulae": "0.6.2",
+  "loo_strategy": "common_flagged_union_exclusion"
+}

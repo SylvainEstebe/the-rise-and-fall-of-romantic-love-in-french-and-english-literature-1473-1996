@@ -1,0 +1,44 @@
+{
+  "construct": "ING_38",
+  "title": "Romantic affiliation in French and English literature",
+  "mode": "text",
+  "selection": "French books, df = 6; English books, df = 4; French plays, df = 6; English plays, df = 6",
+  "candidate_df": [
+    4,
+    5,
+    6
+  ],
+  "sources": {
+    "french_books": "results/splines/affiliation/french_books",
+    "english_books": "results/splines/affiliation/english_books",
+    "french_theatre": "results/splines/affiliation/french_theatre",
+    "english_theatre": "results/splines/affiliation/english_theatre"
+  },
+  "source_sha256": {
+    "results/splines/affiliation/french_books/analysis_data.csv": "16aa3b57190631310a27524d700c10bd148a18cc0a6dfc34fd688ff532854c21",
+    "results/splines/affiliation/french_books/loo_full.csv": "9d8e8174b006d188f86ede9e369c64fc971773eaebf8e01d7057752fb0414e54",
+    "results/splines/affiliation/french_books/all_curves.csv": "5d5d70e9064ff4833de8b84259c96fe4e6fbccd02cb86ed218f0880d46aa28f2",
+    "results/splines/affiliation/french_books/spline_6_attempts.json": "0bc21ad2ae3f7ddb0c394d2a51d19232cd7c363db2b2110c57743aa0f0686aa6",
+    "results/splines/affiliation/english_books/analysis_data.csv": "6a5a2547b9206cc7264e9d041d9b97d2a5e79d53a38f02ba13b27d67672a92c4",
+    "results/splines/affiliation/english_books/loo_full.csv": "d5ce5c4f3896b2ed8fd5d9c24dd1fb41cd396789f544a44b21b244c14f8ae78f",
+    "results/splines/affiliation/english_books/all_curves.csv": "6bdabf233bcee801cdec21ce43b91495bc07a2ca74fe8db89c28b41ff32a438a",
+    "results/splines/affiliation/english_books/spline_4_attempts.json": "3229efb8ec2dd599c152f6d04f09b1bab47602009685978a58e07e203997e8de",
+    "results/splines/affiliation/french_theatre/analysis_data.csv": "9269c89eee99015bee153edbb6aa5f601b3ae5e8e24266d3d55176cf3f5ba5af",
+    "results/splines/affiliation/french_theatre/loo_full.csv": "cab1db9fa6eaa056475c68b153c9791ce07b498815b5a3fd180fb419e285768b",
+    "results/splines/affiliation/french_theatre/all_curves.csv": "662d1e500e92e1358b516ab924e75971ee0c74f471a49d99eff2ff2fd93886ed",
+    "results/splines/affiliation/french_theatre/spline_6_attempts.json": "d253560ab1be82b0bb8e1a039d7d06f3ea3d5a4db9e19650b67d0eb2f5098357",
+    "results/splines/affiliation/english_theatre/analysis_data.csv": "63c49d45d2635a81e3e3c2512230a66ed73a55ae979200c644dc2c0a065f9f28",
+    "results/splines/affiliation/english_theatre/loo_full.csv": "0dcfa1f66c204a87b326ddc3ff2ba2fa60b87908086a72f9952cb025d6dac33e",
+    "results/splines/affiliation/english_theatre/all_curves.csv": "411a6fe2d5f31ca7591301a809e5287d8726f430f3767f2f333529ee814b71bb",
+    "results/splines/affiliation/english_theatre/spline_6_attempts.json": "353949aaabd63b42abf635a71ac1b8fd73954c870d9403345f0aae6c6faa6848"
+  },
+  "original_style_reference": "results/primary/figures/figure_ordinal.png",
+  "posterior_draws_verified": false,
+  "layout": "2 \u00d7 2, common axes, grey ratings, blue 25-year means, one orange curve",
+  "preserved_bin_rules": "25 years; n >= 10; interval width <= 2",
+  "posterior": "final unadjusted fits, 4 chains \u00d7 4000 retained draws",
+  "author_deviations": 0,
+  "refitted": false,
+  "verification": "redrawn from frozen curve summaries; use --verify-draws for a posterior audit",
+  "s7": "unchanged; S7 uses 20-year bins, whereas Figure 1 retains its original 25-year bins"
+}

@@ -1,0 +1,4 @@
+dataset,model,divergences,max_rhat,min_ess_bulk,min_ess_tail,nonfinite_diagnostic_cells,fails_requested_checks,n_pareto_k_gt_0_7,max_pareto_k,refitted,final_tune,final_target_accept
+english_theatre,spline_4,0,1.0013327668114647,4272.610643962588,5643.317657782158,0,False,0,0.3737458328715107,False,2000,0.8
+english_theatre,spline_5,0,1.0017395458392182,4196.999382941384,4297.773680354601,0,False,0,0.35739340197674035,False,2000,0.8
+english_theatre,spline_6,0,1.0016475183016433,4473.63158060657,6934.72213361805,0,False,0,0.40672116256919943,False,2000,0.8

@@ -22,6 +22,8 @@ jobs:
             tests
             src
             script
+            analysis
+            results/splines
             data/annotations/main/roland_fr
       - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
         with:
@@ -31,5 +33,7 @@ jobs:
         run: uv sync --locked
       - name: Run offline regression checks
         run: uv run --locked python -m unittest discover -s tests -v
+      - name: Redraw spline figures without fitting models
+        run: uv run --locked python analysis/splines/reproduce_figures.py
       - name: Run the public example
         run: uv run --locked python examples/summarize_scores.py

@@ -1,0 +1,15 @@
+[
+  {
+    "attempt": 1,
+    "tune": 2000,
+    "target_accept": 0.8,
+    "draws_per_chain": 4000,
+    "seconds": 138.24065429205075,
+    "divergences": 0,
+    "max_rhat": 1.002950561825164,
+    "min_ess_bulk": 2756.8077031731914,
+    "min_ess_tail": 6092.05106750837,
+    "nonfinite_diagnostic_cells": 0,
+    "fails_requested_checks": false
+  }
+]

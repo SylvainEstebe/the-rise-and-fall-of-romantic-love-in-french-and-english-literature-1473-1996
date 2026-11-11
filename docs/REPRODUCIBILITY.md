@@ -1,5 +1,7 @@
 # Reproducing the study
 
+> This page documents the earlier v0.1.0 quadratic pipeline. For the current analysis use the [spline guide](SPLINES.md). `make reproduce` now redraws spline figures without fitting; use `make legacy-reproduce` for the pipeline below.
+
 ## Environment
 
 - Python **3.11** (`pyproject.toml` requires >=3.11,<3.12); exact dependencies are in `uv.lock`.
@@ -9,7 +11,7 @@
 
 The retained analysis environment used Python 3.11.13 on macOS. A fresh installation on every operating system has not been verified. The current full working files include approximately 209 MB of data and 7.3 GB of results, principally posterior draws. Allow extra disk space for Git history, dependencies, compilation caches, and refits. Bayesian fits normally use four chains and four worker processes.
 
-The GitHub repository stores the source materials and readable outputs. Posterior draws are separate release assets. Download the eight model ZIPs from the release linked in the README, then run `python3 script/restore_models.py --archives /path/to/downloads`. Downloaded ZIPs require roughly 7.3 GB in addition to the extracted models; they may be removed after successful verification. Run `python3 script/restore_models.py --check` to verify existing restored models without downloading anything.
+The GitHub repository stores the source materials and readable outputs. Posterior draws are separate release assets. Download the eight model ZIPs from [release v0.1.0](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996/releases/tag/v0.1.0), then run `python3 script/restore_models.py --archives /path/to/downloads`. Downloaded ZIPs require roughly 7.3 GB in addition to the extracted models; they may be removed after successful verification. Run `python3 script/restore_models.py --check` to verify existing restored models without downloading anything.
 
 ## Commands
 
@@ -21,7 +23,7 @@ Run commands from the repository root.
 | Verify retained inputs and sample counts | `make check` |
 | Run small offline regression checks | `make test` |
 | Try the standard-library example | `make example` |
-| Regenerate analyses, reusing saved draws | `make reproduce` |
+| Regenerate analyses, reusing saved draws | `make legacy-reproduce` |
 | Refit all Bayesian models and regenerate outputs | `make refit` |
 | Export submission statistics and article tables from existing results | `make tables` |
 | Export descriptive statistics and quadratic turning-point draws | `make submission` |
@@ -33,7 +35,7 @@ uv sync --locked
 R_LIBS_USER="$PWD/.Rlib" Rscript --vanilla requirements.R
 uv run --locked python check.py
 uv run --locked python -m unittest discover -s tests -v
-uv run --locked python reproduce.py
+uv run --locked python reproduce.py --legacy
 ```
 
 `reproduce.py` configures project-local plotting/compiler caches and the R library path. It calls `requirements.R` to check/install the required R packages before running. Once dependencies are installed, the scientific steps use local files. Annotation credentials are not required.
@@ -64,7 +66,7 @@ Model sampling and bootstrap seeds are set in the scripts. Frozen annotations pr
 
 `make prepare`, `make validation`, `make primary`, `make signaling`, `make latent`, `make twolines`, `make length`, `make descriptive`, and `make two-part` expose individual stages. `make figures` redraws the temporal histograms and decomposition panels from existing analysis outputs. It is not a replacement for the full runner.
 
-`make tables` requires the earlier analysis outputs and saved models. It does not run missing upstream analyses. For a first reproduction, use `make reproduce`.
+`make tables` requires the earlier analysis outputs and saved models. It does not run missing upstream analyses. For a first reproduction, use `make legacy-reproduce`.
 
 ## What can and cannot be reproduced
 

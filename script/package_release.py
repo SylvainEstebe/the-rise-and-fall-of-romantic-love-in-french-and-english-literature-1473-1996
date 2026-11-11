@@ -1,4 +1,4 @@
-"""Build a source archive and optional model archives without rewriting Git history."""
+"""Build a source archive and optional historical v0.1.0 model archives."""
 
 import argparse
 import csv
@@ -11,12 +11,35 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = [
-    "README.md", "CITATION.cff", "CONTRIBUTING.md", "LICENSE", "Makefile",
-    "pyproject.toml", "uv.lock", ".python-version", ".gitignore", ".gitattributes",
-    ".env.example", "check.py", "reproduce.py", "requirements.R",
+    "README.md",
+    "CITATION.cff",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "pyproject.toml",
+    "uv.lock",
+    ".python-version",
+    ".gitignore",
+    ".gitattributes",
+    ".env.example",
+    "check.py",
+    "reproduce.py",
+    "requirements.R",
 ]
-DIRECTORIES = [".github", "analysis", "data", "docs", "examples", "huggingface", "prompts", "results", "script", "src", "tests"]
-SKIP_PARTS = {"__pycache__", ".DS_Store"}
+DIRECTORIES = [
+    ".github",
+    "analysis",
+    "data",
+    "docs",
+    "examples",
+    "huggingface",
+    "prompts",
+    "results",
+    "script",
+    "src",
+    "tests",
+]
+SKIP_PARTS = {"__pycache__", ".DS_Store", "previews"}
 
 
 def sha256(path):
@@ -29,14 +52,23 @@ def release_files():
     for directory in DIRECTORIES:
         for path in (ROOT / directory).rglob("*"):
             relative = path.relative_to(ROOT)
-            if path.is_symlink() or not path.is_file() or SKIP_PARTS.intersection(relative.parts):
+            if (
+                path.is_symlink()
+                or not path.is_file()
+                or SKIP_PARTS.intersection(relative.parts)
+            ):
                 continue
-            if relative.parts[:2] in [("results", "new_annotations"), ("results", "examples")]:
+            if relative.parts[:2] in [
+                ("results", "new_annotations"),
+                ("results", "examples"),
+            ]:
                 continue
             if relative.as_posix() == "results/model_manifest.csv":
                 continue  # A fresh manifest is inserted into every source archive.
             # Never collect local credential or temporary files from a directory.
             if path.name.startswith(".env") or path.suffix in {".pyc", ".tmp"}:
+                continue
+            if relative.parts[0] == "results" and path.suffix == ".zip":
                 continue
             paths.append(path)
     return sorted(set(paths))
@@ -45,7 +77,11 @@ def release_files():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=ROOT / "dist/release")
-    parser.add_argument("--include-models", action="store_true", help="Also package saved posterior files in ZIP archives of at most 1 GiB of input each")
+    parser.add_argument(
+        "--include-models",
+        action="store_true",
+        help="Also package saved posterior files in ZIP archives of at most 1 GiB of input each",
+    )
     args = parser.parse_args()
     output = args.output.resolve()
     if output.exists() and any(output.iterdir()):
@@ -55,8 +91,18 @@ def main():
     missing = [str(path.relative_to(ROOT)) for path in files if not path.is_file()]
     if missing:
         parser.error(f"Missing required release files: {missing}")
-    models = [path for path in files if path.suffix == ".nc"]
-    records = [{"path": str(path.relative_to(ROOT)), "bytes": path.stat().st_size, "sha256": sha256(path)} for path in models]
+    with (ROOT / "results/model_manifest.csv").open() as stream:
+        records = list(csv.DictReader(stream))
+    models = [ROOT / row["path"] for row in records]
+    if args.include_models and any(not path.is_file() for path in models):
+        parser.error(
+            "Restore the v0.1.0 model archives before using --include-models. Spline binaries are distributed separately in v0.2.0."
+        )
+    spline_manifest = ROOT / "results/splines/binary_manifest.csv"
+    spline_binaries = set()
+    if spline_manifest.exists():
+        with spline_manifest.open() as stream:
+            spline_binaries = {row["path"] for row in csv.DictReader(stream)}
     manifest = io.StringIO(newline="")
     writer = csv.DictWriter(manifest, fieldnames=["path", "bytes", "sha256"])
     writer.writeheader()
@@ -64,6 +110,7 @@ def main():
     manifest_bytes = manifest.getvalue().encode("utf-8")
     (output / "model_manifest.csv").write_bytes(manifest_bytes)
     source = output / "romantic-love-source.tar.gz"
+
     def portable_metadata(info):
         info.uid = info.gid = 0
         info.uname = info.gname = ""
@@ -71,8 +118,16 @@ def main():
 
     with tarfile.open(source, "w:gz") as archive:
         for path in files:
-            if path.suffix != ".nc":
-                archive.add(path, arcname=str(path.relative_to(ROOT)), recursive=False, filter=portable_metadata)
+            if (
+                path.suffix != ".nc"
+                and str(path.relative_to(ROOT)) not in spline_binaries
+            ):
+                archive.add(
+                    path,
+                    arcname=str(path.relative_to(ROOT)),
+                    recursive=False,
+                    filter=portable_metadata,
+                )
         entry = tarfile.TarInfo("results/model_manifest.csv")
         entry.size = len(manifest_bytes)
         archive.addfile(entry, io.BytesIO(manifest_bytes))
@@ -81,7 +136,7 @@ def main():
         groups = []
         current, size = [], 0
         for path in models:
-            if current and size + path.stat().st_size > 1024 ** 3:
+            if current and size + path.stat().st_size > 1024**3:
                 groups.append(current)
                 current, size = [], 0
             current.append(path)
@@ -91,13 +146,30 @@ def main():
         for number, group in enumerate(groups, 1):
             destination = output / f"romantic-love-models-{number:02d}.zip"
             print(f"Packing {destination.name}", flush=True)
-            with zipfile.ZipFile(destination, "w", compression=zipfile.ZIP_STORED) as archive:
+            with zipfile.ZipFile(
+                destination, "w", compression=zipfile.ZIP_STORED
+            ) as archive:
                 for path in group:
                     archive.write(path, arcname=str(path.relative_to(ROOT)))
             archives.append(destination)
-    index = [{"file": path.name, "bytes": path.stat().st_size, "sha256": sha256(path)} for path in archives]
-    (output / "archives.json").write_text(json.dumps({"models_included": args.include_models, "model_files": len(models), "archives": index}, indent=2) + "\n")
-    print(f"Prepared {len(archives)} archives and a manifest for {len(models)} posterior files in {output}")
+    index = [
+        {"file": path.name, "bytes": path.stat().st_size, "sha256": sha256(path)}
+        for path in archives
+    ]
+    (output / "archives.json").write_text(
+        json.dumps(
+            {
+                "models_included": args.include_models,
+                "model_files": len(models),
+                "archives": index,
+            },
+            indent=2,
+        )
+        + "\n"
+    )
+    print(
+        f"Prepared {len(archives)} archives and a manifest for {len(models)} posterior files in {output}"
+    )
 
 
 if __name__ == "__main__":

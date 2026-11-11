@@ -1,0 +1,14 @@
+       Formula: score ~ bs(year_c, df=4, degree=3) + (1|author)
+        Family: cumulative
+          Link: p = logit
+  Observations: 1060
+        Priors: 
+    target = p
+        Common-level effects
+            bs(year_c, df=4, degree=3) ~ Normal(mu: [0. 0. 0. 0.], sigma: [11.1238 19.2753 12.9885 16.1074])
+        
+        Group-level effects
+            1|author ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 8.5861))
+        
+        Auxiliary parameters
+            threshold ~ Normal(mu: [-2.  -1.2 -0.4  0.4  1.2  2. ], sigma: 1.0, transform: ordered)

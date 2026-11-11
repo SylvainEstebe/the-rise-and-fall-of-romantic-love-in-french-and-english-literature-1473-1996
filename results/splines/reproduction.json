@@ -1,0 +1,29 @@
+{
+  "fits_run": false,
+  "verify_draws": false,
+  "steps": [
+    {
+      "command": [
+        "analysis/splines/figures/figure_spline_extensions.py"
+      ],
+      "returncode": 0,
+      "seconds": 14.68
+    },
+    {
+      "command": [
+        "analysis/splines/figures/figure_babel_combined.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.92
+    },
+    {
+      "command": [
+        "analysis/splines/publication_shape_supplement.py",
+        "--stage",
+        "figure"
+      ],
+      "returncode": 0,
+      "seconds": 1.8
+    }
+  ]
+}

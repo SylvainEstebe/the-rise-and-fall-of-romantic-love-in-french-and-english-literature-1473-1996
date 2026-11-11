@@ -7,7 +7,8 @@ export R_LIBS_USER := $(CURDIR)/.Rlib
 .DEFAULT_GOAL := help
 .PHONY: help setup reproduce refit tables submission check test example prepare validation twolines descriptive figures primary signaling latent length two-part annotate-fr annotate-en annotate-theatre-fr annotate-theatre-uk annotate-babel-fr annotate-babel-uk annotate-validation
 help:
-	@echo 'setup | reproduce | refit | tables | check | prepare | validation | twolines | descriptive | figures'
+	@echo 'Start here: uv sync --locked | spline-figures | spline-verify | submission-figures | test'
+	@echo 'Earlier analyses: legacy-reproduce | refit | tables | check | prepare | validation | twolines | descriptive'
 	@echo 'Getting started: example (offline) | test | submission'
 	@echo 'Bayesian fits: primary | signaling | latent | length | two-part'
 	@echo 'API annotation: annotate-fr | annotate-en | annotate-theatre-fr | annotate-theatre-uk | annotate-babel-fr | annotate-babel-uk | annotate-validation'
@@ -63,6 +64,23 @@ annotate-validation:
 reproduce:
 	$(PY) reproduce.py
 refit:
-	$(PY) reproduce.py --refit
+	$(PY) reproduce.py --legacy --refit
 tables: submission
 	$(PY) analysis/article_tables.py
+
+.PHONY: spline-figures spline-verify spline-contrasts spline-publication submission-figures legacy-reproduce
+spline-figures:
+	$(PY) analysis/splines/reproduce_figures.py
+spline-verify:
+	$(PY) analysis/splines/reproduce_figures.py --verify-draws
+spline-contrasts:
+	$(PY) analysis/splines/century_contrasts.py
+spline-publication:
+	$(PY) analysis/splines/publication_shape_supplement.py --stage publication
+	$(PY) analysis/splines/publication_shape_supplement.py --stage report
+submission-figures: spline-figures
+	$(PY) analysis/histograms.py
+	$(PY) analysis/figures_courtship.py
+	$(PY) analysis/splines/figures/package_submission_figures.py
+legacy-reproduce:
+	$(PY) reproduce.py --legacy

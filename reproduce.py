@@ -1,4 +1,4 @@
-"""Recreate all article analyses and figures from the frozen annotations."""
+"""Recreate spline figures by default, or explicitly run the historical pipeline."""
 
 import argparse
 import json
@@ -14,12 +14,18 @@ ROOT = Path(__file__).resolve().parent
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--legacy", action="store_true", help="Run the earlier quadratic/two-part pipeline; missing models may be fitted")
     parser.add_argument(
         "--refit",
         action="store_true",
         help="Resample all Bayesian models; otherwise reuse saved draws and fit missing models",
     )
     args = parser.parse_args()
+    if args.refit and not args.legacy:
+        parser.error("Use --legacy --refit for historical models; see docs/SPLINES.md for spline fitting commands.")
+    if not args.legacy:
+        subprocess.run([sys.executable, "analysis/splines/reproduce_figures.py"], cwd=ROOT, check=True)
+        return
     if shutil.which("Rscript") is None:
         parser.error(
             "Install R (Rscript is required by the original two-lines analysis)."
