@@ -89,7 +89,7 @@ def build_rubric(
 DEFAULT_RUBRIC = build_rubric("French")
 
 INSTRUCTIONS_TEMPLATE = """\
-You will be given only the title, {creator}, and {date_word} of the {work}.
+You will be given only the title and {creator} of the {work}.
 Score it from your latent knowledge of the {work}'s content, judging the ingredient by the
 standards and beliefs of the {work}'s historical period (not modern standards).
 
@@ -107,12 +107,7 @@ def build_instructions(
     work: str = "work",
     works: str = "works",
 ) -> str:
-    """Build the medium-specific instruction block.
-
-    books -> "title, author, and date of the work"; films ->
-    "title, director, and release date of the film". Keeps the latent
-    title+creator method of Dubourg et al. (2024) identical otherwise.
-    """
+    """Build the knowledge-based scoring instructions."""
     return INSTRUCTIONS_TEMPLATE.format(
         creator=creator, date_word=date_word, work=work, works=works
     )

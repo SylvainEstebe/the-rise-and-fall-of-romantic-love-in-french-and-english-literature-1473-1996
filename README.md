@@ -1,30 +1,21 @@
 # The rise and fall of romantic love in French and English literature, 1473–1996
 
-Research code, frozen annotations and results for the article by Sylvain Estebe, Edgar Dubourg, Ze Fu and Nicolas Baumard.
-
-**Current analysis: ordinal cubic splines, November 2026.** Each corpus has an author random-intercept model. The displayed spline is selected by highest leave-one-out ELPD among df = 4, 5 and 6; the robustness analysis also compares linear, quadratic and df = 3 specifications. Earlier quadratic results remain available and are labelled below.
+Sylvain Estebe, Edgar Dubourg, Ze Fu and Nicolas Baumard.
 
 [Figures](results/figures/README.md) · [Numerical results](results/README.md) · [Spline reproduction](docs/SPLINES.md) · [Data](data/README.md) · [Annotation and prompts](docs/ANNOTATION.md)
 
-![Romantic affiliation: current spline analysis](results/figures/PNG_300dpi/Figure_1.png)
+![Romantic affiliation](results/figures/PNG_300dpi/Figure_1.png)
 
-## Start here
+## Installation
 
 ```sh
 uv sync --locked
 make spline-figures
 ```
 
-This redraws the main affiliation figure, text signalling, Babel affiliation/signalling and shape-robustness figure from the committed numerical summaries. It does not fit models, call an API, require R or download posterior files. `make reproduce` runs the same safe figure workflow.
+`make spline-figures` redraws the spline figures from saved tables. `make submission-figures` rebuilds Figures 1 and S1–S7 and requires Poppler (`pdftoppm`). `make test` runs the tests.
 
-```sh
-make test                 # Offline regression tests
-make submission-figures   # Rebuild all eight submission PDFs/PNGs; also requires pdftoppm (Poppler)
-```
-
-The finished [PDFs](results/figures/PDF) and [300-dpi PNGs](results/figures/PNG_300dpi) are already included. See [reproduction commands](docs/SPLINES.md) for posterior verification, table regeneration and explicit model fitting.
-
-## Find what you need
+## Contents
 
 | Content | Location |
 | :--- | :--- |
@@ -39,22 +30,22 @@ The finished [PDFs](results/figures/PDF) and [300-dpi PNGs](results/figures/PNG_
 | Current analysis and figure code | [analysis/splines](analysis/splines) |
 | Earlier quadratic, two-lines, validation and decomposition analyses | [Results guide](results/README.md) · [Historical reproduction](docs/REPRODUCIBILITY.md) |
 
-## Saved posterior draws
+## Posterior draws
 
-Large binaries are in [release v0.2.0](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996/releases/tag/v0.2.0), outside ordinary Git storage. The repository contains the numerical tables, diagnostics, figures and checksums.
+[Release v0.2.0](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996/releases/tag/v0.2.0): predictive draws (2.45 GB) and fitted models (14.7 GB).
 
 ```sh
-# Predictive draws (~2.45 GB): check curves and recompute contrasts
 uv run --locked python script/restore_splines.py --kind draws
 make spline-verify
 make spline-contrasts
 
-# Full posterior checkpoints (~14.7 GB): regenerate Table S10 from fitted models
 uv run --locked python script/restore_splines.py --kind models
 make spline-publication
 ```
 
-The downloader verifies SHA-256 hashes and preserves matching files. Archive downloads and extracted files both use disk space. The earlier 44-model archive set remains in [release v0.1.0](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996/releases/tag/v0.1.0).
+For private-repository downloads, set `GH_TOKEN` or `GITHUB_TOKEN`, or download the ZIPs through GitHub and use `--archives /path/to/downloads`. The restoration script checks SHA-256 hashes.
+
+Earlier quadratic models: [v0.1.0](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996/releases/tag/v0.1.0).
 
 ## Corpora
 
@@ -67,12 +58,6 @@ The downloader verifies SHA-256 hashes and preserves matching files. Archive dow
 | French Babel | 1,870 |
 | English Babel | 826 |
 
-Babel uses knowledge-based ratings elicited from bibliographic metadata; the four primary corpora use text annotations. See the data guide for input units and construct-specific coverage.
+Babel: knowledge-based ratings. Books and theatre: text annotations.
 
-## Reuse and citation
-
-[MIT](LICENSE) covers the code. Source-text rights and data provenance are described in [data/README.md](data/README.md). Annotation requests require your own provider credentials; copying `.env.example` is optional and is only needed for new annotation runs.
-
-Use [CITATION.cff](CITATION.cff) to cite this repository. A small, standard-library example is available at [examples/summarize_scores.py](examples/summarize_scores.py).
-
-The repository is currently private. Automatic archive downloads require a `GH_TOKEN` or `GITHUB_TOKEN` environment variable with read access. Alternatively, download the ZIPs from the release while signed in and pass their folder with `--archives`; no token is then needed by the restoration script.
+[Code licence](LICENSE) · [Data provenance and rights](data/README.md) · [Citation](CITATION.cff)

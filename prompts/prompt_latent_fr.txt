@@ -11,7 +11,7 @@ Rate the presence of the ingredient in the work using this 0–6 scale:
 Ingredient to score:
 {construct}
 
-You will be given only the title, author, and date of the work.
+You will be given only the title and author of the work.
 Score it from your latent knowledge of the work's content, judging the ingredient by the
 standards and beliefs of the work's historical period (not modern standards).
 

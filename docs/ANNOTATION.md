@@ -1,6 +1,6 @@
-# Reuse the annotation tools
+# Annotation
 
-Reproduction uses frozen scores and requires no API key. Commands in this guide create **new** annotations and may incur provider charges. Model names in the code preserve the study configuration; use `--model` for a model available to your account.
+Credentials: `OPENAI_API_KEY` or `ANTHROPIC_API_KEY`, in the environment or `.env`. Model selection: `--model`. Outputs: `results/new_annotations/`.
 
 ## Input and construct formats
 
@@ -28,13 +28,7 @@ Lines beginning with `#` and blank lines are ignored. Use unique construct IDs. 
 | 5 | Central | Primary narrative driver or motivation |
 | 6 | Defining | Dominant theme inseparable from the narrative |
 
-The executed shared prompt is assembled in `src/annotation/annotator.py` from the rubric, instructions, and construct definitions. The files in `prompts/` also preserve reference prompt text. Consult the actual driver when recording a new run's prompt.
-
-## Credentials
-
-Copy `.env.example` to `.env` and fill only the provider key needed, or set `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` in your environment. `.env` and new annotation outputs are ignored by Git. Never put a key in a prompt, example, or issue report.
-
-## Annotate a text directory with GPT
+## Text annotation
 
 ```sh
 uv run --locked python script/annotate_dir_gpt.py \
@@ -45,11 +39,7 @@ uv run --locked python script/annotate_dir_gpt.py \
   --out results/new_annotations/my_study.json
 ```
 
-Optional `--metadata` accepts a CSV with `id,date`; IDs must match text filename stems. This driver saves after every input and resumes records containing all requested scores. It retries incomplete records on the next invocation. The custom construct list controls the output fields.
-
-**Use a fresh output path whenever text, prompts, model, or settings change.** Resume checks use IDs and score completeness, not input/configuration hashes. Reusing the same IDs for changed content would otherwise skip that content.
-
-## Annotate JSON batches or use Claude
+Metadata CSV: `id,date`. IDs match text filename stems. The directory driver resumes completed IDs; use a new output path when inputs, prompts or settings change.
 
 ```sh
 uv run --locked python script/run_annotations.py \
@@ -61,14 +51,16 @@ uv run --locked python script/run_annotations.py \
   --output-dir results/new_annotations/my_batch
 ```
 
-Use `--backend claude` with an appropriate model and Anthropic key to switch providers. `--rubric-file` replaces the default rubric; `--seed` sets the best-effort OpenAI seed. This general batch driver currently writes at the end of each batch and does not skip completed records on rerun. Keep batches small enough to restart and use separate output locations.
+Claude: `--backend claude`. The batch driver saves at the end of a batch and does not skip completed records on rerun.
 
-## Knowledge-based annotation
+## Latent annotation
 
-`script/run_annotations_latent.py` reads bibliographic CSVs and scores works from model knowledge. `script/run_batch_latent.py` submits grouped Claude batch requests. Their `--help` output documents title, author, date, ID, filtering, and output options. These are different protocols from scoring supplied text; do not combine their outputs without retaining that distinction.
+| Driver | Function |
+| :--- | :--- |
+| `script/run_annotations_latent.py` | Knowledge-based annotation from bibliographic CSVs |
+| `script/run_batch_latent.py` | Claude batch requests |
+| `script/annotator_latent.py` | Prompt construction and shared annotation code |
 
-The `make annotate-*` targets show the study's corpus-specific commands. They write into `results/new_annotations/` and do not replace frozen analysis inputs. The English Babel batch target is a runnable annotation route, not proof that this exact batch route generated all retained historical outputs.
+Reference prompts: [French](../prompts/prompt_latent_fr.txt), [English](../prompts/prompt_latent_uk.txt). Driver options: `--help`. Corpus commands: `make annotate-*`.
 
-## Record a new run
-
-Retain the input IDs and hashes, exact prompt and construct file, model/provider, settings, execution date, failures/retries, and output file. Run a small human-checked pilot before processing a new corpus. The existing validation covers short French excerpts and does not automatically validate a new construct or language.
+For new runs, retain inputs, prompts, model/provider, settings and outputs. Frozen scores in `data/annotations/` are the inputs to the published analyses.
