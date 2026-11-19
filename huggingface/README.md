@@ -15,45 +15,24 @@ tags:
   - computational-literary-studies
 ---
 
-# Romantic Love in Literature
+# Romantic love in French and English literature, 1473–1996
 
-### French & English · 1473–1996
+Texts used in the article "The rise and fall of romantic love in French and English literature, 1473–1996". Annotations, metadata, validation materials and analysis code are in the [GitHub repository](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996).
 
-> Five centuries of literary texts for studying how stories represent courtship, devotion, and romantic love.
+## Collections
 
-**5,758 text records · 2 languages · 4 corpora**
+| Collection | Identifier | Records | Years | Format |
+|:---|:---|---:|:---|:---|
+| French books (Roland) | `roland_fr` | 1,879 | 1500–1996 | JSON batches; text in the `content` field |
+| English books (EarlyPrint–Gutenberg) | `novels_uk` | 1,887 | 1473–1949 | `.txt` files |
+| French theatre | `theatre_fr` | 1,060 | 1574–1899 | `.txt` files |
+| English theatre | `theatre_uk` | 932 | 1576–1800 | `.txt` files |
 
-[Browse the files](https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus/tree/main) · [Companion research repository](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996)
+5,758 records in total. Book records are sampled passages, not complete books.
 
----
+## Download
 
-## About the corpus
-
-The **Romantic Love Corpus** brings together French and English literary texts used in the research project *The Rise and Fall of Romantic Love in French and English Literature, 1473–1996*.
-
-It supports the study of romantic themes across historical periods, languages, and literary forms. The four main collections cover French books, English books, French theatre, and English theatre.
-
-The corpus is a resource for computational literary studies, digital humanities, and research on cultural change. Texts are included as material for studying romantic themes; inclusion does not imply that every text depicts romantic love.
-
-## At a glance
-
-| Collection | Language | Text records | Publication years |
-|:---|:---|---:|:---|
-| French books — Roland | French | 1,879 | 1500–1996 |
-| English books — EarlyPrint–Gutenberg | English | 1,887 | 1473–1949 |
-| French theatre | French | 1,060 | 1574–1899 |
-| English theatre | English | 932 | 1576–1800 |
-| **Total** | **French & English** | **5,758** | **1473–1996** |
-
-Counts refer to indexed text records in the companion project's four main corpora. They should not be interpreted as counts of complete books: the French book collection contains sampled chapters. The collections cover different historical periods.
-
-## Get the data
-
-**The ZIP archive contains the corpus texts only.** Annotations, bibliographic metadata, validation materials, and analysis code are provided separately in the [companion research repository](https://github.com/SylvainEstebe/the-rise-and-fall-of-romantic-love-in-french-and-english-literature-1473-1996).
-
-Open **[Files and versions](https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus/tree/main)**, download the ZIP archive, and extract it locally.
-
-To download the archive programmatically, install `huggingface_hub` and run:
+The ZIP archive under [Files and versions](https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus/tree/main) contains the texts only.
 
 ```python
 from huggingface_hub import snapshot_download
@@ -66,47 +45,19 @@ snapshot_download(
 )
 ```
 
-If the repository is private, first sign in with `hf auth login` using an account with access. This downloads the archive; extraction is a separate step.
+If the repository is private, run `hf auth login` first.
 
-## Text formats and companion resources
+## Annotations
 
-In the companion research repository, the main texts are organized as follows:
+The GitHub repository holds scores for the narrative importance of five themes on a 0–6 scale, from absent to defining: romantic affiliation, long-term love, romantic signalling, parental care and parental investment. Dates and authors are in the metadata files of each collection; theatre annotation records have no dates. `data/metadata/text_index.csv` maps record identifiers to files and gives SHA-256 hashes.
 
-| Collection identifier | Format | Text location |
-|:---|:---|:---|
-| `roland_fr` | JSON batches | The `content` field of each record |
-| `novels_uk` | Plain text | Individual `.txt` files |
-| `theatre_fr` | Plain text | Individual `.txt` files |
-| `theatre_uk` | Plain text | Individual `.txt` files |
+## Limitations
 
-The companion repository also provides bibliographic metadata, annotation prompts, model-generated scores, human-validation materials, and analysis scripts. Its `data/metadata/text_index.csv` maps text identifiers to source files and includes SHA-256 hashes.
+- The collections differ in period, genre and source.
+- The texts contain OCR errors and historical spelling.
+- A sampled passage may not reflect the whole work.
+- Scores are model-generated; see the prompts and the human validation.
 
-For analyses involving dates or authors, use the bibliographic metadata associated with each collection. Theatre annotation records have missing dates; dates are supplied in the corresponding metadata files.
+## Rights
 
-## Studying romantic themes
-
-The companion project's core annotation scheme measures the narrative importance of five themes:
-
-| Theme | What it captures |
-|:---|:---|
-| **Romantic affiliation** | Pursuit of a new romantic connection through courtship or flirtation |
-| **Long-term love** | Enduring commitment and devotion beyond initial attraction |
-| **Romantic signaling** | Overt, idealizing displays intended to demonstrate romantic commitment |
-| **Parental care** | Protection of a child |
-| **Parental investment** | Nurturing or raising a child |
-
-Scores use an ordinal **0–6 scale**: absent, peripheral, background, contributing, significant, central, and defining. These scores describe a theme's role in the narrative, rather than word frequency or positive versus negative sentiment. Additional annotation fields are available for some collections; coverage varies.
-
-## Interpretation and limitations
-
-- **Historical coverage is uneven.** The collections differ in period, genre, and source composition. Comparisons should account for these differences.
-- **Digitization affects the text.** OCR errors, historical spelling, and editorial conventions may affect automated analysis.
-- **Excerpts have limited context.** A sampled chapter may not capture the themes of an entire work.
-- **Annotations are estimates.** Model-generated scores should be assessed alongside the prompts and available human-validation materials.
-- **Literature is a selective record.** Patterns in these collections do not directly measure historical populations' beliefs or behavior. Historical texts may also contain discriminatory language or representations.
-
-## Rights and attribution
-
-A dataset-wide license is not specified in this card. The companion repository includes an MIT license for its software; this card does not assign that license to the underlying literary texts.
-
-When referring to this resource, credit **Sylvain Estebe**, link to this dataset and the companion research repository, and record the dataset revision used. Retain source attribution when using individual texts.
+No dataset-wide licence is declared. The MIT licence of the GitHub repository covers the software, not the literary texts. Keep source attribution when reusing texts, and record the dataset revision used.
