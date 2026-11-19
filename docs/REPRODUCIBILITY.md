@@ -28,6 +28,6 @@ The legacy pipeline reuses saved models and fits missing ones. `make refit` resa
 
 ## What can and cannot be reproduced
 
-Included: exact retained primary annotation inputs, text hashes, frozen scores, bibliography/author metadata, annotation definitions, human-validation records, model code, posterior draws, figures, and numerical outputs.
+Included: retained annotation inputs, text hashes, frozen scores, bibliographic and author metadata, annotation definitions, human-validation records, model code, posterior draws, figures and numerical outputs.
 
-Not fully recoverable from the release: the original upstream acquisition and random passage-selection process, all provider access dates, raw API responses, retry counts, and complete run provenance for every annotation batch. The exact retained passages can be verified, but reconstructing the original sample from every upstream source is a different task. `analysis/prepare.py` prepares retained French length metadata; it does not resample the original corpus.
+Not retained: the upstream acquisition and random passage selection, provider access dates, raw API responses, retry counts and full run records for each annotation batch. The retained passages can be checked against their hashes, but the original sample cannot be redrawn from the upstream sources. `analysis/prepare.py` prepares the French length metadata from the retained batches; it does not resample the corpus.
