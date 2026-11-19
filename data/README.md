@@ -62,9 +62,7 @@ Babel ratings are based on model knowledge, not supplied texts. French and Engli
 
 ## Human-validation correction
 
-The validation script documents a historical interface problem that failed to record zero scores for two constructs for the coder stored as `sylvain`. To reproduce the retained results, `analysis/validation.py` restores those blanks to zero for `ING_38` and `ING_40`. For `ING_38`, 19 of the 40 raw ratings are blank. The raw files are preserved; the correction is applied during analysis.
-
-This is a study-specific correction, not a general missing-data rule. The present repository contains the correction in code but not an independent interface event log proving the meaning of each blank. The reported human–human affiliation kappa is approximately 0.744 after correction. Restricting to the 21 complete raw pairs gives approximately 0.688; these are different samples.
+The rating interface did not record zero scores for `ING_38` and `ING_40` for the coder stored as `sylvain`. `analysis/validation.py` sets those blanks to zero; the raw files are unchanged. For `ING_38`, 19 of the 40 raw ratings are blank. There is no interface log confirming that each blank was a zero. Human–human kappa for affiliation is about 0.744 after correction and about 0.688 on the 21 pairs that are complete in the raw files.
 
 ## Sources and rights
 
@@ -77,6 +75,6 @@ This is a study-specific correction, not a general missing-data rule. The presen
 | Babel | Bibliographic records retained in the supplementary metadata CSVs |
 | Two-lines implementation | Archived R implementation from [Simonsohn's two-lines project](https://webstimate.org/twolines/); retained in `analysis/twolines.R` |
 
-The repository's MIT license covers its software; it does not grant blanket rights to literary texts, source editions, or third-party materials. A complete source-by-source redistribution-permission inventory is not included. Preserve attribution and establish the applicable permissions for the particular materials being redistributed. No dataset-wide text license is declared here.
+The MIT licence covers the software only, not the literary texts, source editions or third-party materials. No dataset-wide text licence is declared, and the repository does not include a source-by-source inventory of redistribution permissions. Keep attribution and check the permissions for any material you redistribute.
 
 See [reproduction limits](../docs/REPRODUCIBILITY.md#what-can-and-cannot-be-reproduced) for upstream sampling and annotation-run records that were not retained.
