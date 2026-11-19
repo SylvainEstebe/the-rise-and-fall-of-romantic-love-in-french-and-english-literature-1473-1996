@@ -1,6 +1,6 @@
 # The rise and fall of romantic love in French and English literature, 1473–1996
 
-Sylvain Estebe, Edgar Dubourg, Ze Fu and Nicolas Baumard.
+Repository for the article by Sylvain Estebe, Edgar Dubourg, Ze Fu and Nicolas Baumard.
 
 [Figures](results/figures/README.md) · [Numerical results](results/README.md) · [Spline reproduction](docs/SPLINES.md) · [Data](data/README.md) · [Annotation and prompts](docs/ANNOTATION.md)
 
