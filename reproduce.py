@@ -10,6 +10,11 @@ import sys
 import time
 
 ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT / "analysis"))
+import data_source  # noqa: E402
+
+# Historical steps that read files kept only in the local data/ folder.
+LOCAL_ONLY = {"analysis/prepare.py", "analysis/validation.py", "analysis/length.py"}
 
 
 def main():
@@ -22,7 +27,7 @@ def main():
     )
     args = parser.parse_args()
     if args.refit and not args.legacy:
-        parser.error("Use --legacy --refit for historical models; see docs/SPLINES.md for spline fitting commands.")
+        parser.error("Use --legacy --refit for historical models; see README.md (Posterior draws) for spline commands.")
     if not args.legacy:
         subprocess.run([sys.executable, "analysis/splines/reproduce_figures.py"], cwd=ROOT, check=True)
         return
@@ -58,7 +63,12 @@ def main():
     report = ROOT / "results/reproduction.json"
     report.parent.mkdir(exist_ok=True)
     runs = []
+    local = data_source.source() == "local"
     for script, bayesian in steps:
+        if script in LOCAL_ONLY and not local:
+            print(f"\n>>> {script}: skipped, needs the local data/ folder", flush=True)
+            runs.append(dict(script=script, returncode=None, skipped="needs data/"))
+            continue
         command = [sys.executable, script]
         if args.refit and bayesian:
             command.append("--refit")

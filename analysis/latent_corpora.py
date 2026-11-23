@@ -22,6 +22,8 @@ import arviz as az
 import runtime  # noqa: F401
 import bambi as bmb
 
+import data_source
+
 ROOT = Path(__file__).resolve().parents[1]
 ANNOTATIONS = ROOT / "data" / "annotations" / "supplementary"
 OUTPUT = ROOT / "results" / "latent"
@@ -93,14 +95,7 @@ def load_corpus(name):
     Retain the study's existing exclusion of English dates before 1400.
     """
     corpus, code = ANALYSES[name]
-    annotation_file, metadata_file = CORPORA[corpus]
-    paths = [
-        ANNOTATIONS / corpus / annotation_file,
-        ANNOTATIONS / corpus / metadata_file,
-    ]
-    records = json.loads(paths[0].read_text())
-    df = pd.DataFrame(records)
-    metadata = pd.read_csv(paths[1], dtype={"id": str})
+    df, metadata, sources = data_source.tables(corpus, root=ROOT)
     for table in (df, metadata):
         if table.id.isna().any() or table.id.astype(str).str.strip().eq("").any():
             raise ValueError(f"{name}: missing annotation/metadata IDs")
@@ -171,13 +166,7 @@ def load_corpus(name):
         "year_max": int(df.year.max()),
         "unknown_authors": int(missing_author.sum()),
         "excluded": excluded,
-        "sources": [
-            {
-                "path": str(p.relative_to(ROOT)),
-                "sha256": hashlib.sha256(p.read_bytes()).hexdigest(),
-            }
-            for p in paths
-        ],
+        "sources": sources,
     }
     return df
 

@@ -21,3 +21,10 @@ results/splines/**/*.npz
 !results/splines/contrasts/*_century_bootstrap_draws.npz
 results/figures/*.zip
 results/figures/previews/
+
+# Kept locally only. Texts and scores: https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus
+data/
+docs/
+examples/
+huggingface/
+tests/

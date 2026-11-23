@@ -1,6 +1,6 @@
 # Results
 
-[Spline results](splines/README.md) · [Figures 1 and S1–S7](figures/README.md) · [Commands](../docs/SPLINES.md)
+[Spline results](splines/README.md) · [Figures 1 and S1–S7](figures/README.md) · [Commands](../README.md#posterior-draws)
 
 ## Earlier quadratic analyses
 

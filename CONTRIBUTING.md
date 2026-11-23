@@ -3,7 +3,6 @@
 Include the command, software versions and a reproducible example when reporting an error.
 
 ```sh
-make test
 make check
 ```
 

@@ -1,6 +1,6 @@
 # Article figures
 
-[Home](../../README.md) · [Numerical results](../splines/README.md) · [Reproduce](../../docs/SPLINES.md)
+[Home](../../README.md) · [Numerical results](../splines/README.md) · [Reproduce](../../README.md#posterior-draws)
 
 Eight figures, each supplied as a single-page PDF and a 300-dpi PNG.
 

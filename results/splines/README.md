@@ -1,6 +1,6 @@
 # Spline results
 
-[Home](../../README.md) · [Reproduce](../../docs/SPLINES.md) · [Submission figures](../figures/README.md)
+[Home](../../README.md) · [Reproduce](../../README.md#posterior-draws) · [Submission figures](../figures/README.md)
 
 | Folder | Contents |
 | :--- | :--- |

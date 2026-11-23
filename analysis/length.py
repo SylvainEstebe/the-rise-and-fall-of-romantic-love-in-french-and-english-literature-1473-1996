@@ -20,6 +20,8 @@ import arviz as az
 import pymc as pm
 from scipy.special import expit
 
+import data_source
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "results/length"
 OUT.mkdir(parents=True, exist_ok=True)
@@ -28,6 +30,12 @@ PRIMARY = ROOT
 
 def load():
     src = PRIMARY / "data/annotations/main/roland_fr"
+    data_source.require_local(
+        src / "annotations_gpt.json",
+        src / "metadata_roland_annotations.csv",
+        ROOT / "data/metadata/roland_length.csv",
+        root=ROOT,
+    )
     scores = pd.read_json(src / "annotations_gpt.json", dtype={"id": str}).drop(
         columns="date"
     )

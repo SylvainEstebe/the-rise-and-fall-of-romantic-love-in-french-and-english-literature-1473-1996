@@ -18,8 +18,9 @@ import arviz as az
 import runtime  # noqa: F401
 import bambi as bmb
 
+import data_source
+
 ROOT = Path(__file__).resolve().parents[1]
-ANNOTATIONS = ROOT / "data" / "annotations" / "main"
 OUTPUT = ROOT / "results" / "primary"
 REFIT = False
 
@@ -77,10 +78,9 @@ rng = np.random.default_rng(0)
 
 def load_corpus(name):
     """Annotations GPT, avec auteur et date tirés des métadonnées (les annotations du théâtre n'ont pas de date)."""
-    df = pd.read_json(
-        ANNOTATIONS / name / "annotations_gpt.json", dtype={"id": str}
-    ).drop(columns="date")
-    metadata = pd.read_csv(ANNOTATIONS / name / CORPORA[name], dtype={"id": str})
+    df, metadata, _ = data_source.tables(name)
+    # Empty columns such as book_id stay float NaN, as pd.read_json returned them.
+    df = df.drop(columns="date").apply(lambda s: s.astype(float) if s.isna().all() else s)
     df = df.merge(metadata[["id", "author", "date"]], on="id")
     df["year"] = pd.to_numeric(df["date"])
     df["score"] = pd.to_numeric(df["ING_38_Role"])

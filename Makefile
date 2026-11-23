@@ -5,11 +5,11 @@ export MPLCONFIGDIR := /tmp/romantic_love_mpl
 export PYTENSOR_FLAGS := compiledir=/tmp/romantic_love_pytensor
 export R_LIBS_USER := $(CURDIR)/.Rlib
 .DEFAULT_GOAL := help
-.PHONY: help setup reproduce refit tables submission check test example prepare validation twolines descriptive figures primary signaling latent length two-part annotate-fr annotate-en annotate-theatre-fr annotate-theatre-uk annotate-babel-fr annotate-babel-uk annotate-validation
+.PHONY: help setup reproduce refit tables submission check compare-data prepare validation twolines descriptive figures primary signaling latent length two-part annotate-fr annotate-en annotate-theatre-fr annotate-theatre-uk annotate-babel-fr annotate-babel-uk annotate-validation
 help:
-	@echo 'Start here: uv sync --locked | spline-figures | spline-verify | submission-figures | test'
+	@echo 'Start here: uv sync --locked | spline-figures | spline-verify | submission-figures | check'
 	@echo 'Earlier analyses: legacy-reproduce | refit | tables | check | prepare | validation | twolines | descriptive'
-	@echo 'Getting started: example (offline) | test | submission'
+	@echo 'Data: check | compare-data (local data/ against Hugging Face)'
 	@echo 'Bayesian fits: primary | signaling | latent | length | two-part'
 	@echo 'API annotation: annotate-fr | annotate-en | annotate-theatre-fr | annotate-theatre-uk | annotate-babel-fr | annotate-babel-uk | annotate-validation'
 setup:
@@ -17,10 +17,8 @@ setup:
 	Rscript --vanilla requirements.R
 check:
 	$(PY) check.py
-test:
-	$(PY) -m unittest discover -s tests -v
-example:
-	$(PY) examples/summarize_scores.py
+compare-data:
+	$(PY) analysis/data_source.py --compare
 submission:
 	$(PY) analysis/submission_statistics.py
 prepare:

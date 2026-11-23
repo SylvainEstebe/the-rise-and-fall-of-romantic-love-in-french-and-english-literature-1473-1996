@@ -2,7 +2,7 @@
 
 Repository for the article by Sylvain Estebe, Edgar Dubourg, Ze Fu and Nicolas Baumard.
 
-[Figures](results/figures/README.md) · [Numerical results](results/README.md) · [Spline reproduction](docs/SPLINES.md) · [Data](data/README.md) · [Annotation and prompts](docs/ANNOTATION.md)
+[Figures](results/figures/README.md) · [Numerical results](results/README.md) · [Data](https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus) · [Prompts](prompts)
 
 ![Romantic affiliation](results/figures/PNG_300dpi/Figure_1.png)
 
@@ -13,7 +13,15 @@ uv sync --locked
 make spline-figures
 ```
 
-`make spline-figures` redraws the spline figures from saved tables. `make submission-figures` rebuilds Figures 1 and S1–S7 and requires Poppler (`pdftoppm`). `make test` runs the tests.
+`make spline-figures` redraws the spline figures from saved tables. `make submission-figures` rebuilds Figures 1 and S1–S7 and requires Poppler (`pdftoppm`). `make check` verifies the sample sizes.
+
+## Data
+
+Texts and scores are in the gated Hugging Face dataset [SylvainEstebe/romantic_love_corpus](https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus). Accept its conditions, then set `HF_TOKEN` or run `hf auth login`. The analysis scripts read the scores, authors and dates from it, download only those columns and cache them under `.cache/hf/`.
+
+A local `data/` folder, if present, is used instead; it is not tracked in git. Set `ROMANTIC_LOVE_DATA=hf` or `local` to choose, and `ROMANTIC_LOVE_HF_REVISION` to pin a dataset commit. `make compare-data` checks that both sources give the same tables.
+
+The text hashes in `make check`, the human validation, the French length sensitivity (`make prepare`, `make length`) and new API annotations still need the local `data/` folder.
 
 ## Contents
 
@@ -25,10 +33,10 @@ make spline-figures
 | Century contrasts and steepest decline | [Contrasts](results/splines/contrasts) |
 | Length-adjusted spline sensitivity | [Numerical results](results/splines/robustness/Length_sensitivity.csv) |
 | Analysis-ready data | `analysis_data.csv` in each [affiliation](results/splines/affiliation), [English Babel affiliation](results/splines/affiliation_babel) and [signalling](results/splines/signalling) corpus directory |
-| Raw texts, annotations, manual validation and metadata | [Data guide](data/README.md) |
-| Annotation scripts and prompts | [Annotation guide](docs/ANNOTATION.md) · [Prompts](prompts) |
+| Texts and scores | [Hugging Face dataset](https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus) |
+| Annotation scripts and prompts | [Scripts](script) · [Prompts](prompts) |
 | Current analysis and figure code | [analysis/splines](analysis/splines) |
-| Earlier quadratic, two-lines, validation and decomposition analyses | [Results guide](results/README.md) · [Historical reproduction](docs/REPRODUCIBILITY.md) |
+| Earlier quadratic, two-lines, validation and decomposition analyses | [Results guide](results/README.md) |
 
 ## Posterior draws
 
@@ -60,4 +68,4 @@ Earlier quadratic models: [v0.1.0](https://github.com/SylvainEstebe/the-rise-and
 
 Babel: knowledge-based ratings. Books and theatre: text annotations.
 
-[Code licence](LICENSE) · [Data provenance and rights](data/README.md) · [Citation](CITATION.cff)
+[Code licence](LICENSE) · [Data provenance and rights](https://huggingface.co/datasets/SylvainEstebe/romantic_love_corpus) · [Citation](CITATION.cff)
