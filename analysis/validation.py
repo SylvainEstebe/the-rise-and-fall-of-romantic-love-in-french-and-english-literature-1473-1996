@@ -11,6 +11,8 @@ import numpy as np
 from scipy.stats import spearmanr
 from sklearn.metrics import cohen_kappa_score
 
+import data_source
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "results/validation"
 OUT.mkdir(parents=True, exist_ok=True)
@@ -36,6 +38,7 @@ RNG_SEED, B = 42, 2000
 
 
 def load_human(coder, restore_zero=False):
+    data_source.require_local(ROOT / f"data/validation/{coder}", root=ROOT)
     out = {}
     for f in glob.glob(str(ROOT / f"data/validation/{coder}/batch*")):
         for r in json.load(open(f)):
@@ -52,6 +55,7 @@ def load_human(coder, restore_zero=False):
 
 
 def load_gpt():
+    data_source.require_local(ROOT / "data/validation/gpt", root=ROOT)
     out = {}
     for f in glob.glob(str(ROOT / "data/validation/gpt/batch_*.json")):
         for r in json.load(open(f)):

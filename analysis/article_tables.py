@@ -149,7 +149,7 @@ def main():
     table_index = [
         ("1", "Primary corpus coverage", "results/article/table_1.csv", "analysis/article_tables.py"),
         ("2", "Model comparison and two-lines tests", "results/article/table_2.csv", "analysis/article_tables.py"),
-        ("S1", "Corpus descriptions and analytical samples", "data/README.md", "documentation"),
+        ("S1", "Corpus descriptions and analytical samples", "README.md", "documentation"),
         ("S2", "Construct descriptive statistics", "results/article/descriptive_statistics.csv", "analysis/submission_statistics.py"),
         ("S3", "Scoring rubric", "docs/ANNOTATION.md", "documentation"),
         ("S4", "Construct definitions", "prompts/themes.txt", "annotation definitions"),
@@ -159,8 +159,9 @@ def main():
         ("S8", "Ordinal model comparison", "results/article/model_comparison.csv", "analysis/article_tables.py"),
         ("S9", "Century contrasts", "results/article/century_contrasts.csv", "analysis/descriptive.py + analysis/article_tables.py"),
     ]
-    for _, _, path, _ in table_index:
-        assert (ROOT / path).is_file(), path
+    for _, _, path, generated_by in table_index:
+        # docs/ is kept locally and not tracked in git.
+        assert generated_by == "documentation" or (ROOT / path).is_file(), path
     pd.DataFrame(table_index, columns=["manuscript_table", "description", "path", "generated_by"]).to_csv(
         OUT / "tables.csv", index=False
     )

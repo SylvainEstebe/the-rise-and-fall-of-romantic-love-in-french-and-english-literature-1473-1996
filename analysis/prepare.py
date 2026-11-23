@@ -4,10 +4,17 @@ from pathlib import Path
 import json
 import pandas as pd
 
+import data_source
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
+    data_source.require_local(
+        ROOT / "data/texts/roland_fr",
+        ROOT / "data/annotations/main/roland_fr/annotations_gpt.json",
+        root=ROOT,
+    )
     rows = [
         row
         for path in sorted((ROOT / "data/texts/roland_fr").glob("batch*.json"))

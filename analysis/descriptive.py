@@ -3,12 +3,14 @@
 import os
 
 os.environ.setdefault("MPLCONFIGDIR", "/tmp/romantic_length_mpl")
-import json, hashlib
+import json
 from pathlib import Path
 import numpy as np, pandas as pd
 import matplotlib
 
 matplotlib.use("Agg")
+
+import data_source
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "results/courtship"
@@ -34,14 +36,10 @@ B = 3000
 def load_data():
     data = {}
     sources = []
-    for key, meta in META.items():
-        src = PRIMARY / "data/annotations/main" / key
-        paths = [src / "annotations_gpt.json", src / meta]
-        sources.extend(paths)
-        a = pd.read_json(paths[0], dtype={"id": str}).drop(
-            columns=["date", "author"], errors="ignore"
-        )
-        m = pd.read_csv(paths[1], dtype={"id": str})
+    for key in META:
+        a, m, found = data_source.tables(key, root=PRIMARY)
+        sources.extend(found)
+        a = a.drop(columns=["date", "author"], errors="ignore")
         assert a.id.is_unique and m.id.is_unique
         d = a.merge(m[["id", "author", "date"]], on="id", validate="one_to_one")
         d["year"] = pd.to_numeric(d.date)
@@ -53,7 +51,7 @@ def load_data():
         data[key] = d[["id", "year", "author", "score"]].copy()
     for key in ["babel_fr", "babel_uk"]:
         p = ROOT / f"results/latent/data/{key}_ING_38.csv"
-        sources.append(p)
+        sources.append(data_source.file_source(p, ROOT))
         data[key] = pd.read_csv(p)[["id", "year", "author", "score"]]
     for key, d in data.items():
         assert d.id.is_unique and d.score.isin(range(7)).all()
@@ -64,8 +62,7 @@ def load_data():
         json.dumps(
             {
                 "sources": {
-                    str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
-                    for p in sources
+                    s["path"]: s.get("sha256", s.get("revision")) for s in sources
                 },
                 "bootstrap_repetitions": B,
                 "bootstrap_seed": 42,

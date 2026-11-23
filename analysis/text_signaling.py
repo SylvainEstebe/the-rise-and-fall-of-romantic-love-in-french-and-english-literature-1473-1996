@@ -9,6 +9,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import data_source
+
 
 CORPORA = {
     "roland_fr": "metadata_roland_annotations.csv",
@@ -26,11 +28,8 @@ LABELS = {
 
 def load_corpus(root, corpus):
     """Use the same metadata dates and author groups as four_corpora.py."""
-    directory = root / "data/annotations/main" / corpus
-    paths = [directory / "annotations_gpt.json", directory / CORPORA[corpus]]
-    records = json.loads(paths[0].read_text())
-    df = pd.DataFrame(records)
-    metadata = pd.read_csv(paths[1], dtype={"id": str})
+    df, metadata, sources = data_source.tables(corpus, root=root)
+    source_rows = len(df)
     for frame in (df, metadata):
         if frame.id.isna().any() or frame.id.astype(str).str.strip().eq("").any():
             raise ValueError(f"{corpus}: missing ID")
@@ -76,19 +75,13 @@ def load_corpus(root, corpus):
     df.attrs["provenance"] = {
         "corpus": corpus,
         "construct": "TH_03",
-        "source_rows": len(records),
+        "source_rows": source_rows,
         "included_rows": len(df),
         "excluded_ids": excluded,
         "unknown_authors": unknown_count,
         "year_min": int(df.year.min()),
         "year_max": int(df.year.max()),
-        "sources": [
-            {
-                "path": str(p.relative_to(root)),
-                "sha256": hashlib.sha256(p.read_bytes()).hexdigest(),
-            }
-            for p in paths
-        ],
+        "sources": sources,
     }
     return df
 
